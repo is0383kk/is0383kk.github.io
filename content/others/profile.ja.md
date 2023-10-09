@@ -12,17 +12,13 @@ draft: false
 
 {{< rawhtml >}} 
 <p>
-現在<span id="text"></span>歳。<br>
+<span id="currentYear"></span>年現在<span id="age"></span>歳。<br>
 学生時代はロボット競技/機械学習（生成モデル）の研究に取り組む。<br>
-卒業後は日系SIerでアプリケーション開発に携わる。<br>
+卒業後は日系IT企業でアプリケーション開発に携わる。<br>
 </p> 
 <script type="text/javascript">
-    document.getElementById("text").innerHTML = showDay();
-  function showDay() {
-    var now = new Date();
-    var year = now.getFullYear();
-    return year - 1998;
-  }
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+    document.getElementById("age").innerHTML = new Date().getFullYear() - 1998;
 </script>
 {{< /rawhtml >}}
 
@@ -32,7 +28,7 @@ draft: false
 <div style="display: flex; justify-content: space-between;">
     <div class="card">
         <div class="skill-desc">
-          <h3 class="skill-desc-title">インフラ関連技術</h3>
+          <h3 class="skill-desc-title">インフラ関連</h3>
           <p>Linux・AWSを使ったサーバ構築経験があります。</p>
             <table class="table-desc" >
                 <thead>
@@ -47,14 +43,16 @@ draft: false
                     <th scope="row">Linux</th>
                     <td>6年</td>
                     <td>
-                    機械学習用インフラ、アプリケーションインフラ構築の経験があります。
+                    機械学習用インフラ、アプリケーションインフラ構築に使用 <br>
+                    Apache/Tomcat
                     </td>
                 </tr>
                 <tr>
                     <th scope="row">AWS</th>
                     <td>2年</td>
                     <td>
-                    EC2インスタンス上にアプリケーションサーバの構築経験があります。
+                    EC2インスタンス上へのアプリケーションサーバ構築に使用 <br>
+                    EC2/AMI/RDS/Route53
                     </td>
                 </tr>
                 </tbody>
@@ -63,7 +61,7 @@ draft: false
     </div>
     <div class="card">
         <div class="skill-desc">
-          <h3 class="skill-desc-title">アプリケーション関連技術</h3>
+          <h3 class="skill-desc-title">アプリケーション関連</h3>
           <p>Spring Framework(boot)を使った開発経験があります。</p>
             <table class="table-desc">
                 <thead>
@@ -77,12 +75,15 @@ draft: false
                 <tr>
                   <th scope="row">Spring Framework</th>
                   <td>2年</td>
-                  <td>アプリケーションの開発に使用しています。</td>
+                  <td>
+                  アプリケーション開発に使用。<br>
+                  Spring MVC/Spring Security/Thymeleaf
+                  </td>
                   </tr>
                 <tr>
                 <th scope="row">Java</th>
                 <td>2年</td>
-                <td>Springを利用したアプリ開発に使用しています。</td>
+                <td>バックエンド側の開発に使用。</td>
                 </tr>
                 </tbody>
             </table>
@@ -91,7 +92,7 @@ draft: false
 </div>
 <div class="card">
     <div class="skill-desc">
-        <h3 class="skill-desc-title">機械学習関連技術</h3>
+        <h3 class="skill-desc-title">機械学習関連</h3>
         <p>PyTorchを用いた機械学習モデルの構築経験があります。</p>
         <table class="table-desc">
             <thead>
@@ -105,12 +106,15 @@ draft: false
             <tr>
                 <th scope="row">PyTorch</th>
                 <td>3年</td>
-                <td>機械学習モデルの構築に使用しています。</td>
+                <td>機械学習モデルの構築に使用。</td>
             </tr>
             <tr>
                 <th scope="row">Python</th>
                 <td>4年</td>
-                <td>趣味の開発や機械学習モデルの構築に使用しています。</td>
+                <td>
+                趣味の開発や機械学習モデルの構築に使用。<br>
+                Numpy/Pandas/Scipy
+                </td>
             </tr>
             </tbody>
         </table>
@@ -123,8 +127,8 @@ draft: false
 
 |                   |                                                                                                           |
 | :---------------- | :--------------------------------------------------------------------------------------------------------  |
-| 2022.04 -         | SIerにて自社サービスの開発に携わる |
-| 2020.04 - 2022.03 | 立命館大学 情報理工学研究科 情報理工学専攻 人間情報科学コース 修士課程 ([谷口忠大研究室](http://www.em.ci.ritsumei.ac.jp/jp/)) |
+| 2022.04 -         | 某IT企業に就職 |
+| 2020.04 - 2022.03 | 立命館大学 情報理工学研究科 情報理工学専攻 修士課程 ([谷口忠大研究室](http://www.em.ci.ritsumei.ac.jp/jp/)) |
 | 2016.04 - 2020.03 | 立命館大学 情報理工学部 知能情報学科  |
 
 
@@ -132,12 +136,12 @@ draft: false
 
 |      |         |                                                                                                           |
 | :--- | :------ |:--------------------------------------------------------------------------------------------------------  |
-| 2023 | 論文誌   | Advanced Robotics：Emergent Communication through Metropolis-Hastings Naming Game with Deep Generative Models |
-| 2022 | 国内会議 | 人工知能学会全国大会論文集 第36回：[変分オートエンコーダを活用した実画像からの記号創発](https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_3L3GS802/_article/-char/ja/) |
-| 2020 | 国内会議 | 人工知能学会全国大会論文集 第34回：[マルチモーダル変分オートエンコーダを用いた実物体のカテゴリ形成](https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1Q3GS1101/_article/-char/ja/)|
-| 2019 | 受賞歴   | ロボカップ2019@Home部門世界大会準優勝（Ri-one）                                                          |
-| 2019 | 受賞歴   | ロボカップ2019@Home部門日本大会準優勝（Ri-one）                                                          |
-| 2018 | 受賞歴   | 経済産業省主催World Robot Summit2018サービスカテゴリリアルスペース部門準優勝 (OIT Challenger and Duckers)  |
-| 2018 | 受賞歴   | 経済産業省主催World Robot Summit2018サービスカテゴリヴァーチャルスペース部門3位入賞 (eR@sers)              |
-| 2018 | 受賞歴   | ロボカップ2018@Home部門世界大会3位入賞 (Ri-one)                                                          |
-| 2018 | 受賞歴   | ロボカップ2018@Home部門日本大会3位入賞 (Ri-one&Duckers)                                                  |
+| 2023 | 論文誌   | Advanced Robotics - Emergent Communication through Metropolis-Hastings Naming Game with Deep Generative Models |
+| 2022 | 国内会議 | 第36回人工知能学会 -  [変分オートエンコーダを活用した実画像からの記号創発](https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_3L3GS802/_article/-char/ja/) |
+| 2020 | 国内会議 | 第34回人工知能学会 -  [マルチモーダル変分オートエンコーダを用いた実物体のカテゴリ形成](https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1Q3GS1101/_article/-char/ja/)|
+| 2019 | 受賞歴   | ロボカップ 2019 @Home部門 世界大会 - 準優勝                    |
+| 2019 | 受賞歴   | ロボカップ 2019 @Home部門 国内大会 - 準優勝                    |
+| 2018 | 受賞歴   | 経済産業省主催 World Robot Summit 2018 Real space部門 - 準優勝 |
+| 2018 | 受賞歴   | 経済産業省主催 World Robot Summit 2018 Virtual space部門 - 3位 |
+| 2018 | 受賞歴   | ロボカップ 2018 @Home部門 世界大会 - 3位                       |
+| 2018 | 受賞歴   | ロボカップ 2018 @Home部門 国内大会 - 3位                       |
