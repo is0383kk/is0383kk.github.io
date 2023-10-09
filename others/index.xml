@@ -20,7 +20,7 @@
       <description>Yoshiwo🐈    年現在歳。
 学生時代はロボット競技/機械学習（生成モデル）の研究に取り組む。
 卒業後は日系IT企業でアプリケーション開発に携わる。
-document.getElementById(&#39;currentYear&#39;).textContent = new Date().getFullYear(); document.getElementById(&#34;age&#34;).innerHTML = new Date().getFullYear() - 1998;  ■ スキル/経験 インフラ関連 Linux・AWSを使ったサーバ構築経験があります。
+document.getElementById(&#39;currentYear&#39;).textContent = new Date().getFullYear(); document.getElementById(&#34;age&#34;).innerHTML = new Date().getFullYear() - 1998;   ■ スキル/経験 インフラ関連 Linux・AWSを使ったサーバ構築経験があります。
   技術 経験年数 内容     Linux 6年  機械学習用インフラ、アプリケーションインフラ構築に使用 Apache/Tomcat    AWS 2年  EC2インスタンス上へのアプリケーションサーバ構築に使用 EC2/AMI/RDS/Route53       アプリケーション関連 Spring Framework(boot)を使った開発経験があります。
   技術 経験年数 内容     Spring Framework 2年  アプリケーション開発に使用。
 Spring MVC/Spring Security/Thymeleaf    Java 2年 バックエンド側の開発に使用。       機械学習関連 PyTorchを用いた機械学習モデルの構築経験があります。</description>

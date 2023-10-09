@@ -17,10 +17,8 @@
       <pubDate>Mon, 09 Oct 2023 14:05:48 +0900</pubDate>
       
       <guid>https://is0383kk.github.io/en/others/profile/</guid>
-      <description> Yoshiwo🐈    years old.
-During student days, he worked on research in the field of machine learning.
-After graduation, he worked in application development at a Japanese SIer.
-document.getElementById(&#34;text&#34;).innerHTML = showDay(); function showDay() { var now = new Date(); var year = now.getFullYear(); return year - 1998; }  </description>
+      <description>Yoshiwo🐈    As a student, worked on robot competitions/machine learning (generative model).
+After graduation, worked in application development for a Japanese company.</description>
     </item>
     
   </channel>
