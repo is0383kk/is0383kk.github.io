@@ -1,6 +1,6 @@
 baseURL: "https://is0383kk.github.io/"
 canonifyurls: false # ウェブサイトのURL正規化無効
-publishDir: "docs" # 静的ファイルの出力先
+publishDir: "public" # 静的ファイルの出力先
 title: "よしをのホームページ" # タイトル
 paginate: 10 # 投稿の数を10posts / 1page
 theme: "PaperMod"
