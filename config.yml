@@ -68,9 +68,8 @@ params:
   description: "よしをのホームページ"
   keywords: [Yoshiwo, yoshiwo, is0383kk, IS0383KK, hugo, papermod]
   author: ["Yoshiwo"]
-  # author: ["Me", "You"] # multiple authors
   images: ["profile.jpg"]
-  DateFormat: "1234-56-78" # 日付フォーマット
+  DateFormat: "2006-01-02" # 日付フォーマット
   defaultTheme: auto # 画面モード
   disableThemeToggle: false # 画面モードの切り替え有効
 
