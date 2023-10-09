@@ -12,16 +12,7 @@ draft: false
 
 {{< rawhtml >}} 
 <p>
-<span id="text"></span>years old.<br>
-During student days, he worked on research in the field of machine learning.<br>
-After graduation, he worked in application development at a Japanese SIer.<br>
+As a student, worked on robot competitions/machine learning (generative model).<br>
+After graduation, worked in application development for a Japanese company.<br>
 </p> 
-<script type="text/javascript">
-    document.getElementById("text").innerHTML = showDay();
-  function showDay() {
-    var now = new Date();
-    var year = now.getFullYear();
-    return year - 1998;
-  }
-</script>
 {{< /rawhtml >}}
