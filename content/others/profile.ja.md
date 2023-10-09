@@ -13,7 +13,7 @@ draft: false
 {{< rawhtml >}} 
 <p>
 現在<span id="text"></span>歳。<br>
-学生時代は機械学習分野の研究に取り組む。<br>
+学生時代はロボット競技/機械学習（生成モデル）の研究に取り組む。<br>
 卒業後は日系SIerでアプリケーション開発に携わる。<br>
 </p> 
 <script type="text/javascript">
@@ -26,18 +26,109 @@ draft: false
 </script>
 {{< /rawhtml >}}
 
+## ■ スキル/経験
+
+{{< rawhtml >}} 
+<div style="display: flex; justify-content: space-between;">
+    <div class="card">
+        <div class="skill-desc">
+          <h3 class="skill-desc-title">インフラ関連技術</h3>
+          <p>Linux・AWSを使ったサーバ構築経験があります。</p>
+            <table class="table-desc" >
+                <thead>
+                <tr>
+                    <th scope="col"><font size="4">技術</font></th>
+                    <th scope="col"><font size="4">経験年数</font></th>
+                    <th scope="col"><font size="4">内容</font></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Linux</th>
+                    <td>6年</td>
+                    <td>
+                    機械学習用インフラ、アプリケーションインフラ構築の経験があります。
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">AWS</th>
+                    <td>2年</td>
+                    <td>
+                    EC2インスタンス上にアプリケーションサーバの構築経験があります。
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card">
+        <div class="skill-desc">
+          <h3 class="skill-desc-title">アプリケーション関連技術</h3>
+          <p>Spring Framework(boot)を使った開発経験があります。</p>
+            <table class="table-desc">
+                <thead>
+                <tr>
+                  <th scope="col"><font size="4">技術</font></th>
+                  <th scope="col"><font size="4">経験年数</font></th>
+                  <th scope="col"><font size="4">内容</font></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <th scope="row">Spring Framework</th>
+                  <td>2年</td>
+                  <td>アプリケーションの開発に使用しています。</td>
+                  </tr>
+                <tr>
+                <th scope="row">Java</th>
+                <td>2年</td>
+                <td>Springを利用したアプリ開発に使用しています。</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="skill-desc">
+        <h3 class="skill-desc-title">機械学習関連技術</h3>
+        <p>PyTorchを用いた機械学習モデルの構築経験があります。</p>
+        <table class="table-desc">
+            <thead>
+            <tr>
+                <th scope="col"><font size="4">言語</font></th>
+                <th scope="col"><font size="4">経験年数</font></th>
+                <th scope="col"><font size="4">内容</font></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">PyTorch</th>
+                <td>3年</td>
+                <td>機械学習モデルの構築に使用しています。</td>
+            </tr>
+            <tr>
+                <th scope="row">Python</th>
+                <td>4年</td>
+                <td>趣味の開発や機械学習モデルの構築に使用しています。</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+{{< /rawhtml >}}
 
 
-## 経歴
+## ■ 経歴
 
 |                   |                                                                                                           |
 | :---------------- | :--------------------------------------------------------------------------------------------------------  |
-| 2022.04 -         | SIer企業にて自社サービスの開発に携わる |
+| 2022.04 -         | SIerにて自社サービスの開発に携わる |
 | 2020.04 - 2022.03 | 立命館大学 情報理工学研究科 情報理工学専攻 人間情報科学コース 修士課程 ([谷口忠大研究室](http://www.em.ci.ritsumei.ac.jp/jp/)) |
 | 2016.04 - 2020.03 | 立命館大学 情報理工学部 知能情報学科  |
 
 
-## 受賞歴/論文投稿など
+## ■ 受賞歴/論文投稿など
 
 |      |         |                                                                                                           |
 | :--- | :------ |:--------------------------------------------------------------------------------------------------------  |

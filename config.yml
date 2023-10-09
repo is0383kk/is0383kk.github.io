@@ -66,7 +66,7 @@ params:
   env: production # 本番環境
   title: "よしをのホームページ"
   description: "よしをのホームページ"
-  keywords: [Yoshiwo, yoshiwo, is0383kk, IS0383KK]
+  keywords: [Yoshiwo, yoshiwo, is0383kk, IS0383KK, hugo, papermod]
   author: ["Yoshiwo"]
   # author: ["Me", "You"] # multiple authors
   images: ["profile.jpg"]
@@ -102,11 +102,11 @@ params:
   # profile-mode
   profileMode:
     enabled: true # Profile mode有効
-    title: "Yoshiwo"
-    subtitle: "A cat." # プロフィール画像下に表示されるメッセージ
+    title: "Yoshiwo🐈"
+    subtitle: "Sometimes a engineer Sometimes a cat" # プロフィール画像下に表示されるメッセージ
     imageUrl: "profile.jpg" # プロフィール画像
-    imageWidth: 200
-    imageHeight: 200
+    imageWidth: 350
+    imageHeight: 350
     imageTitle: Profile image
 
   socialIcons:
@@ -135,3 +135,6 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
+    customCSS:
+     - "css/custom.css"

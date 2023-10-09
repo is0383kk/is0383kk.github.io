@@ -1,0 +1,3 @@
+.card {
+  flex-basis: calc(50% - 12px);
+}
