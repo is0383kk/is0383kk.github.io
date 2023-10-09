@@ -113,7 +113,7 @@ params:
     - name: github
       url: "https://github.com/is0383kk"
     - name: email
-      url: "is0383kk@gmail.com"
+      url: "mailto:is0383kk@gmail.com"
 
   cover:
     hidden: true 
