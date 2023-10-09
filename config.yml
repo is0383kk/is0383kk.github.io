@@ -1,0 +1,137 @@
+baseURL: "https://is0383kk.github.io/"
+canonifyurls: false # ウェブサイトのURL正規化無効
+publishDir: "docs" # 静的ファイルの出力先
+title: "よしをのホームページ" # タイトル
+paginate: 10 # 投稿の数を10posts / 1page
+theme: "PaperMod"
+
+enableEmoji: true # 絵文字有効
+enableRobotsTXT: true
+enableGitInfo: true
+
+buildDrafts: false # 下書き記事対象外
+buildFuture: false # 将来日付記事対象外
+buildExpired: false # 期限切れ記事対象外
+
+minify:
+  disableXML: true # XMLファイル最小化無効
+  minifyOutput: true # 出力ファイル最小化有効
+
+defaultContentLanguage: ja
+languages:
+  ja:
+    languageName: "日本語"
+    weight: 1
+    menu:
+      main:
+        - identifier: posts
+          name: ブログ
+          url: posts
+          weight: 5
+        - identifier: profile
+          name: プロフィール
+          url: others/profile
+          weight: 10
+        - identifier: categories
+          name: カテゴリ
+          url: categories/
+          weight: 15
+        - identifier: tags
+          name: タグ
+          url: tags/
+          weight: 20
+  en:
+    languageName: English
+    weight: 2
+    menu:
+      main:
+        - identifier: posts
+          name: Posts
+          url: posts
+          weight: 5
+        - identifier: profile
+          name: Profile
+          url: others/profile
+          weight: 10
+        - identifier: categories
+          name: Categories
+          url: categories/
+          weight: 15
+        - identifier: tags
+          name: Tags
+          url: tags/
+          weight: 20
+
+params:
+  env: production # 本番環境
+  title: "よしをのホームページ"
+  description: "よしをのホームページ"
+  keywords: [Yoshiwo, yoshiwo, is0383kk, IS0383KK]
+  author: ["Yoshiwo"]
+  # author: ["Me", "You"] # multiple authors
+  images: ["profile.jpg"]
+  DateFormat: "1234-56-78" # 日付フォーマット
+  defaultTheme: auto # 画面モード
+  disableThemeToggle: false # 画面モードの切り替え有効
+
+  ShowReadingTime: true # 記事の読了時間表示
+  ShowShareButtons: true # SNS共有ボタン表示
+  ShowPostNavLinks: true # 記事間のナビゲーションリンク表示
+  ShowBreadCrumbs: true # パンくずリスト表示
+  ShowCodeCopyButtons: true # コードブロックのコピーボタン表示
+
+  disableSpecial1stPost: false # 最初の記事を特別なスタイルで表示しない
+  disableScrollToTop: false # ページ上にスクロールするボタン非表示
+  comments: false # コメント有効
+  hidemeta: false # メタ情報表示
+  hideSummary: false # 記事要約表示
+  showtoc: false # 記事目次非表示
+  tocopen: false # 目次展開無効
+
+  assets:
+    favicon: "favicon.ico"
+    # favicon16x16: "favicon-16x16.png"
+    # favicon32x32: "favicon-32x32.png"
+    # apple_touch_icon: "apple-touch-icon.png"
+    # safari_pinned_tab: "safari-pinned-tab.svg"
+
+  label:
+    text: "🏠 Home"
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # Profile mode有効
+    title: "Yoshiwo"
+    subtitle: "A cat." # プロフィール画像下に表示されるメッセージ
+    imageUrl: "profile.jpg" # プロフィール画像
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: Profile image
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/is0383kk"
+    - name: email
+      url: "is0383kk@gmail.com"
+
+  cover:
+    hidden: true 
+    hiddenInList: true 
+    hiddenInSingle: true 
+
+  editPost:
+    URL: "https://github.com/is0383kk/is0383kk.github.io/blob/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
