@@ -22,6 +22,7 @@ draft: false
     document.getElementById("age").innerHTML = new Date().getFullYear() - 1998;
 </script>
 {{< /rawhtml >}}
+連絡先：is0383kk[at]gmail.com
 
 ---
 
