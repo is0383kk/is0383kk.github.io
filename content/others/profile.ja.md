@@ -12,9 +12,10 @@ draft: false
 
 {{< rawhtml >}} 
 <p>
-<span id="currentYear"></span>年現在<span id="age"></span>歳。<br>
+<span id="age"></span>歳社会人エンジニア（<span id="currentYear"></span>年時点）<br>
 学生時代はロボット競技/機械学習（生成モデル）の研究に取り組む。<br>
-卒業後は日系IT企業でアプリケーション開発に携わる。<br>
+卒業後は日系IT企業でアプリケーション基盤の開発に携わる。<br>
+趣味で作ったものを<a href="https://github.com/is0383kk" target="_blank" rel="noopener noreferrer me" title="GitHub">GitHub</a>上に公開している。
 </p> 
 <script type="text/javascript">
     document.getElementById('currentYear').textContent = new Date().getFullYear();
