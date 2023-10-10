@@ -17,10 +17,11 @@
       <pubDate>Mon, 09 Oct 2023 14:05:48 +0900</pubDate>
       
       <guid>https://is0383kk.github.io/others/profile/</guid>
-      <description>Yoshiwo🐈    歳社会人エンジニア（年時点）
+      <description>Yoshiwo🐈     歳社会人エンジニア（年時点）
 学生時代はロボット競技/機械学習（生成モデル）の研究に取り組む。
 卒業後は日系IT企業でアプリケーション基盤の開発に携わる。
-趣味で作ったものをGitHub上に公開している。 document.getElementById(&#39;currentYear&#39;).textContent = new Date().getFullYear(); document.getElementById(&#34;age&#34;).innerHTML = new Date().getFullYear() - 1998;   ■ スキル/経験 インフラ関連 Linux・AWSを使ったサーバ構築経験があります。
+趣味で作ったものをGitHub上に公開している。 document.getElementById(&#39;currentYear&#39;).textContent = new Date().getFullYear(); document.getElementById(&#34;age&#34;).innerHTML = new Date().getFullYear() - 1998;  連絡先：is0383kk[at]gmail.com
+ ■ スキル/経験 インフラ関連 Linux・AWSを使ったサーバ構築経験があります。
   技術 経験年数 内容     Linux 6年  機械学習用インフラ、アプリケーションインフラ構築に使用 Apache/Tomcat    AWS 2年  EC2インスタンス上へのアプリケーションサーバ構築に使用 EC2/AMI/RDS/Route53       アプリケーション関連 Spring Framework(boot)を使った開発経験があります。
   技術 経験年数 内容     Spring Framework 2年  アプリケーション開発に使用。</description>
     </item>
