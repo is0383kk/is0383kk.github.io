@@ -40,6 +40,10 @@ languages:
           name: タグ
           url: tags/
           weight: 20
+        - identifier: deliverables
+          name: 成果物
+          url: deliverables/
+          weight: 25
   en:
     languageName: English
     weight: 2
@@ -61,6 +65,10 @@ languages:
           name: Tags
           url: tags/
           weight: 20
+        - identifier: deliverables
+          name: Deliverables
+          url: deliverables/
+          weight: 25
 
 params:
   env: production # 本番環境
