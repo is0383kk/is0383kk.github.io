@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://is0383kk.github.io/categories/</loc>
-    <lastmod>2023-10-10T23:31:41+09:00</lastmod>
+    <lastmod>2023-11-21T01:44:54+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,14 +15,24 @@
                 href="https://is0383kk.github.io/categories/"
                 />
   </url><url>
-    <loc>https://is0383kk.github.io/posts/2023/10/post20231010/</loc>
-    <lastmod>2023-10-10T23:31:41+09:00</lastmod>
-  </url><url>
     <loc>https://is0383kk.github.io/posts/</loc>
-    <lastmod>2023-10-10T23:31:41+09:00</lastmod>
+    <lastmod>2023-11-21T01:44:54+09:00</lastmod>
+  </url><url>
+    <loc>https://is0383kk.github.io/tags/</loc>
+    <lastmod>2023-11-21T01:44:54+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://is0383kk.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://is0383kk.github.io/tags/"
+                />
   </url><url>
     <loc>https://is0383kk.github.io/</loc>
-    <lastmod>2023-10-10T23:31:41+09:00</lastmod>
+    <lastmod>2023-11-21T01:44:54+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -34,8 +44,29 @@
                 href="https://is0383kk.github.io/"
                 />
   </url><url>
+    <loc>https://is0383kk.github.io/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/</loc>
+    <lastmod>2023-11-21T01:44:54+09:00</lastmod>
+  </url><url>
+    <loc>https://is0383kk.github.io/categories/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/</loc>
+    <lastmod>2023-11-21T01:44:54+09:00</lastmod>
+  </url><url>
+    <loc>https://is0383kk.github.io/posts/2023/11/index20231120/</loc>
+    <lastmod>2023-11-21T01:44:54+09:00</lastmod>
+  </url><url>
+    <loc>https://is0383kk.github.io/tags/%E6%8A%80%E8%A1%93%E7%B3%BB/</loc>
+    <lastmod>2023-11-21T01:44:54+09:00</lastmod>
+  </url><url>
+    <loc>https://is0383kk.github.io/categories/%E6%8A%80%E8%A1%93%E7%B3%BB/</loc>
+    <lastmod>2023-11-21T01:44:54+09:00</lastmod>
+  </url><url>
+    <loc>https://is0383kk.github.io/posts/2023/10/post20231010/</loc>
+    <lastmod>2023-11-21T01:44:54+09:00</lastmod>
+  </url><url>
+    <loc>https://is0383kk.github.io/tags/%E9%9D%9E%E6%8A%80%E8%A1%93%E7%B3%BB/</loc>
+    <lastmod>2023-11-21T01:44:54+09:00</lastmod>
+  </url><url>
     <loc>https://is0383kk.github.io/categories/%E9%9D%9E%E6%8A%80%E8%A1%93%E7%B3%BB/</loc>
-    <lastmod>2023-10-10T23:31:41+09:00</lastmod>
+    <lastmod>2023-11-21T01:44:54+09:00</lastmod>
   </url><url>
     <loc>https://is0383kk.github.io/others/</loc>
     <lastmod>2023-10-10T23:30:44+09:00</lastmod>
@@ -61,18 +92,6 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://is0383kk.github.io/others/profile/"
-                />
-  </url><url>
-    <loc>https://is0383kk.github.io/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://is0383kk.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://is0383kk.github.io/tags/"
                 />
   </url>
 </urlset>

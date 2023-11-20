@@ -10,7 +10,22 @@
       <link>https://is0383kk.github.io/profile.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Oct 2023 22:32:41 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Nov 2023 20:07:27 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分離レベルとそれに伴い発生する弊害について</title>
+      <link>https://is0383kk.github.io/posts/2023/11/index20231120/</link>
+      <pubDate>Mon, 20 Nov 2023 20:07:27 +0900</pubDate>
+      
+      <guid>https://is0383kk.github.io/posts/2023/11/index20231120/</guid>
+      <description>はじめに 今回は分離レベルとそれに伴い発生する弊害のお話です。
+本記事のゴール設定は以下の通りです。
+ 分離レベルは4種類あることを理解する。 分離レベルに伴い発生する3種類の弊害について理解する 実運用する上で分離レベルは「READ COMMITTED」以上が望ましいことを理解する。  ■ ACID特性とトランザクションの分離レベルの関係性 分離レベルの話の前に、トランザクション処理における4つの特性について押さえておきましょう。
+ACID特性 ACID特性とはトランザクション処理に保持すべき４つの特性のことです。
+   特性 要約      原子性 Atomicity  口座Aから口座Bに対し1万円送金する場合、口座Aと口座Bへの操作はすべて実行される(または、されない) COMMIT or ROLLBACK   一貫性 Consistency  口座Aから口座Bに対し1万円送金する場合、口座A、口座Bが負数になるような操作はできない　    独立性 Isolation  トランザクションは同時に実行しても、単独で実行しても同じ結果でなければならない    永続性 Durability  トランザクションが完了したら、障害が発生してもその操作結果は失われない    今回お話しする「トランザクションの分離レベル」とは、 独立性（Isolation） に関する概念のことです。
+■ トランザクションの分離レベル 分離レベル 分離レベルには以下のものがあります。
+   レベル 説明     分離レベル0 READ UNCOMMITTED - 未コミットレコードを他のトランザクションから参照できる   分離レベル1 READ COMMITTED - コミット済みレコードを他のトランザクションから参照できる   分離レベル2 REPEATABLE READ - トランザクション中は他のトランザクションでコミットされた更新を参照しない   分離レベル3 SERIALIZABLE - トランザクションを順序付けて処理する    データの一貫性が非常に重要な場合や、同時アクセスが多い状況ほど分離レベルは高いことが推奨されます。</description>
+    </item>
+    
     <item>
       <title>Hello World!!</title>
       <link>https://is0383kk.github.io/posts/2023/10/post20231010/</link>
