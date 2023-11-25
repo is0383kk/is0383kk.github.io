@@ -42,3 +42,48 @@
 #menu li a{
   font-size: 100%;
 }
+
+/* タグの表示 */
+.tags {
+  padding: 0;
+}
+.tags li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 0.5em;
+  margin-left: 0em;
+}
+.post-meta .tags li { /* 記事内のタグ */
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+.tags li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.05em 0.5em;
+  background:rgb(88, 88, 88);
+  color: var(--theme);
+  border-radius: 3px;
+  position: relative; 
+  z-index: 1; /* リンクが最前に来るように */
+}
+.tags li a:hover {
+  background: rgb(197, 197, 197);
+  color: black;
+}
+body.dark .tags li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.05em 0.5em;
+  background: rgb(197, 197, 197);
+  color: var(--theme);
+  border-radius: 3px;
+  position: relative; 
+  z-index: 1; /* リンクが最前に来るように */
+}
+body.dark .tags li a:hover {
+  background: rgb(88, 88, 88);
+  color: white;
+}
