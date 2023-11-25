@@ -32,10 +32,10 @@ languages:
           name: プロフィール
           url: others/profile
           weight: 10
-        - identifier: categories
-          name: カテゴリ
-          url: categories/
-          weight: 15
+#        - identifier: categories
+#          name: カテゴリ
+#          url: categories/
+#          weight: 15
         - identifier: tags
           name: タグ
           url: tags/
