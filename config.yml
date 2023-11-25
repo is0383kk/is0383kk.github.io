@@ -28,47 +28,39 @@ languages:
           name: ブログ
           url: posts
           weight: 5
-        - identifier: profile
-          name: プロフィール
-          url: others/profile
-          weight: 10
-#        - identifier: categories
-#          name: カテゴリ
-#          url: categories/
-#          weight: 15
         - identifier: tags
           name: タグ
           url: tags/
-          weight: 20
+          weight: 10
         - identifier: deliverables
           name: 成果物
           url: deliverables/
-          weight: 25
+          weight: 15
+        - identifier: profile
+          name: プロフィール
+          url: others/profile
+          weight: 20
   en:
     languageName: English
     weight: 2
     menu:
       main:
-        - identifier: posts
-          name: Posts
-          url: posts
-          weight: 5
+#        - identifier: posts
+#          name: Posts
+#          url: posts
+#          weight: 5
         - identifier: profile
           name: Profile
           url: others/profile
           weight: 10
-        - identifier: categories
-          name: Categories
-          url: categories/
-          weight: 15
-        - identifier: tags
-          name: Tags
-          url: tags/
-          weight: 20
-        - identifier: deliverables
-          name: Deliverables
-          url: deliverables/
-          weight: 25
+#        - identifier: tags
+#          name: Tags
+#          url: tags/
+#          weight: 20
+#        - identifier: deliverables
+#          name: Deliverables
+#          url: deliverables/
+#          weight: 25
 
 params:
   env: production # 本番環境
@@ -81,7 +73,7 @@ params:
   defaultTheme: auto # 画面モード
   disableThemeToggle: false # 画面モードの切り替え有効
 
-  ShowReadingTime: true # 記事の読了時間表示
+  ShowReadingTime: false # 記事の読了時間表示
   ShowShareButtons: true # SNS共有ボタン表示
   ShowPostNavLinks: true # 記事間のナビゲーションリンク表示
   ShowBreadCrumbs: true # パンくずリスト表示
@@ -89,11 +81,11 @@ params:
 
   disableSpecial1stPost: false # 最初の記事を特別なスタイルで表示しない
   disableScrollToTop: false # ページ上にスクロールするボタン非表示
-  comments: false # コメント有効
-  hidemeta: false # メタ情報表示
-  hideSummary: false # 記事要約表示
-  showtoc: false # 記事目次非表示
-  tocopen: false # 目次展開無効
+  comments: false # コメント
+  hidemeta: false # メタ情報
+  hideSummary: false # 記事要約
+  showtoc: true # 記事目次
+  tocopen: false # 目次展開
 
   assets:
     favicon: "favicon.ico"
