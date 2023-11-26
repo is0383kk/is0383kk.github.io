@@ -53,6 +53,13 @@
   margin-right: 0.5em;
   margin-left: 0em;
 }
+.post-entry .tags li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 0.5em;
+  margin-left: 0em;
+  margin-top: 0.3em;
+}
 .post-meta .tags li { /* 記事内のタグ */
   display: inline-block;
   list-style-type: none;
