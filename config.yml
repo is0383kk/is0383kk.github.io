@@ -1,4 +1,5 @@
 baseURL: "https://is0383kk.github.io/"
+languageCode: "ja-jp"
 canonifyurls: false # ウェブサイトのURL正規化無効
 publishDir: "public" # 静的ファイルの出力先
 title: "よしをのホームページ" # タイトル
@@ -12,6 +13,7 @@ enableGitInfo: true
 buildDrafts: false # 下書き記事対象外
 buildFuture: false # 将来日付記事対象外
 buildExpired: false # 期限切れ記事対象外
+
 
 minify:
   disableXML: true # XMLファイル最小化無効
@@ -84,6 +86,7 @@ params:
   comments: false # コメント
   hidemeta: false # メタ情報
   hideSummary: false # 記事要約
+  hasCJKLanguage: true
   showtoc: true # 記事目次
   tocopen: false # 目次展開
 
