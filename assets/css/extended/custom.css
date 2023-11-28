@@ -44,29 +44,33 @@
 }
 
 /* タグの表示 */
-.tags {
+.custom-tags {
   padding: 0;
 }
-.tags li {
+.post-meta .custom-tags {
+  padding: 0;
+  margin-left: 1.5em;
+}
+.custom-tags li {
   display: inline-block;
   list-style-type: none;
   margin-right: 0.5em;
   margin-left: 0em;
 }
-.post-entry .tags li {
+.post-entry .custom-tags li {
   display: inline-block;
   list-style-type: none;
   margin-right: 0.5em;
   margin-left: 0em;
   margin-top: 0.3em;
 }
-.post-meta .tags li { /* 記事内のタグ */
+.post-meta .custom-tags li { /* 記事内のタグ */
   display: inline-block;
   list-style-type: none;
   margin-right: 0.5em;
   margin-left: 0.5em;
 }
-.tags li a {
+.custom-tags li a {
   display: block;
   text-decoration: none;
   padding: 0.05em 0.5em;
@@ -76,11 +80,11 @@
   position: relative; 
   z-index: 1; /* リンクが最前に来るように */
 }
-.tags li a:hover {
+.custom-tags li a:hover {
   background: rgb(197, 197, 197);
   color: black;
 }
-body.dark .tags li a {
+body.dark .custom-tags li a {
   display: block;
   text-decoration: none;
   padding: 0.05em 0.5em;
@@ -90,7 +94,18 @@ body.dark .tags li a {
   position: relative; 
   z-index: 1; /* リンクが最前に来るように */
 }
-body.dark .tags li a:hover {
+body.dark .custom-tags li a:hover {
   background: rgb(88, 88, 88);
   color: white;
+}
+
+/* SNS共有用ボタン */
+.entry-footer .custom-buttons { /* 記事一覧では表示しない */
+  display: none;
+}
+.post-meta .custom-buttons{ /* 記事内 */
+  margin-left: auto; 
+}
+.post-meta .custom-buttons a svg{ /* 記事内 */
+   margin-left: 0.7em;
 }
