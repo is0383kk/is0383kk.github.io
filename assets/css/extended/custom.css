@@ -44,12 +44,14 @@
 }
 
 /* タグの表示 */
+.post-meta {
+  display: inline-block;
+}
 .custom-tags {
   padding: 0;
 }
 .post-meta .custom-tags {
   padding: 0;
-  margin-left: 1.5em;
 }
 .custom-tags li {
   display: inline-block;
@@ -62,14 +64,15 @@
   list-style-type: none;
   margin-right: 0.5em;
   margin-left: 0em;
-  margin-top: 0.3em;
+  margin-top: 0.5em;
 }
 .post-meta .custom-tags li { /* 記事内のタグ */
   display: inline-block;
   list-style-type: none;
+  margin-top: 0.5em;
   margin-right: 0.5em;
-  margin-left: 0.5em;
 }
+
 .custom-tags li a {
   display: block;
   text-decoration: none;
@@ -99,13 +102,38 @@ body.dark .custom-tags li a:hover {
   color: white;
 }
 
-/* SNS共有用ボタン */
+/* 共有用ボタン */
 .entry-footer .custom-buttons { /* 記事一覧では表示しない */
   display: none;
 }
-.post-meta .custom-buttons{ /* 記事内 */
-  margin-left: auto; 
+.post-meta .custom-buttons {
+  display: flex;
 }
 .post-meta .custom-buttons a svg{ /* 記事内 */
-   margin-left: 0.7em;
+  margin-top: 0.7em;
+  margin-right: 0.5em; 
+  
 }
+
+/* コピーボタン */
+.entry-footer #custom-copy-link {
+  display: none;
+}
+#custom-copy-link {
+  margin-top: 0.7em;
+  margin-right: 0.5em;
+}
+/*
+#custom-copy-link {
+  width: 100px;
+  height: 35px;
+  margin-top: 0.7em;
+  
+  background: #1DA1F2;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background 0.3s ease-in-out; 
+}*/
