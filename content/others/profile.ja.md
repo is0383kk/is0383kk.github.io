@@ -4,11 +4,14 @@ date: 2023-10-09T14:05:48+09:00
 draft: false
 ---
 
+
+---
+
 {{< rawhtml >}} 
 <font size="5"><b>Yoshiwo🐈</b></font>
 {{< /rawhtml >}}
 
-{{< figure src="/profile.jpg" width="250" >}}
+{{< figure src="/profile.jpg" alt="プロフィール画像" width="250" >}}
 
 {{< rawhtml >}} 
 <p>
@@ -147,3 +150,4 @@ draft: false
 | 2018 | 受賞歴   | 経済産業省主催 World Robot Summit 2018 Virtual space部門 - 3位 |
 | 2018 | 受賞歴   | ロボカップ 2018 @Home部門 世界大会 - 3位                       |
 | 2018 | 受賞歴   | ロボカップ 2018 @Home部門 国内大会 - 3位                       |
+
