@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>技術系 on よしをのホームページ</title>
-    <link>https://is0383kk.github.io/tags/%E6%8A%80%E8%A1%93%E7%B3%BB/</link>
-    <description>Recent content in 技術系 on よしをのホームページ</description>
+    <title>GitHub Pages on よしをのホームページ</title>
+    <link>https://is0383kk.github.io/tags/github-pages/</link>
+    <description>Recent content in GitHub Pages on よしをのホームページ</description>
     <image>
       <title>よしをのホームページ</title>
       <url>https://is0383kk.github.io/profile.jpg</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 28 Nov 2023 17:48:00 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/tags/%E6%8A%80%E8%A1%93%E7%B3%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Nov 2023 17:48:00 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【初学者向け】GitHub Pagesを使って無料でWEBページを公開する</title>
       <link>https://is0383kk.github.io/posts/2023/11/index20231128/</link>
@@ -19,15 +19,6 @@
       
       <guid>https://is0383kk.github.io/posts/2023/11/index20231128/</guid>
       <description>はじめに GitHubの機能の１つであるGitHub Pagesを使うことでこのようなWEBページを簡単に作れます。 本記事では、GitHub Pa</description>
-    </item>
-    
-    <item>
-      <title>分離レベルとそれに伴い発生する弊害について</title>
-      <link>https://is0383kk.github.io/posts/2023/11/index20231120/</link>
-      <pubDate>Mon, 20 Nov 2023 20:07:27 +0900</pubDate>
-      
-      <guid>https://is0383kk.github.io/posts/2023/11/index20231120/</guid>
-      <description>はじめに 今回は分離レベルとそれに伴い発生する弊害のお話です。 本記事のゴール設定は以下の通りです。 分離レベルは4種類あることを理解する。 分離レ</description>
     </item>
     
   </channel>

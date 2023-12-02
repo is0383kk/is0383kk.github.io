@@ -11,22 +11,40 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 20 Nov 2023 20:07:27 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Nov 2023 17:48:00 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>データベース</title>
-      <link>https://is0383kk.github.io/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/</link>
-      <pubDate>Mon, 20 Nov 2023 20:07:27 +0900</pubDate>
+      <title>GitHub Pages</title>
+      <link>https://is0383kk.github.io/tags/github-pages/</link>
+      <pubDate>Tue, 28 Nov 2023 17:48:00 +0900</pubDate>
       
-      <guid>https://is0383kk.github.io/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/</guid>
+      <guid>https://is0383kk.github.io/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WEBページ</title>
+      <link>https://is0383kk.github.io/tags/web%E3%83%9A%E3%83%BC%E3%82%B8/</link>
+      <pubDate>Tue, 28 Nov 2023 17:48:00 +0900</pubDate>
+      
+      <guid>https://is0383kk.github.io/tags/web%E3%83%9A%E3%83%BC%E3%82%B8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>技術系</title>
       <link>https://is0383kk.github.io/tags/%E6%8A%80%E8%A1%93%E7%B3%BB/</link>
-      <pubDate>Mon, 20 Nov 2023 20:07:27 +0900</pubDate>
+      <pubDate>Tue, 28 Nov 2023 17:48:00 +0900</pubDate>
       
       <guid>https://is0383kk.github.io/tags/%E6%8A%80%E8%A1%93%E7%B3%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>データベース</title>
+      <link>https://is0383kk.github.io/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/</link>
+      <pubDate>Mon, 20 Nov 2023 20:07:27 +0900</pubDate>
+      
+      <guid>https://is0383kk.github.io/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/</guid>
       <description></description>
     </item>
     

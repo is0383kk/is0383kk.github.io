@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 20 Nov 2023 20:07:27 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Nov 2023 17:48:00 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【初学者向け】GitHub Pagesを使って無料でWEBページを公開する</title>
+      <link>https://is0383kk.github.io/posts/2023/11/index20231128/</link>
+      <pubDate>Tue, 28 Nov 2023 17:48:00 +0900</pubDate>
+      
+      <guid>https://is0383kk.github.io/posts/2023/11/index20231128/</guid>
+      <description>はじめに GitHubの機能の１つであるGitHub Pagesを使うことでこのようなWEBページを簡単に作れます。 本記事では、GitHub Pa</description>
+    </item>
+    
     <item>
       <title>分離レベルとそれに伴い発生する弊害について</title>
       <link>https://is0383kk.github.io/posts/2023/11/index20231120/</link>
