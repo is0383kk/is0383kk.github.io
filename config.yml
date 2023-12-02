@@ -42,19 +42,19 @@ languages:
           name: プロフィール
           url: others/profile
           weight: 20
-  en:
-    languageName: English
-    weight: 2
-    menu:
-      main:
+#  en:
+#    languageName: English
+#    weight: 2
+#    menu:
+#      main:
 #        - identifier: posts
 #          name: Posts
 #          url: posts
 #          weight: 5
-        - identifier: profile
-          name: Profile
-          url: others/profile
-          weight: 10
+#        - identifier: profile
+#          name: Profile
+#          url: others/profile
+#          weight: 10
 #        - identifier: tags
 #          name: Tags
 #          url: tags/
