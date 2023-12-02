@@ -8,7 +8,7 @@
 <meta name=description content="はじめに 今回は分離レベルとそれに伴い発生する弊害のお話です。 本記事のゴール設定は以下の通りです。 分離レベルは4種類あることを理解する。 分離レ">
 <meta name=author content="Yoshiwo">
 <link rel=canonical href=https://is0383kk.github.io/posts/2023/11/index20231120/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.d9ab0acde7972cf01412154b28706605d0abf0c8fb6011af534a6ed41663fe94.css integrity="sha256-2asKzeeXLPAUEhVLKHBmBdCr8Mj7YBGvU0pu1BZj/pQ=" rel="preload stylesheet" as=style>
+<link crossorigin=anonymous href=/assets/css/stylesheet.dfa3bbda5bb5e43cd1823b5c869f3fa2c181fc6ad834268f8c014bd5a7265e93.css integrity="sha256-36O72lu15DzRgjtchp8/osGB/GrYNCaPjAFL1acmXpM=" rel="preload stylesheet" as=style>
 <script defer crossorigin=anonymous src=/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://is0383kk.github.io/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://is0383kk.github.io/favicon-16x16.png>
@@ -17,7 +17,6 @@
 <link rel=mask-icon href=https://is0383kk.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<link rel=alternate hreflang=ja href=https://is0383kk.github.io/posts/2023/11/index20231120/>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
@@ -26,13 +25,13 @@
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://is0383kk.github.io/posts/2023/11/index20231120/"><meta property="og:image" content="https://is0383kk.github.io/profile.jpg"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2023-11-20T20:07:27+09:00">
-<meta property="article:modified_time" content="2023-11-27T15:09:30+09:00"><meta property="og:site_name" content="よしをのホームページ">
+<meta property="article:modified_time" content="2023-12-03T01:55:47+09:00"><meta property="og:site_name" content="よしをのホームページ">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://is0383kk.github.io/profile.jpg">
 <meta name=twitter:title content="分離レベルとそれに伴い発生する弊害について">
 <meta name=twitter:description content="はじめに 今回は分離レベルとそれに伴い発生する弊害のお話です。 本記事のゴール設定は以下の通りです。 分離レベルは4種類あることを理解する。 分離レ">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://is0383kk.github.io/posts/"},{"@type":"ListItem","position":2,"name":"分離レベルとそれに伴い発生する弊害について","item":"https://is0383kk.github.io/posts/2023/11/index20231120/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"分離レベルとそれに伴い発生する弊害について","name":"分離レベルとそれに伴い発生する弊害について","description":"はじめに 今回は分離レベルとそれに伴い発生する弊害のお話です。 本記事のゴール設定は以下の通りです。 分離レベルは4種類あることを理解する。 分離レ","keywords":["技術系","データベース"],"articleBody":"はじめに 今回は分離レベルとそれに伴い発生する弊害のお話です。\n本記事のゴール設定は以下の通りです。\n 分離レベルは4種類あることを理解する。 分離レベルに伴い発生する3種類の弊害について理解する 実運用する上で分離レベルは「READ COMMITTED」以上が望ましいことを理解する。  ■ ACID特性とトランザクションの分離レベルの関係性 分離レベルの話の前に、トランザクション処理における4つの特性について押さえておきましょう。\nACID特性 ACID特性とはトランザクション処理に保持すべき４つの特性のことです。\n   特性 要約      原子性 Atomicity  口座Aから口座Bに対し1万円送金する場合、口座Aと口座Bへの操作はすべて実行される(または、されない) COMMIT or ROLLBACK   一貫性 Consistency  口座Aから口座Bに対し1万円送金する場合、口座A、口座Bが負数になるような操作はできない　    独立性 Isolation  トランザクションは同時に実行しても、単独で実行しても同じ結果でなければならない    永続性 Durability  トランザクションが完了したら、障害が発生してもその操作結果は失われない    今回お話しする「トランザクションの分離レベル」とは、 独立性（Isolation） に関する概念のことです。\n■ トランザクションの分離レベル 分離レベル 分離レベルには以下のものがあります。\n   レベル 説明     分離レベル0 READ UNCOMMITTED - 未コミットレコードを他のトランザクションから参照できる   分離レベル1 READ COMMITTED - コミット済みレコードを他のトランザクションから参照できる   分離レベル2 REPEATABLE READ - トランザクション中は他のトランザクションでコミットされた更新を参照しない   分離レベル3 SERIALIZABLE - トランザクションを順序付けて処理する    データの一貫性が非常に重要な場合や、同時アクセスが多い状況ほど分離レベルは高いことが推奨されます。\n■ 分離レベルによって生じる弊害 また、分離レベルによって以下の弊害が生じます。\n★ ダーティリード：他のトランザクションで更新された、未コミットデータを読み込んでしまうこと  ユーザBがテーブルの値を更新 → 1から2に更新 ※未コミット ユーザAがテーブルの値を参照 → 2を取得（ダーティリード） ユーザBがテーブルの値をコミットする     ★ ファジーリード：同じデータを2回読みとったとき、異なる内容となること  ユーザAがテーブルの値を取得 → 1を取得 ユーザBがテーブルの値を更新＆コミット → 1から2に更新 ユーザAがテーブルの値を取得 → 2を取得（ファジーリード）     ★ ファントムリード：2回データを読み取ったとき、新しい内容が追加されてしまうこと  ユーザAがテーブルの行を取得 → 行1を取得 ユーザBがテーブルに行2を挿入＆コミット → 行2が増える ユーザAが行を取得 → 行1と行2を取得（ファントムーリード）     分離レベルと弊害の関係性をまとめるとこのようになります。※○は発生する\n   分離レベル ダーティリード ファジーリード ファントムリード     READ UNCOMMITTED ○ ○ ○   READ COMMITTED × ○ ○   REPEATABLE READ × × ○   SERIALIZABLE × × ×    以上より、READ UNCOMMITTEDではダーティリード/ファジーリード/ファントムリードの全てが発生する可能性があり、\n一般的に実運用する上では、 READ COMMITTED以上が望ましいと言えます。 開発上での注意 分離レベルは使用するDB種別によってデフォルトの分離レベルが設定されています。\n以下は主なDBに設定されているデフォルト分離レベルです。（2023-11-27時点）\n   データベース名 バージョン デフォルト分離レベル     MySQL 8.0 REPEATABLE READ   Oracle Database 19c READ COMMITTED   Microsoft SQL Server 2022 READ COMMITTED   Amazon Aurora MySQL 3 REPEATABLE READ    ここで注意することは、設計上想定している アプリケーション側の分離レベルと使用するDBで設定されている分離レベルを一致させることです。 アプリケーション側とDB側で分離レベルが異なる場合は、DB側の分離レベルの変更を忘れないように注意する必要があります。\n","wordCount":"1544","inLanguage":"ja","datePublished":"2023-11-20T20:07:27+09:00","dateModified":"2023-11-27T15:09:30+09:00","author":[{"@type":"Person","name":"Yoshiwo"}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://is0383kk.github.io/posts/2023/11/index20231120/"},"publisher":{"@type":"Organization","name":"よしをのホームページ","logo":{"@type":"ImageObject","url":"https://is0383kk.github.io/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"分離レベルとそれに伴い発生する弊害について","name":"分離レベルとそれに伴い発生する弊害について","description":"はじめに 今回は分離レベルとそれに伴い発生する弊害のお話です。 本記事のゴール設定は以下の通りです。 分離レベルは4種類あることを理解する。 分離レ","keywords":["技術系","データベース"],"articleBody":" はじめに 今回は分離レベルとそれに伴い発生する弊害のお話です。\n本記事のゴール設定は以下の通りです。\n 分離レベルは4種類あることを理解する。 分離レベルに伴い発生する3種類の弊害について理解する 実運用する上で分離レベルは「READ COMMITTED」以上が望ましいことを理解する。  ■ ACID特性とトランザクションの分離レベルの関係性 分離レベルの話の前に、トランザクション処理における4つの特性について押さえておきましょう。\nACID特性 ACID特性とはトランザクション処理に保持すべき４つの特性のことです。\n   特性 要約      原子性 Atomicity  口座Aから口座Bに対し1万円送金する場合、口座Aと口座Bへの操作はすべて実行される(または、されない) COMMIT or ROLLBACK   一貫性 Consistency  口座Aから口座Bに対し1万円送金する場合、口座A、口座Bが負数になるような操作はできない　    独立性 Isolation  トランザクションは同時に実行しても、単独で実行しても同じ結果でなければならない    永続性 Durability  トランザクションが完了したら、障害が発生してもその操作結果は失われない    今回お話しする「トランザクションの分離レベル」とは、 独立性（Isolation） に関する概念のことです。\n■ トランザクションの分離レベル 分離レベル 分離レベルには以下のものがあります。\n   レベル 説明     分離レベル0 READ UNCOMMITTED - 未コミットレコードを他のトランザクションから参照できる   分離レベル1 READ COMMITTED - コミット済みレコードを他のトランザクションから参照できる   分離レベル2 REPEATABLE READ - トランザクション中は他のトランザクションでコミットされた更新を参照しない   分離レベル3 SERIALIZABLE - トランザクションを順序付けて処理する    データの一貫性が非常に重要な場合や、同時アクセスが多い状況ほど分離レベルは高いことが推奨されます。\n■ 分離レベルによって生じる弊害 また、分離レベルによって以下の弊害が生じます。\n★ ダーティリード：他のトランザクションで更新された、未コミットデータを読み込んでしまうこと  ユーザBがテーブルの値を更新 → 1から2に更新 ※未コミット ユーザAがテーブルの値を参照 → 2を取得（ダーティリード） ユーザBがテーブルの値をコミットする     ★ ファジーリード：同じデータを2回読みとったとき、異なる内容となること  ユーザAがテーブルの値を取得 → 1を取得 ユーザBがテーブルの値を更新＆コミット → 1から2に更新 ユーザAがテーブルの値を取得 → 2を取得（ファジーリード）     ★ ファントムリード：2回データを読み取ったとき、新しい内容が追加されてしまうこと  ユーザAがテーブルの行を取得 → 行1を取得 ユーザBがテーブルに行2を挿入＆コミット → 行2が増える ユーザAが行を取得 → 行1と行2を取得（ファントムーリード）     分離レベルと弊害の関係性をまとめるとこのようになります。※○は発生する\n   分離レベル ダーティリード ファジーリード ファントムリード     READ UNCOMMITTED ○ ○ ○   READ COMMITTED × ○ ○   REPEATABLE READ × × ○   SERIALIZABLE × × ×    以上より、READ UNCOMMITTEDではダーティリード/ファジーリード/ファントムリードの全てが発生する可能性があり、\n一般的に実運用する上では、 READ COMMITTED以上が望ましいと言えます。 開発上での注意 分離レベルは使用するDB種別によってデフォルトの分離レベルが設定されています。\n以下は主なDBに設定されているデフォルト分離レベルです。（2023-11-27時点）\n   データベース名 バージョン デフォルト分離レベル     MySQL 8.0 REPEATABLE READ   Oracle Database 19c READ COMMITTED   Microsoft SQL Server 2022 READ COMMITTED   Amazon Aurora MySQL 3 REPEATABLE READ    ここで注意することは、設計上想定している アプリケーション側の分離レベルと使用するDBで設定されている分離レベルを一致させることです。 アプリケーション側とDB側で分離レベルが異なる場合は、DB側の分離レベルの変更を忘れないように注意する必要があります。\n","wordCount":"1544","inLanguage":"ja","datePublished":"2023-11-20T20:07:27+09:00","dateModified":"2023-12-03T01:55:47+09:00","author":[{"@type":"Person","name":"Yoshiwo"}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://is0383kk.github.io/posts/2023/11/index20231120/"},"publisher":{"@type":"Organization","name":"よしをのホームページ","logo":{"@type":"ImageObject","url":"https://is0383kk.github.io/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -43,11 +42,6 @@
 <div class=logo-switches>
 <button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
-<ul class=lang-switch><li>|</li>
-<li>
-<a href=https://is0383kk.github.io/en/ title=English aria-label=English>En</a>
-</li>
-</ul>
 </div>
 </div>
 <ul id=menu>
@@ -88,7 +82,7 @@
 </a>
 <a target=_blank rel="noopener noreferrer" aria-label="share 分離レベルとそれに伴い発生する弊害について on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fis0383kk.github.io%2fposts%2f2023%2f11%2findex20231120%2f"><svg viewBox="0 0 512 512" height="35" width="35" fill="#1da1f2"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg>
 </a>
-<button type=button id=custom-copy-link>
+<button type=button id=custom-copy-link title="Copy URL to Clipboard">
 <span id=cAction><svg id="cAction" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
 </span>
 </button>
@@ -129,7 +123,8 @@
 </div>
 </details>
 </div>
-<div class=post-content><h2 id=はじめに>はじめに<a hidden class=anchor aria-hidden=true href=#はじめに>#</a></h2>
+<div class=post-content><hr>
+<h2 id=はじめに>はじめに<a hidden class=anchor aria-hidden=true href=#はじめに>#</a></h2>
 <p>今回は分離レベルとそれに伴い発生する弊害のお話です。</p>
 <p>本記事のゴール設定は以下の通りです。</p>
 <ul>
@@ -210,7 +205,7 @@
 <li><strong>ユーザAがテーブルの値を参照 → 2を取得（ダーティリード）</strong></li>
 <li>ユーザBがテーブルの値をコミットする
 <figure>
-<img loading=lazy src=../images/dread.png width=600>
+<img loading=lazy src=../images/dread.png alt=dread width=600>
 </figure>
 </li>
 </ol>
@@ -220,7 +215,7 @@
 <li>ユーザBがテーブルの値を更新＆コミット → 1から2に更新</li>
 <li><strong>ユーザAがテーブルの値を取得 → 2を取得（ファジーリード）</strong>
 <figure>
-<img loading=lazy src=../images/fread.png width=600>
+<img loading=lazy src=../images/fread.png alt=fread width=600>
 </figure>
 </li>
 </ol>
@@ -231,7 +226,7 @@
 <li><strong>ユーザAが行を取得 → 行1と行2を取得（ファントムーリード）</strong></li>
 </ol>
 <figure>
-<img loading=lazy src=../images/pread.png width=600>
+<img loading=lazy src=../images/pread.png alt=pread width=600>
 </figure>
 <hr>
 <p>分離レベルと弊害の関係性をまとめるとこのようになります。※○は発生する</p>

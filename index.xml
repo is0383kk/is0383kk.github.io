@@ -18,7 +18,7 @@
       <pubDate>Tue, 28 Nov 2023 17:48:00 +0900</pubDate>
       
       <guid>https://is0383kk.github.io/posts/2023/11/index20231128/</guid>
-      <description>はじめに GitHubの機能の１つであるGitHub Pagesを使うことでこのようなWEBページを簡単に作れます。 本記事では、GitHub Pa</description>
+      <description>はじめに 本記事では、GitHub Pagesを使った静的WEBページの作成方法を紹介します。 GitHubの機能の１つであるGitHub Page</description>
     </item>
     
     <item>
@@ -37,6 +37,16 @@
       
       <guid>https://is0383kk.github.io/posts/2023/10/post20231010/</guid>
       <description>■ 自己紹介 はじめまして、よしをと申します。 現在は国内のIT企業に勤めています。 詳しい経歴などは、プロフィールに書いてあります。 ■ ブログのきっ</description>
+    </item>
+    
+    <item>
+      <title>プロフィール</title>
+      <link>https://is0383kk.github.io/others/profile.en/</link>
+      <pubDate>Mon, 09 Oct 2023 14:05:48 +0900</pubDate>
+      
+      <guid>https://is0383kk.github.io/others/profile.en/</guid>
+      <description>Yoshiwo🐈    As a student, worked on robot competitions/machine learning (generative model).
+After graduation, worked in application development for a Japanese company.</description>
     </item>
     
     <item>
