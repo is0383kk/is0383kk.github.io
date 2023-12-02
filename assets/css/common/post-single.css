@@ -72,8 +72,8 @@
 .post-content a,
 .toc a:hover {
     box-shadow: 0 1px 0;
-    box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
 }
 
 .post-content a code {
@@ -351,6 +351,7 @@ h6:hover .anchor {
     color: var(--secondary);
     margin-inline-start: 8px;
     font-weight: 500;
+    -webkit-user-select: none;
     user-select: none;
 }
 

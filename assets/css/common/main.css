@@ -59,6 +59,7 @@ pre {
     border-radius: var(--radius);
     padding: 0 5px;
     font-size: 14px;
+    -webkit-user-select: none;
     user-select: none;
 }
 

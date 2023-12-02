@@ -123,17 +123,3 @@ body.dark .custom-tags li a:hover {
   margin-top: 0.7em;
   margin-right: 0.5em;
 }
-/*
-#custom-copy-link {
-  width: 100px;
-  height: 35px;
-  margin-top: 0.7em;
-  
-  background: #1DA1F2;
-  color: rgb(0, 0, 0);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  transition: background 0.3s ease-in-out; 
-}*/
