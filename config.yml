@@ -2,7 +2,7 @@ baseURL: "https://is0383kk.github.io/"
 languageCode: "ja-jp"
 canonifyurls: false # ウェブサイトのURL正規化無効
 publishDir: "public" # 静的ファイルの出力先
-title: "よしをのホームページ" # タイトル
+title: "よしをの備忘録" # タイトル
 paginate: 10 # 投稿の数を10posts / 1page
 theme: "PaperMod"
 
@@ -66,8 +66,8 @@ languages:
 
 params:
   env: production # 本番環境
-  title: "よしをのホームページ"
-  description: "よしをのホームページ"
+  title: "よしをの備忘録"
+  description: "よしをの備忘録"
   keywords: [Yoshiwo, yoshiwo, is0383kk, IS0383KK, hugo, papermod]
   author: ["Yoshiwo"]
   images: ["profile.jpg"]
@@ -105,7 +105,7 @@ params:
   profileMode:
     enabled: true # Profile mode有効
     title: "Yoshiwo🐈"
-    subtitle: "Sometimes a engineer Sometimes a cat" # プロフィール画像下に表示されるメッセージ
+    subtitle: Sometimes engineer sometimes lazy
     imageUrl: "profile.jpg" # プロフィール画像
     imageWidth: 350
     imageHeight: 350
