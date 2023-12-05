@@ -13,12 +13,12 @@
     <language>ja-jp</language>
     <lastBuildDate>Tue, 05 Dec 2023 01:08:13 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>【Java】条件に沿ってランダムなパスワードを生成する</title>
+      <title>【Java】条件に沿って記号英数字を含むランダムなパスワードを生成する</title>
       <link>https://is0383kk.github.io/posts/2023/12/index20231205/</link>
       <pubDate>Tue, 05 Dec 2023 01:08:13 +0900</pubDate>
       
       <guid>https://is0383kk.github.io/posts/2023/12/index20231205/</guid>
-      <description>はじめに 今回は条件に沿ってランダムなパスワードを生成してみたいと思います。 具体的な条件は以下の通りです。 条件 コード上での表現 大文字のアルファ</description>
+      <description>はじめに 今回は条件に沿って記号英数字を含むランダムなパスワードを生成してみたいと思います。 具体的な条件は以下の通りです。 条件 コード上での表現</description>
     </item>
     
     <item>
