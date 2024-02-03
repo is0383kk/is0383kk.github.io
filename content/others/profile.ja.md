@@ -32,99 +32,117 @@ draft: false
 ## ■ スキル/経験
 
 {{< rawhtml >}} 
-<div style="display: flex; justify-content: space-between;">
-    <div class="card">
-        <div class="skill-desc">
-          <h3 class="skill-desc-title">インフラ関連</h3>
-          <p>Linux・AWSを使ったサーバ構築経験があります。</p>
+<div class="card">
+    <div class="skill-desc">
+        <h3 class="skill-desc-title">インフラ関連</h3>
+        <details open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">スキル詳細（クリックで展開する）</span>
+        </summary>
+            <div class="details-desc">
+            <h4 class="table-title">Linux・AWSを使ったサーバ構築経験があります。</h4>
             <table class="table-desc" >
                 <thead>
+                    <tr>
+                        <th scope="col"><font size="4">要素技術</font></th>
+                        <th scope="col"><font size="4">経験年数</font></th>
+                        <th scope="col"><font size="4">内容</font></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Linux</th>
+                        <td>6年</td>
+                        <td>
+                        機械学習用インフラ、アプリケーションインフラ構築に使用 <br>
+                        Apache/Tomcat
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">AWS</th>
+                        <td>2年</td>
+                        <td>
+                        EC2インスタンス上へのアプリケーションサーバ構築に使用 <br>
+                        EC2/AMI/RDS/Route53
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </details>
+    </div>
+</div>
+
+<div class="card">
+    <div class="skill-desc">
+        <h3 class="skill-desc-title">アプリケーション関連</h3>
+        <details>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">スキル詳細（クリックで展開する）</span>
+        </summary>
+            <h4 class="table-title">Spring Framework(boot)を使った開発経験があります。</h4>
+            <table class="table-desc">
+                <thead>
                 <tr>
-                    <th scope="col"><font size="4">技術</font></th>
+                <th scope="col"><font size="4">要素技術</font></th>
+                <th scope="col"><font size="4">経験年数</font></th>
+                <th scope="col"><font size="4">内容</font></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <th scope="row">Spring Framework</th>
+                <td>2年</td>
+                <td>
+                アプリケーション開発に使用。<br>
+                Spring MVC/Spring Security/Thymeleaf
+                </td>
+                </tr>
+                <tr>
+                    <th scope="row">Java</th>
+                    <td>2年</td>
+                    <td>バックエンド側の開発に使用。</td>
+                </tr>
+                </tbody>
+            </table>
+        </details>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="skill-desc">
+        <h3 class="skill-desc-title">機械学習関連</h3>
+        <details>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">スキル詳細（クリックで展開する）</span>
+        </summary>
+        <h4 class="table-title">PyTorchを用いた機械学習モデルの構築経験があります。</h4>
+            <table class="table-desc">
+                <thead>
+                <tr>
+                    <th scope="col"><font size="4">要素技術</font></th>
                     <th scope="col"><font size="4">経験年数</font></th>
                     <th scope="col"><font size="4">内容</font></th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <th scope="row">Linux</th>
-                    <td>6年</td>
-                    <td>
-                    機械学習用インフラ、アプリケーションインフラ構築に使用 <br>
-                    Apache/Tomcat
-                    </td>
+                    <th scope="row">PyTorch</th>
+                    <td>3年</td>
+                    <td>機械学習モデルの構築に使用。</td>
                 </tr>
                 <tr>
-                    <th scope="row">AWS</th>
-                    <td>2年</td>
+                    <th scope="row">Python</th>
+                    <td>4年</td>
                     <td>
-                    EC2インスタンス上へのアプリケーションサーバ構築に使用 <br>
-                    EC2/AMI/RDS/Route53
+                    趣味の開発や機械学習モデルの構築に使用。<br>
+                    Numpy/Pandas/Scipy
                     </td>
                 </tr>
                 </tbody>
             </table>
-        </div>
-    </div>
-    <div class="card">
-        <div class="skill-desc">
-          <h3 class="skill-desc-title">アプリケーション関連</h3>
-          <p>Spring Framework(boot)を使った開発経験があります。</p>
-            <table class="table-desc">
-                <thead>
-                <tr>
-                  <th scope="col"><font size="4">技術</font></th>
-                  <th scope="col"><font size="4">経験年数</font></th>
-                  <th scope="col"><font size="4">内容</font></th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <th scope="row">Spring Framework</th>
-                  <td>2年</td>
-                  <td>
-                  アプリケーション開発に使用。<br>
-                  Spring MVC/Spring Security/Thymeleaf
-                  </td>
-                  </tr>
-                <tr>
-                <th scope="row">Java</th>
-                <td>2年</td>
-                <td>バックエンド側の開発に使用。</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
-<div class="card">
-    <div class="skill-desc">
-        <h3 class="skill-desc-title">機械学習関連</h3>
-        <p>PyTorchを用いた機械学習モデルの構築経験があります。</p>
-        <table class="table-desc">
-            <thead>
-            <tr>
-                <th scope="col"><font size="4">言語</font></th>
-                <th scope="col"><font size="4">経験年数</font></th>
-                <th scope="col"><font size="4">内容</font></th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">PyTorch</th>
-                <td>3年</td>
-                <td>機械学習モデルの構築に使用。</td>
-            </tr>
-            <tr>
-                <th scope="row">Python</th>
-                <td>4年</td>
-                <td>
-                趣味の開発や機械学習モデルの構築に使用。<br>
-                Numpy/Pandas/Scipy
-                </td>
-            </tr>
-            </tbody>
-        </table>
+        </details>
     </div>
 </div>
 {{< /rawhtml >}}
