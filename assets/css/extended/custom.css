@@ -124,6 +124,7 @@ body.dark .custom-tags li a:hover {
   margin-right: 0.5em;
 }
 
+/* 表 */
 .dark .table-desc {
   background: var(--entry);
 }
@@ -131,6 +132,7 @@ body.dark .custom-tags li a:hover {
   background: var(--code-bg);
 }
 
+/* 詳細 */
 .card details summary {
   cursor: zoom-in;
   margin-inline-start: 20px;
@@ -144,4 +146,3 @@ body.dark .custom-tags li a:hover {
   display: inline;
   font-weight: 500;
 }
-
