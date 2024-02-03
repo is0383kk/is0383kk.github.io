@@ -123,3 +123,25 @@ body.dark .custom-tags li a:hover {
   margin-top: 0.7em;
   margin-right: 0.5em;
 }
+
+.dark .table-desc {
+  background: var(--entry);
+}
+.table-desc {
+  background: var(--code-bg);
+}
+
+.card details summary {
+  cursor: zoom-in;
+  margin-inline-start: 20px;
+}
+
+.card details[open] summary {
+  cursor: zoom-out;
+}
+
+.card .details {
+  display: inline;
+  font-weight: 500;
+}
+
