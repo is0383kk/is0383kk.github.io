@@ -81,7 +81,7 @@ params:
   ShowBreadCrumbs: true # パンくずリスト表示
   ShowCodeCopyButtons: true # コードブロックのコピーボタン表示
 
-  disableSpecial1stPost: false # 最初の記事を特別なスタイルで表示しない
+  disableSpecial1stPost: true # 最初の記事を特別なスタイルで表示しない
   disableScrollToTop: false # ページ上にスクロールするボタン非表示
   comments: false # コメント
   hidemeta: false # メタ情報
@@ -103,7 +103,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # Profile mode有効
+    enabled: false # Profile mode有効
     title: "Yoshiwo🐈"
     subtitle: Sometimes engineer sometimes lazy
     imageUrl: "profile.jpg" # プロフィール画像
