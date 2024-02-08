@@ -137,12 +137,26 @@ body.dark .custom-tags li a:hover {
   cursor: zoom-in;
   margin-inline-start: 20px;
 }
-
 .card details[open] summary {
   cursor: zoom-out;
 }
-
 .card .details {
   display: inline;
   font-weight: 500;
+}
+
+/* 行番号表示（java） */
+.language-java {
+  counter-reset: line;
+}
+.line {
+  counter-increment: line;
+}
+.line::before {
+  content: counter(line);
+  display: inline-block;
+  width: 30px; /* 行番号の幅を調整 */
+  text-align: right; /* 右揃えにする */
+  margin-right: 10px; /* 行番号とコードの間隔を調整 */
+  color: #999; /* 行番号の色を指定 */
 }
