@@ -46,8 +46,8 @@ hljs.registerLanguage("yaml",function(){"use strict";return function(e){var n="t
 
 
 // 行番号追加用classの追加
-var allSpans = document.querySelectorAll('code.language-java > span');
-allSpans.forEach(function(span) {
+//var allSpans = document.querySelectorAll('code.language-java > span');
+//allSpans.forEach(function(span) {
   // 1つ目の<span>要素にclass="line"を追加
-  span.classList.add('line');
-});
+//  span.classList.add('line');
+//});
