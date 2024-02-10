@@ -144,3 +144,16 @@ body.dark .custom-tags li a:hover {
   display: inline;
   font-weight: 500;
 }
+
+/* コードブロック */
+pre {
+  padding: 0.1rem;
+  overflow-x: scroll;
+}
+/*
+:not(pre) > code {
+  background-color: #111;
+  color: #999;
+  padding: 0.1rem;
+}
+*/
