@@ -51,3 +51,21 @@ hljs.registerLanguage("yaml",function(){"use strict";return function(e){var n="t
   // 1つ目の<span>要素にclass="line"を追加
 //  span.classList.add('line');
 //});
+
+document.addEventListener('DOMContentLoaded', function() {
+  // 特定のクラスを持つすべての<code>要素を取得
+  var codeElements = document.querySelectorAll('code.language-Java.hljs[data-lang="Java"]');
+
+  // 各<code>要素に対して処理を行う
+  codeElements.forEach(function(codeElement) {
+      // 新しい<span>要素を作成
+      var spanElement = document.createElement('span');
+      spanElement.style.display = 'flex'; // flexスタイルを適用
+
+      // <span>要素に内容を追加する場合
+      // spanElement.textContent = "Span content"; // 例: <span>要素内にテキストを追加する場合
+
+      // <code>要素内に<span>要素を挿入
+      codeElement.appendChild(spanElement);
+  });
+});
