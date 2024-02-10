@@ -34,14 +34,15 @@ languages:
           name: タグ
           url: tags/
           weight: 10
-        - identifier: deliverables
-          name: 成果物
-          url: deliverables/
-          weight: 15
         - identifier: profile
           name: プロフィール
           url: others/profile
+          weight: 15
+        - identifier: github
+          name: GitHub
+          url: https://github.com/is0383kk
           weight: 20
+
 #  en:
 #    languageName: English
 #    weight: 2
@@ -98,7 +99,7 @@ params:
     # safari_pinned_tab: "safari-pinned-tab.svg"
 
   label:
-    text: "🏠 Home"
+    text: "🏠 よしをの備忘録"
     iconHeight: 35
 
   # profile-mode
@@ -148,5 +149,5 @@ markup:
     lineNos: true
     lineNumbersInTable: true
     noClasses: true
-    style: "monokai"
+    style: "vs2018"
     tabWidth: 4
