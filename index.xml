@@ -13,12 +13,12 @@
     <language>ja-jp</language>
     <lastBuildDate>Sun, 11 Feb 2024 01:07:09 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>【AWS】AMIの共有後、EC2インスタンスを起動するとステータスが即座に「終了済み」になった際の対応方法</title>
+      <title>【AWS】AMIの共有後、共有先AWSアカウントからEC2インスタンスを起動するとステータスが即座に「終了済み」になった際の対応方法</title>
       <link>https://is0383kk.github.io/posts/2024/01/index20240211/</link>
       <pubDate>Sun, 11 Feb 2024 01:07:09 +0900</pubDate>
       
       <guid>https://is0383kk.github.io/posts/2024/01/index20240211/</guid>
-      <description>はじめに 今回はAWSのお話で、AMIの共有時には以下2つの共有設定を行う必要があるといった内容です。 AMIに対して共有設定を行う AMIのEB</description>
+      <description>はじめに 今回はAWSのお話で、AMIの共有時には以下2つの共有設定を行う必要があるといった内容です。 AMIに対して共有設定を行う ※これだけ設</description>
     </item>
     
     <item>
