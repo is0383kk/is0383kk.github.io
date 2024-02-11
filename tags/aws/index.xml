@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AWS on よしをの備忘録</title>
+    <link>https://is0383kk.github.io/tags/aws/</link>
+    <description>Recent content in AWS on よしをの備忘録</description>
+    <image>
+      <title>よしをの備忘録</title>
+      <url>https://is0383kk.github.io/profile.jpg</url>
+      <link>https://is0383kk.github.io/profile.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 11 Feb 2024 01:07:09 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【AWS】AMIの共有後、EC2インスタンスを起動するとステータスが即座に「終了済み」になった際の対応方法</title>
+      <link>https://is0383kk.github.io/posts/2024/01/index20240211/</link>
+      <pubDate>Sun, 11 Feb 2024 01:07:09 +0900</pubDate>
+      
+      <guid>https://is0383kk.github.io/posts/2024/01/index20240211/</guid>
+      <description>はじめに 今回はAWSのお話で、AMIの共有時には以下2つの共有設定を行う必要があるといった内容です。 AMIに対して共有設定を行う AMIのEB</description>
+    </item>
+    
+  </channel>
+</rss>
