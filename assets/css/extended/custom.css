@@ -124,6 +124,11 @@ body.dark .custom-tags li a:hover {
   margin-right: 0.5em;
 }
 
+/* 記事内のdescriptionを非表示 */
+.post-header .post-description{
+ display: none; 
+}
+
 /* 表 */
 .dark .table-desc {
   background: var(--entry);
