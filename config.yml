@@ -68,8 +68,8 @@ languages:
 params:
   env: production # 本番環境
   title: "よしをの備忘録"
-  description: "よしをの備忘録"
-  keywords: [Yoshiwo, yoshiwo, is0383kk, IS0383KK, hugo, papermod]
+  description: "学んだ知識や技術をブログでアウトプットしています。プログラミング・AWS・データベースなど特定の技術分野に問わず幅広く発信しています。"
+  keywords: [Yoshiwo, yoshiwo, is0383kk, IS0383KK, hugo, papermod,技術ブログ]
   author: ["Yoshiwo"]
   images: ["profile.jpg"]
   DateFormat: "2006-01-02" # 日付フォーマット
