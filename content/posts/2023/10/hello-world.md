@@ -5,6 +5,10 @@ draft: false
 isCJKLanguage: true
 categories: ["非技術系"]
 tags: ["非技術系"]
+description : "はじめまして、よしをと申します。
+学んだ知識や技術をブログ記事で管理しています。
+詳しい経歴などは、https://is0383kk.github.io/others/profile/に書いてあります。"
+keywords: [is0383kk,IS0383KK,Yoshiwo,yoshiwo,YOSHIWO,技術ブログ]
 ---
 
 ---
