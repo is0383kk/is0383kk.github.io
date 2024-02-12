@@ -5,7 +5,7 @@ draft: false
 isCJKLanguage: true
 tags: ["技術系","AWS","EC2"]
 description: "この記事では、AWS（Amazon Web Services）でAMI（Amazon Machine Image）を共有した後に、共有先のAWSアカウントからEC2インスタンスを起動した際にステータスが即座に「終了済み」となる問題について解決策を探ります。AMIの共有や起動に関する手順や設定の確認、エラーの原因と解決方法について詳しく解説します。"
-keywords: [AWS,Amazon Web Services,AMI,Amazon Machine Image,EC2,共有,終了済み,エラー,解決方法,AWSアカウント,インスタンス,AMI共有]
+keywords: [is0383kk,yoshiwo,よしを,よしをの備忘録,AWS,Amazon Web Services,AMI,Amazon Machine Image,EC2,共有,終了済み,エラー,解決方法,AWSアカウント,インスタンス,AMI共有]
 ---
 
 ---

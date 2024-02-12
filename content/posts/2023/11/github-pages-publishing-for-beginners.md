@@ -5,7 +5,7 @@ draft: false
 isCJKLanguage: true
 tags: ["技術系","初学者向け","GitHub Pages","WEBページ"]
 description : "この記事では、GitHub Pagesを使用して無料でウェブページを公開する方法を紹介します。GitHub Pagesを使えば、独自のウェブサイトやブログを簡単に作成し、無料で公開することができます。手順を追って解説し、ウェブ開発の初歩から始めましょう。"
-keywords: [GitHub Pages,初心者,ウェブ開発,ウェブページ,公開,無料,ブログ,ウェブサイト,GitHub,ホスティング]
+keywords: [is0383kk,yoshiwo,よしを,よしをの備忘録,GitHub Pages,初心者,ウェブ開発,ウェブページ,公開,無料,ブログ,ウェブサイト,GitHub,ホスティング]
 ---
 
 ---
