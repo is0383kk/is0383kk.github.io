@@ -14,11 +14,11 @@
     <lastBuildDate>Sun, 11 Feb 2024 01:07:09 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【AWS】AMIの共有後、共有先AWSアカウントからEC2インスタンスを起動するとステータスが即座に「終了済み」になった際の対応方法</title>
-      <link>https://is0383kk.github.io/posts/2024/01/index20240211/</link>
+      <link>https://is0383kk.github.io/posts/2024/01/aws-ami-sharing-status-terminated-fix/</link>
       <pubDate>Sun, 11 Feb 2024 01:07:09 +0900</pubDate>
       
-      <guid>https://is0383kk.github.io/posts/2024/01/index20240211/</guid>
-      <description>はじめに 今回はAWSのお話で、AMIの共有時には以下2つの共有設定を行う必要があるといった内容です。 AMIに対して共有設定を行う ※これだけ設</description>
+      <guid>https://is0383kk.github.io/posts/2024/01/aws-ami-sharing-status-terminated-fix/</guid>
+      <description>この記事では、AWS（Amazon Web Services）でAMI（Amazon Machine Image）を共有した後に、共有先のAWSアカウントからEC2インスタンスを起動した際にステータスが即座に「終了済み」となる問題について解決策を探ります。AMIの共有や起動に関する手順や設定の確認、エラーの原因と解決方法について詳しく解説します。</description>
     </item>
     
   </channel>

@@ -14,47 +14,47 @@
     <lastBuildDate>Sun, 11 Feb 2024 01:07:09 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【AWS】AMIの共有後、共有先AWSアカウントからEC2インスタンスを起動するとステータスが即座に「終了済み」になった際の対応方法</title>
-      <link>https://is0383kk.github.io/posts/2024/01/index20240211/</link>
+      <link>https://is0383kk.github.io/posts/2024/01/aws-ami-sharing-status-terminated-fix/</link>
       <pubDate>Sun, 11 Feb 2024 01:07:09 +0900</pubDate>
       
-      <guid>https://is0383kk.github.io/posts/2024/01/index20240211/</guid>
-      <description>はじめに 今回はAWSのお話で、AMIの共有時には以下2つの共有設定を行う必要があるといった内容です。 AMIに対して共有設定を行う ※これだけ設</description>
+      <guid>https://is0383kk.github.io/posts/2024/01/aws-ami-sharing-status-terminated-fix/</guid>
+      <description>この記事では、AWS（Amazon Web Services）でAMI（Amazon Machine Image）を共有した後に、共有先のAWSアカウントからEC2インスタンスを起動した際にステータスが即座に「終了済み」となる問題について解決策を探ります。AMIの共有や起動に関する手順や設定の確認、エラーの原因と解決方法について詳しく解説します。</description>
     </item>
     
     <item>
       <title>【Java】条件に沿って記号英数字を含むランダムなパスワードを生成する</title>
-      <link>https://is0383kk.github.io/posts/2023/12/index20231205/</link>
+      <link>https://is0383kk.github.io/posts/2023/12/java-random-password-symbol-alphanumeric/</link>
       <pubDate>Tue, 05 Dec 2023 01:08:13 +0900</pubDate>
       
-      <guid>https://is0383kk.github.io/posts/2023/12/index20231205/</guid>
-      <description>はじめに 今回は条件に沿って記号英数字を含むランダムなパスワードを生成してみたいと思います。 具体的な条件は以下の通りです。 条件 コード上での表現</description>
+      <guid>https://is0383kk.github.io/posts/2023/12/java-random-password-symbol-alphanumeric/</guid>
+      <description>この記事では、Javaを使用して条件に基づいたランダムなパスワードを生成する方法を解説します。記号や英数字を含むセキュアなパスワードを簡単に作成するための手順を学びましょう。</description>
     </item>
     
     <item>
       <title>【初学者向け】GitHub Pagesを使って無料でWEBページを公開する</title>
-      <link>https://is0383kk.github.io/posts/2023/11/index20231128/</link>
+      <link>https://is0383kk.github.io/posts/2023/11/github-pages-publishing-for-beginners/</link>
       <pubDate>Tue, 28 Nov 2023 17:48:00 +0900</pubDate>
       
-      <guid>https://is0383kk.github.io/posts/2023/11/index20231128/</guid>
-      <description>はじめに 本記事では、GitHub Pagesを使った静的WEBページの作成方法を紹介します。 GitHubの機能の１つであるGitHub Page</description>
+      <guid>https://is0383kk.github.io/posts/2023/11/github-pages-publishing-for-beginners/</guid>
+      <description>この記事では、GitHub Pagesを使用して無料でウェブページを公開する方法を紹介します。GitHub Pagesを使えば、独自のウェブサイトやブログを簡単に作成し、無料で公開することができます。手順を追って解説し、ウェブ開発の初歩から始めましょう。</description>
     </item>
     
     <item>
       <title>分離レベルとそれに伴い発生する弊害について</title>
-      <link>https://is0383kk.github.io/posts/2023/11/index20231120/</link>
+      <link>https://is0383kk.github.io/posts/2023/11/separation-level-and-associated-disadvantages/</link>
       <pubDate>Mon, 20 Nov 2023 20:07:27 +0900</pubDate>
       
-      <guid>https://is0383kk.github.io/posts/2023/11/index20231120/</guid>
-      <description>はじめに 今回は分離レベルとそれに伴い発生する弊害のお話です。 本記事のゴール設定は以下の通りです。 分離レベルは4種類あることを理解する。 分離レ</description>
+      <guid>https://is0383kk.github.io/posts/2023/11/separation-level-and-associated-disadvantages/</guid>
+      <description>この記事では、データベースの分離レベルについて詳しく解説します。トランザクションの分離レベルやそれが引き起こす一貫性、並行性、パフォーマンスへの影響に焦点を当て、データベース設計や運用上の問題点を探求します。</description>
     </item>
     
     <item>
       <title>Hello World!!</title>
-      <link>https://is0383kk.github.io/posts/2023/10/post20231010/</link>
+      <link>https://is0383kk.github.io/posts/2023/10/hello-world/</link>
       <pubDate>Tue, 10 Oct 2023 22:32:41 +0900</pubDate>
       
-      <guid>https://is0383kk.github.io/posts/2023/10/post20231010/</guid>
-      <description>■ 自己紹介 はじめまして、よしをと申します。 現在は国内のIT企業に勤めています。 詳しい経歴などは、プロフィールに書いてあります。 ■ ブログのきっ</description>
+      <guid>https://is0383kk.github.io/posts/2023/10/hello-world/</guid>
+      <description>はじめまして、よしをと申します。 学んだ知識や技術をブログ記事で管理しています。 詳しい経歴などは、https://is0383kk.github.io/others/profile/に書いてあります。</description>
     </item>
     
   </channel>
