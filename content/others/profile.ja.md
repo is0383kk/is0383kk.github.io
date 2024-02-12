@@ -2,6 +2,7 @@
 title: "プロフィール"
 date: 2023-10-09T14:05:48+09:00
 draft: false
+keywords: [is0383kk,yoshiwo,よしを,よしをの備忘録]
 ---
 
 
