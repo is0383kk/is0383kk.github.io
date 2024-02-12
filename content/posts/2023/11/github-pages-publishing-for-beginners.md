@@ -4,6 +4,8 @@ date: 2023-11-28T17:48:00+09:00
 draft: false
 isCJKLanguage: true
 tags: ["技術系","初学者向け","GitHub Pages","WEBページ"]
+description : "この記事では、GitHub Pagesを使用して無料でウェブページを公開する方法を紹介します。GitHub Pagesを使えば、独自のウェブサイトやブログを簡単に作成し、無料で公開することができます。手順を追って解説し、ウェブ開発の初歩から始めましょう。"
+keywords: [GitHub Pages,初心者,ウェブ開発,ウェブページ,公開,無料,ブログ,ウェブサイト,GitHub,ホスティング]
 ---
 
 ---
@@ -15,7 +17,7 @@ GitHubの機能の１つであるGitHub Pagesを使うことで[このようなW
 
 {{< rawhtml >}}
 <div style="text-align: center">
-<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/8.png?raw=true' alt="" width="800px">
+<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/8.png?raw=true' alt="GitHub Pages公開手順" width="800px">
 </div>
 {{< /rawhtml >}}
   
@@ -66,7 +68,7 @@ GitHubの機能の１つであるGitHub Pagesを使うことで[このようなW
         <div class="inner">
           <h2 class="section-title">作った人</h2>
           <div class="content">
-            <img class="img" src="cat.png" alt="">
+            <img class="img" src="cat.png" alt="GitHub Pages公開手順">
             <div class="text">
               <p class="title">よしを</p>
               <p>猫と焼き肉が大好きなエンジニア１年生</p>
@@ -196,7 +198,7 @@ GitHubにログインし、下の画像の様に「＋」ボタンから「New r
 
 {{< rawhtml >}}
 <div style="text-align: center">
-<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/1.png?raw=true' alt="" width="600px">
+<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/1.png?raw=true' alt="GitHub Pages公開手順" width="600px">
 </div>
 {{< /rawhtml >}}
 
@@ -207,7 +209,7 @@ GitHubにログインし、下の画像の様に「＋」ボタンから「New r
 
 {{< rawhtml >}}
 <div style="text-align: center">
-<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/2.png?raw=true' alt="" width="900px">
+<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/2.png?raw=true' alt="GitHub Pages公開手順" width="900px">
 </div>
 {{< /rawhtml >}}
 
@@ -216,7 +218,7 @@ GitHubにログインし、下の画像の様に「＋」ボタンから「New r
 次のような画面になるので、「uploading an existing file」をクリックします。  
 {{< rawhtml >}}
 <div style="text-align: center">
-<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/3.png?raw=true' alt="" width="900px">
+<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/3.png?raw=true' alt="GitHub Pages公開手順" width="900px">
 </div>
 {{< /rawhtml >}}
 
@@ -227,7 +229,7 @@ GitHubにログインし、下の画像の様に「＋」ボタンから「New r
 
 {{< rawhtml >}}
 <div style="text-align: center">
-<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/4.png?raw=true' alt="" width="800px">
+<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/4.png?raw=true' alt="GitHub Pages公開手順" width="800px">
 </div>
 {{< /rawhtml >}}
 
@@ -235,7 +237,7 @@ GitHubにログインし、下の画像の様に「＋」ボタンから「New r
 アップロードされていることを確認する。
 {{< rawhtml >}}
 <div style="text-align: center">
-<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/5.png?raw=true' alt="" width="800px">
+<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/5.png?raw=true' alt="GitHub Pages公開手順" width="800px">
 </div>
 {{< /rawhtml >}}
 
@@ -246,7 +248,7 @@ GitHubにログインし、下の画像の様に「＋」ボタンから「New r
 
 {{< rawhtml >}}
 <div style="text-align: center">
-<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/6.png?raw=true' alt="" width="800px">
+<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/6.png?raw=true' alt="GitHub Pages公開手順" width="800px">
 </div>
 {{< /rawhtml >}}
 
@@ -259,7 +261,7 @@ WEBページを公開する準備ができたので、GitHub Pagesの設定を�
 
 {{< rawhtml >}}
 <div style="text-align: center">
-<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/7.png?raw=true' alt="" width="900px">
+<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/7.png?raw=true' alt="GitHub Pages公開手順" width="900px">
 </div>
 {{< /rawhtml >}}
 
@@ -276,6 +278,6 @@ WEBページを公開する準備ができたので、GitHub Pagesの設定を�
 
 {{< rawhtml >}}
 <div style="text-align: center">
-<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/9.png?raw=true' alt="" width="900px">
+<img src='https://github.com/is0383kk/GitHub-Pages-Tutorial/blob/main/img/9.png?raw=true' alt="GitHub Pages公開手順" width="900px">
 </div>
 {{< /rawhtml >}}
