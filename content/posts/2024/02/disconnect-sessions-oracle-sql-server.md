@@ -4,7 +4,8 @@ date: 2024-02-19T10:25:13+09:00
 draft: false
 isCJKLanguage: true
 tags: ["技術系","データベース"]
-description : "この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。データベース管理者がセッションを管理し、不要なセッションを効率的に切断する手順を紹介します。セッションの一覧や終了方法に関するSQLクエリも提供します。"
+description : "この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。
+また、RDSでOracleを利用している場合に「ORA-01031: 権限が不足しています」と表示されセッションが切断できない場合の対処法を紹介します。"
 keywords: [is0383kk,yoshiwo,よしを,よしをの備忘録,Oracle, SQL Server, セッション, 切断, データベース管理, セッション管理, SQLクエリ, コマンド, データベース運用]
 ---
 
@@ -24,6 +25,7 @@ WHERE login_name LIKE '任意のユーザ名%';
 EXEC sp_executesql @KillCmd;
 {{< /highlight >}}
 
+### ORA-01031: 権限が不足しています と表示される場合
 ```
 ORA-01031: 権限が不足しています
 ORA-06512: 行8
