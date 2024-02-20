@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 11 Feb 2024 01:07:09 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Feb 2024 10:25:13 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【データベース】Oracle・SQLServerのセッションをまとめて切断する方法</title>
+      <link>https://is0383kk.github.io/posts/2024/02/disconnect-sessions-oracle-sql-server/</link>
+      <pubDate>Mon, 19 Feb 2024 10:25:13 +0900</pubDate>
+      
+      <guid>https://is0383kk.github.io/posts/2024/02/disconnect-sessions-oracle-sql-server/</guid>
+      <description>この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。データベース管理者がセッションを管理し、不要なセッションを効率的に切断する手順を紹介します。セッションの一覧や終了方法に関するSQLクエリも提供します。</description>
+    </item>
+    
     <item>
       <title>【AWS】AMIの共有後、共有先AWSアカウントからEC2インスタンスを起動するとステータスが即座に「終了済み」になった際の対応方法</title>
       <link>https://is0383kk.github.io/posts/2024/01/aws-ami-sharing-status-terminated-fix/</link>
