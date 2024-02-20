@@ -5,7 +5,7 @@
 <meta name=robots content="index, follow">
 <title>【データベース】Oracle・SQLServerのセッションをまとめて切断する方法 | よしをの備忘録</title>
 <meta name=keywords content="is0383kk,yoshiwo,よしを,よしをの備忘録,Oracle,SQL Server,セッション,切断,データベース管理,セッション管理,SQLクエリ,コマンド,データベース運用">
-<meta name=description content="この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。データベース管理者がセッションを管理し、不要なセッションを効率的に切断する手順を紹介します。セッションの一覧や終了方法に関するSQLクエリも提供します。">
+<meta name=description content="この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。 また、RDSでOracleを利用している場合に「ORA-01031: 権限が不足しています」と表示されセッションが切断できない場合の対処法を紹介します。">
 <meta name=author content="Yoshiwo">
 <link rel=canonical href=https://is0383kk.github.io/posts/2024/02/disconnect-sessions-oracle-sql-server/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.c7fd79c9d960ddad8c89227d4b37b9e2d6e4d2a4594100b28152ad66ad3c7d8b.css integrity="sha256-x/15ydlg3a2MiSJ9Sze54tbk0qRZQQCygVKtZq08fYs=" rel="preload stylesheet" as=style>
@@ -22,17 +22,17 @@
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
 </noscript><meta property="og:title" content="【データベース】Oracle・SQLServerのセッションをまとめて切断する方法">
-<meta property="og:description" content="この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。データベース管理者がセッションを管理し、不要なセッションを効率的に切断する手順を紹介します。セッションの一覧や終了方法に関するSQLクエリも提供します。">
+<meta property="og:description" content="この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。 また、RDSでOracleを利用している場合に「ORA-01031: 権限が不足しています」と表示されセッションが切断できない場合の対処法を紹介します。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://is0383kk.github.io/posts/2024/02/disconnect-sessions-oracle-sql-server/"><meta property="og:image" content="https://is0383kk.github.io/profile.jpg"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2024-02-19T10:25:13+09:00">
-<meta property="article:modified_time" content="2024-02-20T22:57:08+09:00"><meta property="og:site_name" content="よしをの備忘録">
+<meta property="article:modified_time" content="2024-02-20T23:00:47+09:00"><meta property="og:site_name" content="よしをの備忘録">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://is0383kk.github.io/profile.jpg">
 <meta name=twitter:title content="【データベース】Oracle・SQLServerのセッションをまとめて切断する方法">
-<meta name=twitter:description content="この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。データベース管理者がセッションを管理し、不要なセッションを効率的に切断する手順を紹介します。セッションの一覧や終了方法に関するSQLクエリも提供します。">
+<meta name=twitter:description content="この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。 また、RDSでOracleを利用している場合に「ORA-01031: 権限が不足しています」と表示されセッションが切断できない場合の対処法を紹介します。">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://is0383kk.github.io/posts/"},{"@type":"ListItem","position":2,"name":"【データベース】Oracle・SQLServerのセッションをまとめて切断する方法","item":"https://is0383kk.github.io/posts/2024/02/disconnect-sessions-oracle-sql-server/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"【データベース】Oracle・SQLServerのセッションをまとめて切断する方法","name":"【データベース】Oracle・SQLServerのセッションをまとめて切断する方法","description":"この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。データベース管理者がセッションを管理し、不要なセッションを効率的に切断する手順を紹介します。セッションの一覧や終了方法に関するSQLクエリも提供します。","keywords":["is0383kk","yoshiwo","よしを","よしをの備忘録","Oracle","SQL Server","セッション","切断","データベース管理","セッション管理","SQLクエリ","コマンド","データベース運用"],"articleBody":" はじめに 今回はOracle・SQLServerにおいて、セッションをまとめて切断する方法について紹介します。\n特にRDSでOracleを利用している場合、ユーザの削除・セッションの削除ができなくなることがあります。\n■ Oracleでセッションをまとめて切断する 1 2 3 4 5  DECLARE @KillCmd NVARCHAR(MAX) = N''; SELECT @KillCmd = @KillCmd + 'KILL ' + CAST(session_id AS NVARCHAR(10)) + '; ' FROM sys.dm_exec_sessions WHERE login_name LIKE '任意のユーザ名%'; EXEC sp_executesql @KillCmd;   ORA-01031: 権限が不足しています ORA-06512: 行8 ORA-06512: 行8 01031. 00000 - \"insufficient privileges\" *Cause: An attempt was made to perform a database operation without the necessary privileges. *Action: Ask your database administrator or designated security administrator to grant you the necessary privileges 1 2 3 4 5 6 7 8 9  DECLARE CURSOR c_sessions IS SELECT sid, serial# FROM v$session WHERE username LIKE '任意のユーザ名%'; BEGIN FOR sess IN c_sessions LOOP rdsadmin.rdsadmin_util.kill(sess.sid, sess.serial#); END LOOP; END;   ■ SQLServerでセッションをまとめて切断する 1 2 3 4 5 6 7 8 9 10  DECLARE CURSOR c_sessions IS SELECT sid, serial# FROM v$session WHERE username LIKE '任意のユーザ名%'; BEGIN FOR sess IN c_sessions LOOP EXECUTE IMMEDIATE 'ALTER SYSTEM KILL SESSION ''' || sess.sid || ',' || sess.serial# || ''''; END LOOP; END;   ","wordCount":"371","inLanguage":"ja","datePublished":"2024-02-19T10:25:13+09:00","dateModified":"2024-02-20T22:57:08+09:00","author":[{"@type":"Person","name":"Yoshiwo"}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://is0383kk.github.io/posts/2024/02/disconnect-sessions-oracle-sql-server/"},"publisher":{"@type":"Organization","name":"よしをの備忘録","logo":{"@type":"ImageObject","url":"https://is0383kk.github.io/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"【データベース】Oracle・SQLServerのセッションをまとめて切断する方法","name":"【データベース】Oracle・SQLServerのセッションをまとめて切断する方法","description":"この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。 また、RDSでOracleを利用している場合に「ORA-01031: 権限が不足しています」と表示されセッションが切断できない場合の対処法を紹介します。","keywords":["is0383kk","yoshiwo","よしを","よしをの備忘録","Oracle","SQL Server","セッション","切断","データベース管理","セッション管理","SQLクエリ","コマンド","データベース運用"],"articleBody":" はじめに 今回はOracle・SQLServerにおいて、セッションをまとめて切断する方法について紹介します。\n特にRDSでOracleを利用している場合、ユーザの削除・セッションの削除ができなくなることがあります。\n■ Oracleでセッションをまとめて切断する 1 2 3 4 5  DECLARE @KillCmd NVARCHAR(MAX) = N''; SELECT @KillCmd = @KillCmd + 'KILL ' + CAST(session_id AS NVARCHAR(10)) + '; ' FROM sys.dm_exec_sessions WHERE login_name LIKE '任意のユーザ名%'; EXEC sp_executesql @KillCmd;   ORA-01031: 権限が不足しています と表示される場合 ORA-01031: 権限が不足しています ORA-06512: 行8 ORA-06512: 行8 01031. 00000 - \"insufficient privileges\" *Cause: An attempt was made to perform a database operation without the necessary privileges. *Action: Ask your database administrator or designated security administrator to grant you the necessary privileges 1 2 3 4 5 6 7 8 9  DECLARE CURSOR c_sessions IS SELECT sid, serial# FROM v$session WHERE username LIKE '任意のユーザ名%'; BEGIN FOR sess IN c_sessions LOOP rdsadmin.rdsadmin_util.kill(sess.sid, sess.serial#); END LOOP; END;   ■ SQLServerでセッションをまとめて切断する 1 2 3 4 5 6 7 8 9 10  DECLARE CURSOR c_sessions IS SELECT sid, serial# FROM v$session WHERE username LIKE '任意のユーザ名%'; BEGIN FOR sess IN c_sessions LOOP EXECUTE IMMEDIATE 'ALTER SYSTEM KILL SESSION ''' || sess.sid || ',' || sess.serial# || ''''; END LOOP; END;   ","wordCount":"390","inLanguage":"ja","datePublished":"2024-02-19T10:25:13+09:00","dateModified":"2024-02-20T23:00:47+09:00","author":[{"@type":"Person","name":"Yoshiwo"}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://is0383kk.github.io/posts/2024/02/disconnect-sessions-oracle-sql-server/"},"publisher":{"@type":"Organization","name":"よしをの備忘録","logo":{"@type":"ImageObject","url":"https://is0383kk.github.io/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -77,7 +77,7 @@
 【データベース】Oracle・SQLServerのセッションをまとめて切断する方法
 </h1>
 <div class=post-description>
-この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。データベース管理者がセッションを管理し、不要なセッションを効率的に切断する手順を紹介します。セッションの一覧や終了方法に関するSQLクエリも提供します。
+この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。 また、RDSでOracleを利用している場合に「ORA-01031: 権限が不足しています」と表示されセッションが切断できない場合の対処法を紹介します。
 </div>
 <div class=post-meta><span title="2024-02-19 10:25:13 +0900 +0900">2024-02-19</span>&nbsp;|&nbsp;著者&nbsp;Yoshiwo
 <ul class=custom-tags><li><a href=/tags/%E6%8A%80%E8%A1%93%E7%B3%BB>技術系</a><li><a href=/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9>データベース</a></ul>
@@ -102,7 +102,10 @@
 <li>
 <a href=#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab aria-label=はじめに>はじめに</a></li>
 <li>
-<a href=#-oracle%e3%81%a7%e3%82%bb%e3%83%83%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e3%81%be%e3%81%a8%e3%82%81%e3%81%a6%e5%88%87%e6%96%ad%e3%81%99%e3%82%8b aria-label="■ Oracleでセッションをまとめて切断する">■ Oracleでセッションをまとめて切断する</a></li>
+<a href=#-oracle%e3%81%a7%e3%82%bb%e3%83%83%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e3%81%be%e3%81%a8%e3%82%81%e3%81%a6%e5%88%87%e6%96%ad%e3%81%99%e3%82%8b aria-label="■ Oracleでセッションをまとめて切断する">■ Oracleでセッションをまとめて切断する</a><ul>
+<li>
+<a href=#ora-01031-%e6%a8%a9%e9%99%90%e3%81%8c%e4%b8%8d%e8%b6%b3%e3%81%97%e3%81%a6%e3%81%84%e3%81%be%e3%81%99-%e3%81%a8%e8%a1%a8%e7%a4%ba%e3%81%95%e3%82%8c%e3%82%8b%e5%a0%b4%e5%90%88 aria-label="ORA-01031: 権限が不足しています と表示される場合">ORA-01031: 権限が不足しています と表示される場合</a></li></ul>
+</li>
 <li>
 <a href=#-sqlserver%e3%81%a7%e3%82%bb%e3%83%83%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e3%81%be%e3%81%a8%e3%82%81%e3%81%a6%e5%88%87%e6%96%ad%e3%81%99%e3%82%8b aria-label="■ SQLServerでセッションをまとめて切断する">■ SQLServerでセッションをまとめて切断する</a>
 </li>
@@ -131,6 +134,7 @@
 <span style=color:#fff;font-weight:700>EXEC</span> sp_executesql @KillCmd;</code></pre></td></tr></table>
 </div>
 </div>
+<h3 id=ora-01031-権限が不足しています-と表示される場合>ORA-01031: 権限が不足しています と表示される場合<a hidden class=anchor aria-hidden=true href=#ora-01031-権限が不足しています-と表示される場合>#</a></h3>
 <pre tabindex=0><code>ORA-01031: 権限が不足しています
 ORA-06512: 行8
 ORA-06512: 行8
