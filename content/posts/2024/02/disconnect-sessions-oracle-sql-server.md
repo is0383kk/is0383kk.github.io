@@ -1,7 +1,7 @@
 ---
 title: "【データベース】Oracle・SQLServerのセッションをまとめて切断する方法"
 date: 2024-02-19T10:25:13+09:00
-draft: false
+draft: true
 isCJKLanguage: true
 tags: ["技術系","データベース"]
 description : "この記事では、OracleおよびSQLServerデータベースでセッションをまとめて切断する方法について解説します。
