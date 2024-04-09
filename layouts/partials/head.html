@@ -12,8 +12,10 @@
 
 {{- /* Meta */}}
 {{- if .IsHome }}
+{{ with site.Params.keywords -}}
+<meta name="keywords" content="{{- range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">
 <meta name="google-site-verification" content="reoxahAWqA8HwAVgrrzP_3R_SmRX9QiHHjBNVLN_eVk" />
-{{ with site.Params.keywords -}}<meta name="keywords" content="{{- range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">{{ end }}
+{{ end }}
 {{- else }}
 <meta name="keywords" content="{{ if .Params.keywords -}}
     {{- range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- else }}
