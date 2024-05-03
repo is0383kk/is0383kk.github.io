@@ -68,6 +68,8 @@ languages:
 params:
   env: production # 本番環境
   googleAnalyticsID: G-BVFKPQD550
+  google_verify: reoxahAWqA8HwAVgrrzP_3R_SmRX9QiHHjBNVLN_eVk
+  google-site-verification: reoxahAWqA8HwAVgrrzP_3R_SmRX9QiHHjBNVLN_eVk
   title: "よしをの備忘録"
   description: "学んだ知識や技術をブログでアウトプットしています。プログラミング・AWS・データベースなど特定の技術分野に問わず幅広く発信しています。"
   keywords: [Yoshiwo, yoshiwo, is0383kk, IS0383KK, hugo, papermod,技術ブログ]
