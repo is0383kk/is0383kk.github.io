@@ -1,7 +1,4 @@
 User-agent: *
-{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-Disallow:
-{{- else }}
-Disallow: /
-{{- end }}
-Sitemap: {{ "sitemap.xml" | absURL }}
+Disallow: /categories/
+Disallow: /tags/
+Sitemap: https://is0383kk.github.io/sitemap.xml
