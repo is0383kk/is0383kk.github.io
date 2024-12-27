@@ -5,7 +5,7 @@ draft: false
 ---
 
 {{< rawhtml >}} 
-<font size="5"><b>Yoshiwo🐈</b></font>
+<font size="5"><b>Yoshiwo🐈 </b></font>
 {{< /rawhtml >}}
 
 {{< figure src="/profile.jpg" width="250" >}}
