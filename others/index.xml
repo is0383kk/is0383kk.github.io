@@ -38,7 +38,7 @@ After graduation, worked in application development for a Japanese company.&lt;b
       
       <guid>https://is0383kk.github.io/others/profile/</guid>
       <description>&lt;hr&gt;
- 
+
 &lt;font size=&#34;5&#34;&gt;&lt;b&gt;Yoshiwo🐈&lt;/b&gt;&lt;/font&gt;
 
 &lt;figure&gt;
@@ -46,136 +46,22 @@ After graduation, worked in application development for a Japanese company.&lt;b
          alt=&#34;プロフィール画像&#34; width=&#34;250&#34;/&gt; 
 &lt;/figure&gt;
 
-&lt;p&gt; 
 &lt;p&gt;
-&lt;span id=&#34;age&#34;&gt;&lt;/span&gt;歳社会人エンジニア（&lt;span id=&#34;currentYear&#34;&gt;&lt;/span&gt;年時点）&lt;br&gt;
+
+&lt;p&gt;
+&lt;span id=&#34;age&#34;&gt;&lt;/span&gt;歳社会人エンジニア（社会人&lt;span id=&#34;year&#34;&gt;&lt;/span&gt;年目）&lt;br&gt;
 学生時代はロボット競技/機械学習（生成モデル）の研究に取り組む。&lt;br&gt;
 卒業後は日系IT企業でアプリケーション基盤の開発に携わる。&lt;br&gt;
-趣味で作ったものを&lt;a href=&#34;https://github.com/is0383kk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer me&#34; title=&#34;GitHub&#34;&gt;GitHub&lt;/a&gt;上に公開している。
-&lt;/p&gt; 
+趣味で作ったものを&lt;a href=&#34;https://github.com/is0383kk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer me&#34; title=&#34;GitHub&#34;&gt;GitHub&lt;/a&gt;上に公開したり、&lt;a href=&#34;https://zenn.dev/is0383kk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer me&#34; title=&#34;Zenn&#34;&gt;技術ブログ&lt;/a&gt;を執筆したりしている。
+ &lt;img alt=&#34;stat&#34; height=&#34;170px&#34; src=&#34;https://github-readme-stats.vercel.app/api?username=is0383kk&amp;count_private=true&amp;theme=dracula&amp;show_icons=true&#34; /&gt;
+&lt;/p&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    document.getElementById(&#39;currentYear&#39;).textContent = new Date().getFullYear();
+    document.getElementById(&#39;year&#39;).textContent = new Date().getFullYear() - 2021;
     document.getElementById(&#34;age&#34;).innerHTML = new Date().getFullYear() - 1998;
 &lt;/script&gt;
 
 連絡先：is0383kk[at]gmail.com&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-スキル経験&#34;&gt;■ スキル/経験&lt;/h2&gt;
- 
-&lt;div class=&#34;card&#34;&gt;
-    &lt;div class=&#34;skill-desc&#34;&gt;
-        &lt;h3 class=&#34;skill-desc-title&#34;&gt;インフラ関連&lt;/h3&gt;
-        &lt;details open&gt;
-        &lt;summary accesskey=&#34;c&#34; title=&#34;(Alt + C)&#34;&gt;
-            &lt;span class=&#34;details&#34;&gt;スキル詳細（クリックで展開する）&lt;/span&gt;
-        &lt;/summary&gt;
-            &lt;div class=&#34;details-desc&#34;&gt;
-            &lt;h4 class=&#34;table-title&#34;&gt;Linux・AWSを使ったサーバ構築経験があります。&lt;/h4&gt;
-            &lt;table class=&#34;table-desc&#34; &gt;
-                &lt;thead&gt;
-                    &lt;tr&gt;
-                        &lt;th scope=&#34;col&#34;&gt;&lt;font size=&#34;4&#34;&gt;要素技術&lt;/font&gt;&lt;/th&gt;
-                        &lt;th scope=&#34;col&#34;&gt;&lt;font size=&#34;4&#34;&gt;経験年数&lt;/font&gt;&lt;/th&gt;
-                        &lt;th scope=&#34;col&#34;&gt;&lt;font size=&#34;4&#34;&gt;内容&lt;/font&gt;&lt;/th&gt;
-                    &lt;/tr&gt;
-                &lt;/thead&gt;
-                &lt;tbody&gt;
-                    &lt;tr&gt;
-                        &lt;th scope=&#34;row&#34;&gt;Linux&lt;/th&gt;
-                        &lt;td&gt;6年&lt;/td&gt;
-                        &lt;td&gt;
-                        機械学習用インフラ、アプリケーションインフラ構築に使用 &lt;br&gt;
-                        Apache/Tomcat
-                        &lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;th scope=&#34;row&#34;&gt;AWS&lt;/th&gt;
-                        &lt;td&gt;2年&lt;/td&gt;
-                        &lt;td&gt;
-                        EC2インスタンス上へのアプリケーションサーバ構築に使用 &lt;br&gt;
-                        EC2/AMI/RDS/Route53
-                        &lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/tbody&gt;
-            &lt;/table&gt;
-            &lt;/div&gt;
-        &lt;/details&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;card&#34;&gt;
-    &lt;div class=&#34;skill-desc&#34;&gt;
-        &lt;h3 class=&#34;skill-desc-title&#34;&gt;アプリケーション関連&lt;/h3&gt;
-        &lt;details&gt;
-        &lt;summary accesskey=&#34;c&#34; title=&#34;(Alt + C)&#34;&gt;
-            &lt;span class=&#34;details&#34;&gt;スキル詳細（クリックで展開する）&lt;/span&gt;
-        &lt;/summary&gt;
-            &lt;h4 class=&#34;table-title&#34;&gt;Spring Framework(boot)を使った開発経験があります。&lt;/h4&gt;
-            &lt;table class=&#34;table-desc&#34;&gt;
-                &lt;thead&gt;
-                &lt;tr&gt;
-                &lt;th scope=&#34;col&#34;&gt;&lt;font size=&#34;4&#34;&gt;要素技術&lt;/font&gt;&lt;/th&gt;
-                &lt;th scope=&#34;col&#34;&gt;&lt;font size=&#34;4&#34;&gt;経験年数&lt;/font&gt;&lt;/th&gt;
-                &lt;th scope=&#34;col&#34;&gt;&lt;font size=&#34;4&#34;&gt;内容&lt;/font&gt;&lt;/th&gt;
-                &lt;/tr&gt;
-                &lt;/thead&gt;
-                &lt;tbody&gt;
-                &lt;tr&gt;
-                &lt;th scope=&#34;row&#34;&gt;Spring Framework&lt;/th&gt;
-                &lt;td&gt;2年&lt;/td&gt;
-                &lt;td&gt;
-                アプリケーション開発に使用。&lt;br&gt;
-                Spring MVC/Spring Security/Thymeleaf
-                &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th scope=&#34;row&#34;&gt;Java&lt;/th&gt;
-                    &lt;td&gt;2年&lt;/td&gt;
-                    &lt;td&gt;バックエンド側の開発に使用。&lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;/tbody&gt;
-            &lt;/table&gt;
-        &lt;/details&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;card&#34;&gt;
-    &lt;div class=&#34;skill-desc&#34;&gt;
-        &lt;h3 class=&#34;skill-desc-title&#34;&gt;機械学習関連&lt;/h3&gt;
-        &lt;details&gt;
-        &lt;summary accesskey=&#34;c&#34; title=&#34;(Alt + C)&#34;&gt;
-            &lt;span class=&#34;details&#34;&gt;スキル詳細（クリックで展開する）&lt;/span&gt;
-        &lt;/summary&gt;
-        &lt;h4 class=&#34;table-title&#34;&gt;PyTorchを用いた機械学習モデルの構築経験があります。&lt;/h4&gt;
-            &lt;table class=&#34;table-desc&#34;&gt;
-                &lt;thead&gt;
-                &lt;tr&gt;
-                    &lt;th scope=&#34;col&#34;&gt;&lt;font size=&#34;4&#34;&gt;要素技術&lt;/font&gt;&lt;/th&gt;
-                    &lt;th scope=&#34;col&#34;&gt;&lt;font size=&#34;4&#34;&gt;経験年数&lt;/font&gt;&lt;/th&gt;
-                    &lt;th scope=&#34;col&#34;&gt;&lt;font size=&#34;4&#34;&gt;内容&lt;/font&gt;&lt;/th&gt;
-                &lt;/tr&gt;
-                &lt;/thead&gt;
-                &lt;tbody&gt;
-                &lt;tr&gt;
-                    &lt;th scope=&#34;row&#34;&gt;PyTorch&lt;/th&gt;
-                    &lt;td&gt;3年&lt;/td&gt;
-                    &lt;td&gt;機械学習モデルの構築に使用。&lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th scope=&#34;row&#34;&gt;Python&lt;/th&gt;
-                    &lt;td&gt;4年&lt;/td&gt;
-                    &lt;td&gt;
-                    趣味の開発や機械学習モデルの構築に使用。&lt;br&gt;
-                    Numpy/Pandas/Scipy
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;/tbody&gt;
-            &lt;/table&gt;
-        &lt;/details&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
 &lt;h2 id=&#34;-経歴&#34;&gt;■ 経歴&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -187,19 +73,19 @@ After graduation, worked in application development for a Japanese company.&lt;b
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;2022.04 -&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;某IT企業に就職&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;日系 IT 企業に就職&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;2020.04 - 2022.03&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;立命館大学 情報理工学研究科 情報理工学専攻 修士課程 (&lt;a href=&#34;http://www.em.ci.ritsumei.ac.jp/jp/&#34;&gt;谷口忠大研究室&lt;/a&gt;)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;某関西私立大学 情報系研究科 修士課程 （谷口忠大研究室)&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;2016.04 - 2020.03&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;立命館大学 情報理工学部 知能情報学科&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;某関西私立大学 情報系学部&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;-受賞歴論文投稿など&#34;&gt;■ 受賞歴/論文投稿など&lt;/h2&gt;
+&lt;h2 id=&#34;-受賞歴論文投稿登壇など&#34;&gt;■ 受賞歴／論文投稿／登壇など&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -217,42 +103,61 @@ After graduation, worked in application development for a Japanese company.&lt;b
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;2022&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;国内会議&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;第36回人工知能学会 -  &lt;a href=&#34;https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_3L3GS802/_article/-char/ja/&#34;&gt;変分オートエンコーダを活用した実画像からの記号創発&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;第 36 回人工知能学会 - &lt;a href=&#34;https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_3L3GS802/_article/-char/ja/&#34;&gt;変分オートエンコーダを活用した実画像からの記号創発&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;2020&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;国内会議&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;第34回人工知能学会 -  &lt;a href=&#34;https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1Q3GS1101/_article/-char/ja/&#34;&gt;マルチモーダル変分オートエンコーダを用いた実物体のカテゴリ形成&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;第 34 回人工知能学会 - &lt;a href=&#34;https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1Q3GS1101/_article/-char/ja/&#34;&gt;マルチモーダル変分オートエンコーダを用いた実物体のカテゴリ形成&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;2019&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;受賞歴&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;ロボカップ 2019 @Home部門 世界大会 - 準優勝&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ロボカップ 2019 @Home 部門 世界大会 - 準優勝&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;2019&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;受賞歴&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;ロボカップ 2019 @Home部門 国内大会 - 準優勝&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ロボカップ 2019 @Home 部門 国内大会 - 準優勝&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;2018&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;受賞歴&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;経済産業省主催 World Robot Summit 2018 Real space部門 - 準優勝&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;経済産業省主催 World Robot Summit 2018 Real space 部門 - 準優勝&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;2018&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;受賞歴&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;経済産業省主催 World Robot Summit 2018 Virtual space部門 - 3位&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;経済産業省主催 World Robot Summit 2018 Virtual space 部門 - 3 位&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;2018&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;受賞歴&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;ロボカップ 2018 @Home部門 世界大会 - 3位&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ロボカップ 2018 @Home 部門 世界大会 - 3 位&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;2018&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;受賞歴&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;ロボカップ 2018 @Home部門 国内大会 - 3位&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ロボカップ 2018 @Home 部門 国内大会 - 3 位&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;-資格&#34;&gt;■ 資格&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;資格名&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;取得年度&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;基本情報技術者&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2022&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Certified ScrumMaster（認定スクラムマスター）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2023&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</description>
