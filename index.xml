@@ -59,25 +59,6 @@
     
     <item>
       <title>プロフィール</title>
-      <link>https://is0383kk.github.io/others/profile.en/</link>
-      <pubDate>Mon, 09 Oct 2023 14:05:48 +0900</pubDate>
-      
-      <guid>https://is0383kk.github.io/others/profile.en/</guid>
-      <description>&lt;font size=&#34;5&#34;&gt;&lt;b&gt;Yoshiwo🐈 &lt;/b&gt;&lt;/font&gt;
-
-&lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;https://is0383kk.github.io/profile.jpg&#34; width=&#34;250&#34;/&gt; 
-&lt;/figure&gt;
-
- 
-&lt;p&gt;
-As a student, worked on robot competitions/machine learning (generative model).&lt;br&gt;
-After graduation, worked in application development for a Japanese company.&lt;br&gt;
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>プロフィール</title>
       <link>https://is0383kk.github.io/others/profile/</link>
       <pubDate>Mon, 09 Oct 2023 14:05:48 +0900</pubDate>
       
@@ -107,7 +88,7 @@ After graduation, worked in application development for a Japanese company.&lt;b
 
 連絡先：is0383kk[at]gmail.com&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-経歴&#34;&gt;■ 経歴&lt;/h2&gt;
+&lt;h2 id=&#34;-学歴&#34;&gt;■ 学歴&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -206,6 +187,15 @@ After graduation, worked in application development for a Japanese company.&lt;b
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://is0383kk.github.io/others/career/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://is0383kk.github.io/others/career/</guid>
+      <description>&lt;p&gt;作成中&lt;/p&gt;</description>
     </item>
     
   </channel>
