@@ -2,27 +2,28 @@
 title: "プロフィール"
 date: 2023-10-09T14:05:48+09:00
 draft: false
-keywords: [is0383kk,yoshiwo,よしを,よしをの備忘録]
+keywords: [is0383kk, yoshiwo, よしを, よしをの備忘録]
 ---
 
-
 ---
 
-{{< rawhtml >}} 
+{{< rawhtml >}}
 <font size="5"><b>Yoshiwo🐈</b></font>
 {{< /rawhtml >}}
 
 {{< figure src="/profile.jpg" alt="プロフィール画像" width="250" >}}
 
-{{< rawhtml >}} 
+{{< rawhtml >}}
+
 <p>
-<span id="age"></span>歳社会人エンジニア（<span id="currentYear"></span>年時点）<br>
+<span id="age"></span>歳社会人エンジニア（社会人<span id="year"></span>年目）<br>
 学生時代はロボット競技/機械学習（生成モデル）の研究に取り組む。<br>
 卒業後は日系IT企業でアプリケーション基盤の開発に携わる。<br>
-趣味で作ったものを<a href="https://github.com/is0383kk" target="_blank" rel="noopener noreferrer me" title="GitHub">GitHub</a>上に公開している。
-</p> 
+趣味で作ったものを<a href="https://github.com/is0383kk" target="_blank" rel="noopener noreferrer me" title="GitHub">GitHub</a>上に公開したり、<a href="https://zenn.dev/is0383kk" target="_blank" rel="noopener noreferrer me" title="Zenn">技術ブログ</a>を執筆したりしている。
+ <img alt="stat" height="170px" src="https://github-readme-stats.vercel.app/api?username=is0383kk&count_private=true&theme=dracula&show_icons=true" />
+</p>
 <script type="text/javascript">
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
+    document.getElementById('year').textContent = new Date().getFullYear() - 2021;
     document.getElementById("age").innerHTML = new Date().getFullYear() - 1998;
 </script>
 {{< /rawhtml >}}
@@ -30,9 +31,10 @@ keywords: [is0383kk,yoshiwo,よしを,よしをの備忘録]
 
 ---
 
-## ■ スキル/経験
+<!-- ## ■ スキル/経験
 
-{{< rawhtml >}} 
+{{< rawhtml >}}
+
 <div class="card">
     <div class="skill-desc">
         <h3 class="skill-desc-title">インフラ関連</h3>
@@ -110,7 +112,6 @@ keywords: [is0383kk,yoshiwo,よしを,よしをの備忘録]
     </div>
 </div>
 
-
 <div class="card">
     <div class="skill-desc">
         <h3 class="skill-desc-title">機械学習関連</h3>
@@ -146,27 +147,33 @@ keywords: [is0383kk,yoshiwo,よしを,よしをの備忘録]
         </details>
     </div>
 </div>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 ## ■ 経歴
 
-|                   |                                                                                                           |
-| :---------------- | :--------------------------------------------------------------------------------------------------------  |
-| 2022.04 -         | 某IT企業に就職 |
-| 2020.04 - 2022.03 | 立命館大学 情報理工学研究科 情報理工学専攻 修士課程 ([谷口忠大研究室](http://www.em.ci.ritsumei.ac.jp/jp/)) |
-| 2016.04 - 2020.03 | 立命館大学 情報理工学部 知能情報学科  |
+|                   |                                                        |
+| :---------------- | :----------------------------------------------------- |
+| 2022.04 -         | 日系 IT 企業に就職                                     |
+| 2020.04 - 2022.03 | 某関西私立大学 情報系研究科 修士課程 （谷口忠大研究室) |
+| 2016.04 - 2020.03 | 某関西私立大学 情報系学部                              |
 
-## ■ 受賞歴/論文投稿など
+## ■ 受賞歴／論文投稿／登壇など
 
-|      |         |                                                                                                           |
-| :--- | :------ |:--------------------------------------------------------------------------------------------------------  |
+|      |          |                                                                                                                                                                                      |
+| :--- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2023 | 論文誌   | Advanced Robotics - [Emergent Communication through Metropolis-Hastings Naming Game with Deep Generative Models](https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2260856) |
-| 2022 | 国内会議 | 第36回人工知能学会 -  [変分オートエンコーダを活用した実画像からの記号創発](https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_3L3GS802/_article/-char/ja/) |
-| 2020 | 国内会議 | 第34回人工知能学会 -  [マルチモーダル変分オートエンコーダを用いた実物体のカテゴリ形成](https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1Q3GS1101/_article/-char/ja/)|
-| 2019 | 受賞歴   | ロボカップ 2019 @Home部門 世界大会 - 準優勝                    |
-| 2019 | 受賞歴   | ロボカップ 2019 @Home部門 国内大会 - 準優勝                    |
-| 2018 | 受賞歴   | 経済産業省主催 World Robot Summit 2018 Real space部門 - 準優勝 |
-| 2018 | 受賞歴   | 経済産業省主催 World Robot Summit 2018 Virtual space部門 - 3位 |
-| 2018 | 受賞歴   | ロボカップ 2018 @Home部門 世界大会 - 3位                       |
-| 2018 | 受賞歴   | ロボカップ 2018 @Home部門 国内大会 - 3位                       |
+| 2022 | 国内会議 | 第 36 回人工知能学会 - [変分オートエンコーダを活用した実画像からの記号創発](https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_3L3GS802/_article/-char/ja/)              |
+| 2020 | 国内会議 | 第 34 回人工知能学会 - [マルチモーダル変分オートエンコーダを用いた実物体のカテゴリ形成](https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1Q3GS1101/_article/-char/ja/) |
+| 2019 | 受賞歴   | ロボカップ 2019 @Home 部門 世界大会 - 準優勝                                                                                                                                         |
+| 2019 | 受賞歴   | ロボカップ 2019 @Home 部門 国内大会 - 準優勝                                                                                                                                         |
+| 2018 | 受賞歴   | 経済産業省主催 World Robot Summit 2018 Real space 部門 - 準優勝                                                                                                                      |
+| 2018 | 受賞歴   | 経済産業省主催 World Robot Summit 2018 Virtual space 部門 - 3 位                                                                                                                     |
+| 2018 | 受賞歴   | ロボカップ 2018 @Home 部門 世界大会 - 3 位                                                                                                                                           |
+| 2018 | 受賞歴   | ロボカップ 2018 @Home 部門 国内大会 - 3 位                                                                                                                                           |
 
+## ■ 資格
+
+| 資格名                                        | 取得年度 |
+| :-------------------------------------------- | :------- |
+| 基本情報技術者                                | 2022     |
+| Certified ScrumMaster（認定スクラムマスター） | 2023     |
