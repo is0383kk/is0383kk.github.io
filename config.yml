@@ -39,14 +39,18 @@ languages:
           name: プロフィール
           url: others/profile
           weight: 15
+        - identifier: career
+          name: 経歴
+          url: others/career
+          weight: 20
         - identifier: github
           name: GitHub
           url: https://github.com/is0383kk
-          weight: 20
+          weight: 25
         - identifier: blog
           name: 技術ブログ（Zenn）
           url: https://zenn.dev/is0383kk
-          weight: 25
+          weight: 30
 
 params:
   env: production # 本番環境
