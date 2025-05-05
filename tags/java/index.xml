@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Java on よしをのほーむぺーじ</title>
+    <title>Java on よしをの備忘録</title>
     <link>https://is0383kk.github.io/tags/java/</link>
-    <description>Recent content in Java on よしをのほーむぺーじ</description>
+    <description>Recent content in Java on よしをの備忘録</description>
     <image>
-      <title>よしをのほーむぺーじ</title>
+      <title>よしをの備忘録</title>
       <url>https://is0383kk.github.io/profile.jpg</url>
       <link>https://is0383kk.github.io/profile.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>ja-jp</language>
     <lastBuildDate>Tue, 05 Dec 2023 01:08:13 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【Java】条件に沿って記号英数字を含むランダムなパスワードを生成する</title>

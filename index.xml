@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>よしをのほーむぺーじ</title>
+    <title>よしをの備忘録</title>
     <link>https://is0383kk.github.io/</link>
-    <description>Recent content on よしをのほーむぺーじ</description>
+    <description>Recent content on よしをの備忘録</description>
     <image>
-      <title>よしをのほーむぺーじ</title>
+      <title>よしをの備忘録</title>
       <url>https://is0383kk.github.io/profile.jpg</url>
       <link>https://is0383kk.github.io/profile.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <lastBuildDate>Mon, 19 Feb 2024 10:25:13 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 11 Feb 2024 01:07:09 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【AWS】AMIの共有後、共有先AWSアカウントからEC2インスタンスを起動するとステータスが即座に「終了済み」になった際の対応方法</title>
       <link>https://is0383kk.github.io/posts/2024/01/aws-ami-sharing-status-terminated-fix/</link>
@@ -63,17 +63,8 @@
       <pubDate>Mon, 09 Oct 2023 14:05:48 +0900</pubDate>
       
       <guid>https://is0383kk.github.io/others/profile.en/</guid>
-      <description>&lt;font size=&#34;5&#34;&gt;&lt;b&gt;Yoshiwo🐈 &lt;/b&gt;&lt;/font&gt;
-
-&lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;https://is0383kk.github.io/profile.jpg&#34; width=&#34;250&#34;/&gt; 
-&lt;/figure&gt;
-
- 
-&lt;p&gt;
-As a student, worked on robot competitions/machine learning (generative model).&lt;br&gt;
-After graduation, worked in application development for a Japanese company.&lt;br&gt;
-&lt;/p&gt;</description>
+      <description>Yoshiwo🐈     As a student, worked on robot competitions/machine learning (generative model).
+After graduation, worked in application development for a Japanese company.</description>
     </item>
     
     <item>
@@ -82,130 +73,11 @@ After graduation, worked in application development for a Japanese company.&lt;b
       <pubDate>Mon, 09 Oct 2023 14:05:48 +0900</pubDate>
       
       <guid>https://is0383kk.github.io/others/profile/</guid>
-      <description>&lt;hr&gt;
-
-&lt;font size=&#34;5&#34;&gt;&lt;b&gt;Yoshiwo🐈&lt;/b&gt;&lt;/font&gt;
-
-&lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;https://is0383kk.github.io/profile.jpg&#34;
-         alt=&#34;プロフィール画像&#34; width=&#34;250&#34;/&gt; 
-&lt;/figure&gt;
-
-&lt;p&gt;
-
-&lt;p&gt;
-&lt;span id=&#34;age&#34;&gt;&lt;/span&gt;歳社会人エンジニア（社会人&lt;span id=&#34;year&#34;&gt;&lt;/span&gt;年目）&lt;br&gt;
-学生時代はロボット競技/機械学習（生成モデル）の研究に取り組む。&lt;br&gt;
-卒業後は日系IT企業でアプリケーション基盤の開発に携わる。&lt;br&gt;
-趣味で作ったものを&lt;a href=&#34;https://github.com/is0383kk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer me&#34; title=&#34;GitHub&#34;&gt;GitHub&lt;/a&gt;上に公開したり、&lt;a href=&#34;https://zenn.dev/is0383kk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer me&#34; title=&#34;Zenn&#34;&gt;技術ブログ&lt;/a&gt;を執筆したりしている。
- &lt;img alt=&#34;stat&#34; height=&#34;170px&#34; src=&#34;https://github-readme-stats.vercel.app/api?username=is0383kk&amp;count_private=true&amp;theme=dracula&amp;show_icons=true&#34; /&gt;
-&lt;/p&gt;
-&lt;script type=&#34;text/javascript&#34;&gt;
-    document.getElementById(&#39;year&#39;).textContent = new Date().getFullYear() - 2021;
-    document.getElementById(&#34;age&#34;).innerHTML = new Date().getFullYear() - 1998;
-&lt;/script&gt;
-
-連絡先：is0383kk[at]gmail.com&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-経歴&#34;&gt;■ 経歴&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2022.04 -&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;日系 IT 企業に就職&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2020.04 - 2022.03&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;某関西私立大学 情報系研究科 修士課程 （谷口忠大研究室)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2016.04 - 2020.03&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;某関西私立大学 情報系学部&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;-受賞歴論文投稿登壇など&#34;&gt;■ 受賞歴／論文投稿／登壇など&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2023&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;論文誌&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Advanced Robotics - &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2260856&#34;&gt;Emergent Communication through Metropolis-Hastings Naming Game with Deep Generative Models&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2022&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;国内会議&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;第 36 回人工知能学会 - &lt;a href=&#34;https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_3L3GS802/_article/-char/ja/&#34;&gt;変分オートエンコーダを活用した実画像からの記号創発&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2020&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;国内会議&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;第 34 回人工知能学会 - &lt;a href=&#34;https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1Q3GS1101/_article/-char/ja/&#34;&gt;マルチモーダル変分オートエンコーダを用いた実物体のカテゴリ形成&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2019&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;受賞歴&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;ロボカップ 2019 @Home 部門 世界大会 - 準優勝&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2019&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;受賞歴&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;ロボカップ 2019 @Home 部門 国内大会 - 準優勝&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2018&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;受賞歴&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;経済産業省主催 World Robot Summit 2018 Real space 部門 - 準優勝&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2018&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;受賞歴&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;経済産業省主催 World Robot Summit 2018 Virtual space 部門 - 3 位&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2018&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;受賞歴&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;ロボカップ 2018 @Home 部門 世界大会 - 3 位&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2018&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;受賞歴&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;ロボカップ 2018 @Home 部門 国内大会 - 3 位&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;-資格&#34;&gt;■ 資格&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;資格名&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;取得年度&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;基本情報技術者&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2022&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Certified ScrumMaster（認定スクラムマスター）&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2023&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</description>
+      <description> Yoshiwo🐈     歳社会人エンジニア（社会人年目）
+学生時代はロボット競技/機械学習（生成モデル）の研究に取り組む。
+卒業後は日系IT企業でアプリケーション基盤の開発に携わる。
+趣味で作ったものをGitHub上に公開したり、技術ブログを執筆したりしている。 document.getElementById(&#39;year&#39;).textContent = new Date().getFullYear() - 2021; document.getElementById(&#34;age&#34;).innerHTML = new Date().getFullYear() - 1998;  連絡先：is0383kk[at]gmail.com
+ ■ 経歴          2022.04 - 日系 IT 企業に就職   2020.04 - 2022.03 某関西私立大学 情報系研究科 修士課程 （谷口忠大研究室)   2016.04 - 2020.03 某関西私立大学 情報系学部    ■ 受賞歴／論文投稿／登壇など           2023 論文誌 Advanced Robotics - Emergent Communication through Metropolis-Hastings Naming Game with Deep Generative Models   2022 国内会議 第 36 回人工知能学会 - 変分オートエンコーダを活用した実画像からの記号創発   2020 国内会議 第 34 回人工知能学会 - マルチモーダル変分オートエンコーダを用いた実物体のカテゴリ形成   2019 受賞歴 ロボカップ 2019 @Home 部門 世界大会 - 準優勝   2019 受賞歴 ロボカップ 2019 @Home 部門 国内大会 - 準優勝   2018 受賞歴 経済産業省主催 World Robot Summit 2018 Real space 部門 - 準優勝   2018 受賞歴 経済産業省主催 World Robot Summit 2018 Virtual space 部門 - 3 位   2018 受賞歴 ロボカップ 2018 @Home 部門 世界大会 - 3 位   2018 受賞歴 ロボカップ 2018 @Home 部門 国内大会 - 3 位    ■ 資格    資格名 取得年度     基本情報技術者 2022   Certified ScrumMaster（認定スクラムマスター） 2023    </description>
     </item>
     
   </channel>
