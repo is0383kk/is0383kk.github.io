@@ -102,6 +102,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/is0383kk"
+    - name: zenn
+      url: "https://zenn.dev/is0383kk"
     - name: email
       url: "mailto:is0383kk@gmail.com"
 
