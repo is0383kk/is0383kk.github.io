@@ -1,9 +1,12 @@
+# git init
+# git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 baseURL: "https://is0383kk.github.io/"
 languageCode: "ja-jp"
 canonifyurls: false # ウェブサイトのURL正規化無効
 publishDir: "public" # 静的ファイルの出力先
-title: "よしをの備忘録" # タイトル
-paginate: 10 # 投稿の数を10posts / 1page
+title: "よしをのほーむぺーじ" # タイトル
+pagination:
+  pagerSize: 10 # 投稿の数を10posts / 1page
 theme: "PaperMod"
 
 enableEmoji: true # 絵文字有効
@@ -14,26 +17,24 @@ buildDrafts: false # 下書き記事対象外
 buildFuture: false # 将来日付記事対象外
 buildExpired: false # 期限切れ記事対象外
 
-
 minify:
   disableXML: true # XMLファイル最小化無効
   minifyOutput: true # 出力ファイル最小化有効
 
-defaultContentLanguage: ja
 languages:
   ja:
     languageName: "日本語"
     weight: 1
     menu:
       main:
-        - identifier: posts
-          name: ブログ
-          url: posts
-          weight: 5
-        - identifier: tags
-          name: タグ
-          url: tags/
-          weight: 10
+        # - identifier: posts
+        #   name: ブログ
+        #   url: posts
+        #   weight: 5
+        # - identifier: tags
+        #   name: タグ
+        #   url: tags/
+        #   weight: 10
         - identifier: profile
           name: プロフィール
           url: others/profile
@@ -42,37 +43,16 @@ languages:
           name: GitHub
           url: https://github.com/is0383kk
           weight: 20
-
-#  en:
-#    languageName: English
-#    weight: 2
-#    menu:
-#      main:
-#        - identifier: posts
-#          name: Posts
-#          url: posts
-#          weight: 5
-#        - identifier: profile
-#          name: Profile
-#          url: others/profile
-#          weight: 10
-#        - identifier: tags
-#          name: Tags
-#          url: tags/
-#          weight: 20
-#        - identifier: deliverables
-#          name: Deliverables
-#          url: deliverables/
-#          weight: 25
+        - identifier: blog
+          name: 技術ブログ（Zenn）
+          url: https://zenn.dev/is0383kk
+          weight: 25
 
 params:
   env: production # 本番環境
-  googleAnalyticsID: G-BVFKPQD550
-  google_verify: reoxahAWqA8HwAVgrrzP_3R_SmRX9QiHHjBNVLN_eVk
-  google-site-verification: reoxahAWqA8HwAVgrrzP_3R_SmRX9QiHHjBNVLN_eVk
-  title: "よしをの備忘録"
-  description: "学んだ知識や技術をブログでアウトプットしています。プログラミング・AWS・データベースなど特定の技術分野に問わず幅広く発信しています。"
-  keywords: [Yoshiwo, yoshiwo, is0383kk, IS0383KK, hugo, papermod,技術ブログ]
+  title: "よしをのほーむぺーじ"
+  # description: "学んだ知識や技術をブログでアウトプットしています。プログラミング・AWS・データベースなど特定の技術分野に問わず幅広く発信しています。"
+  keywords: [Yoshiwo, yoshiwo, is0383kk, IS0383KK, hugo, papermod, 技術ブログ]
   author: ["Yoshiwo"]
   images: ["profile.jpg"]
   DateFormat: "2006-01-02" # 日付フォーマット
@@ -102,12 +82,12 @@ params:
     # safari_pinned_tab: "safari-pinned-tab.svg"
 
   label:
-    text: "🏠 よしをの備忘録"
+    text: "🏠 よしをのほーむぺーじ"
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: false # Profile mode有効
+    enabled: true # Profile mode有効
     title: "Yoshiwo🐈"
     subtitle: Sometimes engineer sometimes lazy
     imageUrl: "profile.jpg" # プロフィール画像
@@ -122,9 +102,9 @@ params:
       url: "mailto:is0383kk@gmail.com"
 
   cover:
-    hidden: true 
-    hiddenInList: true 
-    hiddenInSingle: true 
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
 
   editPost:
     disabled: true
