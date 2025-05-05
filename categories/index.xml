@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on よしをの備忘録</title>
+    <title>Categories on よしをのほーむぺーじ</title>
     <link>https://is0383kk.github.io/categories/</link>
-    <description>Recent content in Categories on よしをの備忘録</description>
+    <description>Recent content in Categories on よしをのほーむぺーじ</description>
     <image>
-      <title>よしをの備忘録</title>
+      <title>よしをのほーむぺーじ</title>
       <url>https://is0383kk.github.io/profile.jpg</url>
       <link>https://is0383kk.github.io/profile.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Tue, 10 Oct 2023 22:32:41 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>非技術系</title>
