@@ -33,124 +33,89 @@ keywords: [is0383kk, yoshiwo, よしを, よしをの備忘録]
 
 ## ■ スキル
 
-作成中
+※各種技術を使った案件経験などは[**経歴**](https://is0383kk.github.io/others/career/)ページをご確認ください。
 
-<!--
-{{< rawhtml >}}
+{{< custom_accordion title="プログラミング言語関連" >}}
 
-<div class="card">
-    <div class="skill-desc">
-        <h3 class="skill-desc-title">インフラ関連</h3>
-        <details open>
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">スキル詳細（クリックで展開する）</span>
-        </summary>
-            <div class="details-desc">
-            <h4 class="table-title">Linux・AWSを使ったサーバ構築経験があります。</h4>
-            <table class="table-desc" >
-                <thead>
-                    <tr>
-                        <th scope="col"><font size="4">要素技術</font></th>
-                        <th scope="col"><font size="4">経験年数</font></th>
-                        <th scope="col"><font size="4">内容</font></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Linux</th>
-                        <td>6年</td>
-                        <td>
-                        機械学習用インフラ、アプリケーションインフラ構築に使用 <br>
-                        Apache/Tomcat
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">AWS</th>
-                        <td>2年</td>
-                        <td>
-                        EC2インスタンス上へのアプリケーションサーバ構築に使用 <br>
-                        EC2/AMI/RDS/Route53
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            </div>
-        </details>
-    </div>
-</div>
+| ＜名称＞      | ＜経験期間＞ |            ＜習熟度＞ |
+| :------------ | :----------- | --------------------: |
+| Python        | 2017 -       | {{< custom_star 4 >}} |
+| Java          | 2022 - 2024  | {{< custom_star 3 >}} |
+| HTML／CSS／JS | 2016 -       | {{< custom_star 3 >}} |
+| Shell         | 2022 -       | {{< custom_star 2 >}} |
 
-<div class="card">
-    <div class="skill-desc">
-        <h3 class="skill-desc-title">アプリケーション関連</h3>
-        <details>
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">スキル詳細（クリックで展開する）</span>
-        </summary>
-            <h4 class="table-title">Spring Framework(boot)を使った開発経験があります。</h4>
-            <table class="table-desc">
-                <thead>
-                <tr>
-                <th scope="col"><font size="4">要素技術</font></th>
-                <th scope="col"><font size="4">経験年数</font></th>
-                <th scope="col"><font size="4">内容</font></th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                <th scope="row">Spring Framework</th>
-                <td>2年</td>
-                <td>
-                アプリケーション開発に使用。<br>
-                Spring MVC/Spring Security/Thymeleaf
-                </td>
-                </tr>
-                <tr>
-                    <th scope="row">Java</th>
-                    <td>2年</td>
-                    <td>バックエンド側の開発に使用。</td>
-                </tr>
-                </tbody>
-            </table>
-        </details>
-    </div>
-</div>
+{{< /custom_accordion >}}
 
-<div class="card">
-    <div class="skill-desc">
-        <h3 class="skill-desc-title">機械学習関連</h3>
-        <details>
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">スキル詳細（クリックで展開する）</span>
-        </summary>
-        <h4 class="table-title">PyTorchを用いた機械学習モデルの構築経験があります。</h4>
-            <table class="table-desc">
-                <thead>
-                <tr>
-                    <th scope="col"><font size="4">要素技術</font></th>
-                    <th scope="col"><font size="4">経験年数</font></th>
-                    <th scope="col"><font size="4">内容</font></th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">PyTorch</th>
-                    <td>3年</td>
-                    <td>機械学習モデルの構築に使用。</td>
-                </tr>
-                <tr>
-                    <th scope="row">Python</th>
-                    <td>4年</td>
-                    <td>
-                    趣味の開発や機械学習モデルの構築に使用。<br>
-                    Numpy/Pandas/Scipy
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </details>
-    </div>
-</div>
-{{< /rawhtml >}} -->
+{{< custom_accordion title="アプリケーション関連（フレームワーク含む）" >}}
+
+| ＜名称＞         | ＜経験期間＞ |            ＜習熟度＞ |
+| :--------------- | :----------- | --------------------: |
+| Spring Framework | 2022 - 2024  | {{< custom_star 3 >}} |
+| Thymeleaf        | 2022 - 2024  | {{< custom_star 2 >}} |
+| Vue.js           | 2023 -       | {{< custom_star 2 >}} |
+| AWS Lambda       | 2024 -       | {{< custom_star 4 >}} |
+| PyTorch          | 2020 - 2022  | {{< custom_star 2 >}} |
+
+{{< /custom_accordion >}}
+
+{{< custom_accordion title="インフラ関連（ミドルウェア含む）" >}}
+
+| ＜名称＞       | ＜経験期間＞ |            ＜習熟度＞ |
+| :------------- | :----------- | --------------------: |
+| Linux          | 2017 -       | {{< custom_star 4 >}} |
+| Windows Server | 2017 -       | {{< custom_star 1 >}} |
+| AWS            | 2022 -       | {{< custom_star 3 >}} |
+| Azure          | 2022 -       | {{< custom_star 2 >}} |
+| Apache         | 2022 - 2024  | {{< custom_star 3 >}} |
+| Tomcat         | 2022 - 2024  |  {{< custom_star 3>}} |
+
+{{< /custom_accordion >}}
+
+{{< custom_accordion title="データベース" >}}
+
+| ＜名称＞          | ＜経験期間＞ |            ＜習熟度＞ |
+| :---------------- | :----------- | --------------------: |
+| MySQL             | 2022 - 2024  | {{< custom_star 3 >}} |
+| Oracle            | 2022 - 2024  | {{< custom_star 3 >}} |
+| SQL Server        | 2022 - 2024  | {{< custom_star 3 >}} |
+| Amazon DynamoDB   | 2024 -       | {{< custom_star 3 >}} |
+| Amazon DocumentDB | 2024 -       | {{< custom_star 2 >}} |
+
+{{< /custom_accordion >}}
+
+{{< custom_accordion title="その他ツールの経験" >}}
+
+| ＜ツール＞                             |
+| :------------------------------------- |
+| Git                                    |
+| GitHub Action                          |
+| VSCode                                 |
+| Eclipse                                |
+| Docker                                 |
+| Jenkins                                |
+| Katalon Studio                         |
+| A5:SQL Mk-2                            |
+| SQL Developer                          |
+| Microsoft SQL Server Management Studio |
+| Fiddler                                |
+
+---
+
+| ＜サービス＞        |
+| :------------------ |
+| GitHub Enterprise   |
+| GitLab              |
+| Amazon CodeCatalyst |
+| Confluence          |
+
+{{< /custom_accordion >}}
+
+| 習熟度                | 習熟度の目安                                                               |
+| :-------------------- | :------------------------------------------------------------------------- |
+| {{< custom_star 1 >}} | 入門レベル：業務で少し触れた程度。基礎的な部分から学習が必要               |
+| {{< custom_star 2 >}} | 初級レベル：サポートがあれば業務を進められる。                             |
+| {{< custom_star 3 >}} | 中級レベル：独力で業務を進められる。標準的な機能やライブラリを活用できる。 |
+| {{< custom_star 4 >}} | 上級レベル：他者に助言／指導したり、設計／レビューも担当できる。           |
 
 ## ■ 受賞歴／論文投稿／登壇など
 
@@ -168,10 +133,10 @@ keywords: [is0383kk, yoshiwo, よしを, よしをの備忘録]
 
 ## ■ 資格
 
-| 資格名                                        | 取得年度 |
-| :-------------------------------------------- | :------- |
-| 基本情報技術者                                | 2022     |
-| Certified ScrumMaster（認定スクラムマスター） | 2023     |
+| ＜資格名＞                                    | ＜取得年度＞ |
+| :-------------------------------------------- | :----------- |
+| 基本情報技術者                                | 2022         |
+| Certified ScrumMaster（認定スクラムマスター） | 2023         |
 
 ## ■ 学歴
 
