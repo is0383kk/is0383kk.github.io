@@ -1,0 +1,12 @@
+<!-- カスタマイズ：目次以外のアコーディオンパネル -->
+<div class="toc">
+<details {{ with .Get "open" }}open{{ end }}>
+  <summary accesskey="c" title="(Alt + C)">
+    {{ with .Get "title" }}{{ . }}{{ else }}詳細を表示{{ end }}
+  </summary>
+  <div class="accordion-content" style="margin-left: 1em;">
+    <hr>
+    {{ .Inner | markdownify }}
+  </div>
+</details>
+</div>

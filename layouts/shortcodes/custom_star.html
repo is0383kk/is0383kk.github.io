@@ -1,0 +1,7 @@
+<!-- カスタマイズ：習熟度を表現するための★ -->
+{{- $level := .Get 0 | default "0" | int -}}
+{{- $max := 4 -}}
+<span style="color: gold;">
+  {{- range seq $level }}★{{ end -}}
+  {{- range seq (sub $max $level) }}☆{{ end -}}
+</span>
