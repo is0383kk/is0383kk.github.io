@@ -41,5 +41,45 @@
 &lt;!-- &lt;/section&gt; --&gt;</description>
     </item>
     
+    <item>
+      <title>棒グラフ</title>
+      <link>https://is0383kk.github.io/example/chart/</link>
+      <pubDate>Mon, 09 Oct 2023 14:05:48 +0900</pubDate>
+      
+      <guid>https://is0383kk.github.io/example/chart/</guid>
+      <description>&lt;h1 id=&#34;棒グラフ&#34;&gt;棒グラフ&lt;/h1&gt;
+
+
+&lt;section id=&#34;skills&#34;&gt;
+  &lt;canvas id=&#34;skillChart&#34; width=&#34;400&#34; height=&#34;300&#34;&gt;&lt;/canvas&gt;
+&lt;/section&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+  const ctx = document.getElementById(&#39;skillChart&#39;).getContext(&#39;2d&#39;);
+  const skillChart = new Chart(ctx, {
+    type: &#39;bar&#39;,
+    data: {
+      labels: [&#39;HTML&#39;, &#39;CSS&#39;, &#39;JavaScript&#39;, &#39;React&#39;, &#39;Hugo&#39;, &#39;Python&#39;],
+      datasets: [{
+        label: &#39;スキルレベル（1〜10）&#39;,
+        data: [9, 8, 9, 7, 6, 8],
+        backgroundColor: &#39;rgba(75, 192, 192, 0.5)&#39;,
+        borderColor: &#39;rgba(75, 192, 192, 1)&#39;,
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 10
+        }
+      }
+    }
+  });
+&lt;/script&gt;</description>
+    </item>
+    
   </channel>
 </rss>
