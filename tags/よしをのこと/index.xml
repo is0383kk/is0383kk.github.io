@@ -427,22 +427,22 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;span style=&#34;color: gold;&#34;&gt;★☆☆☆&lt;/span&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;star&#34;&gt;★☆☆☆&lt;/div&gt;
 &lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;入門レベル：業務で少し触れた程度。基礎的な部分から学習が必要&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;span style=&#34;color: gold;&#34;&gt;★★☆☆&lt;/span&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;star&#34;&gt;★★☆☆&lt;/div&gt;
 &lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;初級レベル：サポートがあれば業務を進められる。&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;span style=&#34;color: gold;&#34;&gt;★★★☆&lt;/span&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;star&#34;&gt;★★★☆&lt;/div&gt;
 &lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;中級レベル：独力で業務を進められる。標準的な機能やライブラリを活用できる。&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;span style=&#34;color: gold;&#34;&gt;★★★★&lt;/span&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;star&#34;&gt;★★★★&lt;/div&gt;
 &lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;上級レベル：他者に助言／指導したり、設計／レビューも担当できる。&lt;/td&gt;
       &lt;/tr&gt;
@@ -512,7 +512,7 @@
     &lt;div class=&#34;timeline-item&#34;&gt;
       &lt;div class=&#34;timeline-date&#34;&gt;2022年〜現在&lt;/div&gt;
       &lt;div class=&#34;timeline-content&#34;&gt;
-        &lt;h3&gt;日系IT企業&lt;/h3&gt;
+        &lt;h4&gt;日系IT企業&lt;/h4&gt;
         &lt;p&gt;Python／Java／Linux／AWSなどフルスタックな技術を活用しアプリケーションエンジニアとして従事。&lt;/p&gt;</description>
     </item>
     
