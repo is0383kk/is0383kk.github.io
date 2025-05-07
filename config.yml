@@ -37,11 +37,11 @@ languages:
         #   weight: 10
         - identifier: profile
           name: プロフィール
-          url: others/profile
+          url: personal/profile
           weight: 15
         - identifier: career
-          name: 経歴
-          url: others/career
+          name: 業務経験
+          url: personal/career
           weight: 20
         - identifier: github
           name: GitHub
