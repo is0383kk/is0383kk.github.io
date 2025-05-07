@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Examples on よしをのほーむぺーじ</title>
+    <link>https://is0383kk.github.io/example/</link>
+    <description>Recent content in Examples on よしをのほーむぺーじ</description>
+    <image>
+      <title>よしをのほーむぺーじ</title>
+      <url>https://is0383kk.github.io/profile.jpg</url>
+      <link>https://is0383kk.github.io/profile.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 09 Oct 2023 14:05:48 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/example/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ポートフォリオ</title>
+      <link>https://is0383kk.github.io/example/portfolio/</link>
+      <pubDate>Mon, 09 Oct 2023 14:05:48 +0900</pubDate>
+      
+      <guid>https://is0383kk.github.io/example/portfolio/</guid>
+      <description>&lt;h1 id=&#34;ポートフォリオ&#34;&gt;ポートフォリオ&lt;/h1&gt;
+
+
+&lt;!-- &lt;section id=&#34;portfolio&#34;&gt; --&gt;
+  &lt;div class=&#34;portfolio-grid&#34;&gt;
+    &lt;div class=&#34;portfolio-card&#34;&gt;
+      &lt;img src=&#34;https://is0383kk.github.io/profile.jpg&#34; alt=&#34;Project 1&#34;&gt;
+      &lt;h3&gt;プロジェクトタイトル 1&lt;/h3&gt;
+      &lt;p&gt;簡単な説明文。使用技術や目的など。&lt;/p&gt;
+      &lt;a href=&#34;https://example.com/project1&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;詳細を見る&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;portfolio-card&#34;&gt;
+      &lt;img src=&#34;https://is0383kk.github.io/profile.jpg&#34; alt=&#34;Project 2&#34;&gt;
+      &lt;h3&gt;プロジェクトタイトル 2&lt;/h3&gt;
+      &lt;p&gt;簡単な説明文。使用技術や目的など。&lt;/p&gt;
+      &lt;a href=&#34;https://example.com/project2&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;詳細を見る&lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;!-- &lt;/section&gt; --&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
