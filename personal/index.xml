@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Others on よしをのほーむぺーじ</title>
-    <link>https://is0383kk.github.io/others/</link>
-    <description>Recent content in Others on よしをのほーむぺーじ</description>
+    <title>Personals on よしをのほーむぺーじ</title>
+    <link>https://is0383kk.github.io/personal/</link>
+    <description>Recent content in Personals on よしをのほーむぺーじ</description>
     <image>
       <title>よしをのほーむぺーじ</title>
       <url>https://is0383kk.github.io/profile.jpg</url>
@@ -11,13 +11,13 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 09 Oct 2023 14:05:48 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/others/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Oct 2023 14:05:48 +0900</lastBuildDate><atom:link href="https://is0383kk.github.io/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>プロフィール</title>
-      <link>https://is0383kk.github.io/others/profile/</link>
+      <link>https://is0383kk.github.io/personal/profile/</link>
       <pubDate>Mon, 09 Oct 2023 14:05:48 +0900</pubDate>
       
-      <guid>https://is0383kk.github.io/others/profile/</guid>
+      <guid>https://is0383kk.github.io/personal/profile/</guid>
       <description>&lt;hr&gt;
 
 &lt;font size=&#34;5&#34;&gt;&lt;b&gt;Yoshiwo🐈&lt;/b&gt;&lt;/font&gt;
@@ -44,7 +44,7 @@
 連絡先：is0383kk[at]gmail.com&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-スキル&#34;&gt;■ スキル&lt;/h2&gt;
-&lt;p&gt;※各種技術を使った案件経験などは&lt;a href=&#34;https://is0383kk.github.io/others/career/&#34;&gt;&lt;strong&gt;経歴&lt;/strong&gt;&lt;/a&gt;ページをご確認ください。&lt;/p&gt;
+&lt;p&gt;※各種技術を使った案件経験などは&lt;a href=&#34;https://is0383kk.github.io/personal/career/&#34;&gt;&lt;strong&gt;業務経験&lt;/strong&gt;&lt;/a&gt;ページをご確認ください。&lt;/p&gt;
 
 &lt;div class=&#34;toc&#34;&gt;
 &lt;details &gt;
@@ -505,57 +505,24 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;-資格&#34;&gt;■ 資格&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;＜資格名＞&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;＜取得年度＞&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;基本情報技術者&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2022&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Certified ScrumMaster（認定スクラムマスター）&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2023&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;-学歴&#34;&gt;■ 学歴&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2022.04 -&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;日系 IT 企業に就職&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2020.04 - 2022.03&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;某関西私立大学 情報系研究科 修士課程 （谷口忠大研究室)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;2016.04 - 2020.03&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;某関西私立大学 情報系学部&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</description>
+&lt;h2 id=&#34;-職歴&#34;&gt;■ 職歴&lt;/h2&gt;
+&lt;section id=&#34;timeline&#34;&gt;
+  &lt;div class=&#34;timeline&#34;&gt;
+
+    &lt;div class=&#34;timeline-item&#34;&gt;
+      &lt;div class=&#34;timeline-date&#34;&gt;2022年〜現在&lt;/div&gt;
+      &lt;div class=&#34;timeline-content&#34;&gt;
+        &lt;h3&gt;日系IT企業&lt;/h3&gt;
+        &lt;p&gt;Python／Java／Linux／AWSなどフルスタックな技術を活用しアプリケーションエンジニアとして従事。&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://is0383kk.github.io/others/career/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>業務経験</title>
+      <link>https://is0383kk.github.io/personal/career/</link>
+      <pubDate>Mon, 09 Oct 2023 14:05:48 +0900</pubDate>
       
-      <guid>https://is0383kk.github.io/others/career/</guid>
-      <description>&lt;p&gt;作成中&lt;/p&gt;</description>
+      <guid>https://is0383kk.github.io/personal/career/</guid>
+      <description>&lt;hr&gt;</description>
     </item>
     
   </channel>
