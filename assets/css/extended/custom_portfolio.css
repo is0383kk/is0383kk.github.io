@@ -1,0 +1,64 @@
+/* ポートフォリオ */
+#portfolio {
+  padding: 2rem;
+  background-color: #aaaaaa;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.portfolio-card {
+  background: rgb(197, 197, 197);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+}
+
+.dark .portfolio-card {
+  background: rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.portfolio-card h3 {
+  margin: 0.75rem 1rem 0.5rem;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.portfolio-card p {
+  margin: 0 1rem 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.portfolio-card a {
+  margin: 0 1rem 1rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.portfolio-card a:hover {
+  text-decoration: underline;
+}
