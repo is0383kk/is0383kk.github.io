@@ -1,5 +1,5 @@
 /* header固定 */
-.header{
+.header {
   position: sticky;
   top: 0;
   z-index: 999;
@@ -8,27 +8,28 @@
 }
 
 /* 太陽マーク */
-.logo-switches svg#sun{
+.logo-switches svg#sun {
   color: rgb(255, 136, 0);
   width: 21px;
   height: 21px;
 }
 
 /* 月マーク */
-.logo-switches svg#moon{
+.logo-switches svg#moon {
   color: rgb(204, 206, 69);
   width: 21px;
   height: 21px;
 }
 
 /* ホームのsubtitle */
-.profile_inner span{
-  font-size: 19px; 
+.profile_inner span {
+  font-size: 19px;
   font-weight: bold;
-  font-style: italic; 
+  font-style: italic;
 }
+
 /* ホームのSNSアイコン */
-.social-icons a svg{
+.social-icons a svg {
   width: 40px;
   height: 40px;
 }
@@ -39,7 +40,7 @@
 }
 
 /* メニューのリンク */
-#menu li a{
+#menu li a {
   font-size: 100%;
 }
 
@@ -47,18 +48,22 @@
 .post-meta {
   display: inline-block;
 }
+
 .custom-tags {
   padding: 0;
 }
+
 .post-meta .custom-tags {
   padding: 0;
 }
+
 .custom-tags li {
   display: inline-block;
   list-style-type: none;
   margin-right: 0.5em;
   margin-left: 0em;
 }
+
 .post-entry .custom-tags li {
   display: inline-block;
   list-style-type: none;
@@ -66,7 +71,9 @@
   margin-left: 0em;
   margin-top: 0.5em;
 }
-.post-meta .custom-tags li { /* 記事内のタグ */
+
+.post-meta .custom-tags li {
+  /* 記事内のタグ */
   display: inline-block;
   list-style-type: none;
   margin-top: 0.5em;
@@ -77,16 +84,19 @@
   display: block;
   text-decoration: none;
   padding: 0.05em 0.5em;
-  background:rgb(88, 88, 88);
+  background: rgb(88, 88, 88);
   color: var(--theme);
   border-radius: 3px;
-  position: relative; 
-  z-index: 1; /* リンクが最前に来るように */
+  position: relative;
+  z-index: 1;
+  /* リンクが最前に来るように */
 }
+
 .custom-tags li a:hover {
   background: rgb(197, 197, 197);
   color: black;
 }
+
 body.dark .custom-tags li a {
   display: block;
   text-decoration: none;
@@ -94,45 +104,53 @@ body.dark .custom-tags li a {
   background: rgb(197, 197, 197);
   color: var(--theme);
   border-radius: 3px;
-  position: relative; 
-  z-index: 1; /* リンクが最前に来るように */
+  position: relative;
+  z-index: 1;
+  /* リンクが最前に来るように */
 }
+
 body.dark .custom-tags li a:hover {
   background: rgb(88, 88, 88);
   color: white;
 }
 
 /* 共有用ボタン */
-.entry-footer .custom-buttons { /* 記事一覧では表示しない */
+.entry-footer .custom-buttons {
+  /* 記事一覧では表示しない */
   display: none;
 }
+
 .post-meta .custom-buttons {
   display: flex;
 }
-.post-meta .custom-buttons a svg{ /* 記事内 */
+
+.post-meta .custom-buttons a svg {
+  /* 記事内 */
   margin-top: 0.7em;
-  margin-right: 0.5em; 
-  
+  margin-right: 0.5em;
+
 }
 
 /* コピーボタン */
 .entry-footer #custom-copy-link {
   display: none;
 }
+
 #custom-copy-link {
   margin-top: 0.7em;
   margin-right: 0.5em;
 }
 
 /* 記事内のdescriptionを非表示 */
-.post-header .post-description{
- display: none; 
+.post-header .post-description {
+  display: none;
 }
 
 /* 表 */
 .dark .table-desc {
   background: var(--entry);
 }
+
 .table-desc {
   background: var(--code-bg);
 }
@@ -142,9 +160,11 @@ body.dark .custom-tags li a:hover {
   cursor: zoom-in;
   margin-inline-start: 20px;
 }
+
 .card details[open] summary {
   cursor: zoom-out;
 }
+
 .card .details {
   display: inline;
   font-weight: 500;
@@ -155,6 +175,7 @@ pre {
   padding: 0.1rem;
   overflow-x: scroll;
 }
+
 /*
 :not(pre) > code {
   background-color: #111;
