@@ -26,6 +26,15 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
 <script type="text/javascript">
     document.getElementById('year').textContent = new Date().getFullYear() - 2021;
     document.getElementById("age").innerHTML = new Date().getFullYear() - 1998;
+    // 表の空白行を削除
+    document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("tr").forEach(function (row) {
+        const allEmpty = Array.from(row.cells).every(cell => cell.textContent.trim() === "");
+        if (allEmpty) {
+        row.style.display = "none";
+        }
+    });
+    });
 </script>
 {{< /rawhtml >}}
 連絡先：is0383kk[at]gmail.com
@@ -68,7 +77,7 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
 | AWS            |    2022 -    | {{< custom_star 3 >}} |
 | Azure          |    2022 -    | {{< custom_star 2 >}} |
 | Apache         | 2022 - 2024  | {{< custom_star 3 >}} |
-| Tomcat         | 2022 - 2024  | {{< custom_star 3>}}  |
+| Tomcat         | 2022 - 2024  | {{< custom_star 3 >}} |
 
 {{< /custom_accordion >}}
 
