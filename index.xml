@@ -68,6 +68,15 @@
 &lt;script type=&#34;text/javascript&#34;&gt;
     document.getElementById(&#39;year&#39;).textContent = new Date().getFullYear() - 2021;
     document.getElementById(&#34;age&#34;).innerHTML = new Date().getFullYear() - 1998;
+    // 表の空白行を削除
+    document.addEventListener(&#34;DOMContentLoaded&#34;, function () {
+    document.querySelectorAll(&#34;tr&#34;).forEach(function (row) {
+        const allEmpty = Array.from(row.cells).every(cell =&gt; cell.textContent.trim() === &#34;&#34;);
+        if (allEmpty) {
+        row.style.display = &#34;none&#34;;
+        }
+    });
+    });
 &lt;/script&gt;
 
 連絡先：is0383kk[at]gmail.com&lt;/p&gt;
