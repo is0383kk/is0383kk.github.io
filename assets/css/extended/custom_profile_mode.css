@@ -1,0 +1,49 @@
+/* カスタマイズ：プロフィールモード */
+.profile img {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid black;
+}
+.dark .profile img {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid white;
+}
+
+/* .profile {
+  background: url('/oiiacat.gif') center/cover no-repeat;
+  position: relative;
+  min-height: 100vh;
+  color: white;
+  padding: 3rem 1rem;
+} */
+
+/* .profile::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(4px);
+  z-index: 0;
+} */
+
+/* .profile_inner {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(255,255,255,0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(8px);
+} */
+
+/* プロフィールが横並びになる */
+/* .profile_inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+} */

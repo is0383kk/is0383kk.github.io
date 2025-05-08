@@ -9,10 +9,10 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
 ---
 
 {{< rawhtml >}}
-<font size="5"><b>Yoshiwo🐈</b></font>
+<font size="5"><b>Yoshiwo🐈‍⬛</b></font>
 {{< /rawhtml >}}
 
-{{< figure src="/profile.jpg" alt="プロフィール画像" width="250" >}}
+{{< figure src="/oiiacat.gif" alt="プロフィール画像" width="250" >}}
 
 {{< rawhtml >}}
 
