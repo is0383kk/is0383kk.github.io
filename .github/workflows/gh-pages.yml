@@ -3,8 +3,12 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main # Set a branch to deploy
+      - main  # 非ワークフロー起因でのpushで起動
   pull_request:
+  workflow_run:
+    workflows: ["Fetch GitHub stars"]
+    types:
+      - completed
 
 jobs:
   deploy:
@@ -32,4 +36,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
