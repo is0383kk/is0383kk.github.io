@@ -1,0 +1,27 @@
+name: Fetch GitHub stars
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 毎時更新
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch star count
+        run: |
+          curl -s https://api.github.com/users/is0383kk/repos \
+            -H "Authorization: token ${{ secrets.GH_PAT }}" \
+            | jq '[.[] | {name: .name, stars: .stargazers_count}]' \
+            > static/stars.json
+
+      - name: Commit and push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add static/stars.json
+          git commit -m "Update stars.json" || echo "No changes"
+          git push
