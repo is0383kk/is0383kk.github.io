@@ -57,13 +57,13 @@
 }
 
 /* タイトル */
-.portfolio-card h4 {
+.portfolio-card h3 {
   margin: 0.75rem 1rem 0.5rem;
   font-size: 1.2rem;
   color: #222;
 }
 
-.dark .portfolio-card h4 {
+.dark .portfolio-card h3 {
   margin: 0.75rem 1rem 0.5rem;
   font-size: 1.2rem;
   color: #fff;

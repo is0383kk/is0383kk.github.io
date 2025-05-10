@@ -2,7 +2,7 @@
 
   <div class="portfolio-card">
     <img src="{{ .Get "img" }}" alt="{{ .Get "title" }}">
-    <h4>{{ .Get "title"| safeHTML }}</h4>
+    <h3>{{ .Get "title"| safeHTML }}</h3>
     <p>{{ .Get "desc" | safeHTML }}</p>
     <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer">詳細を見る</a>
   </div>
