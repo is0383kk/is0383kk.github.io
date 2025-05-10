@@ -532,61 +532,72 @@
       
       <guid>https://is0383kk.github.io/personal/career/</guid>
       <description>&lt;hr&gt;
-&lt;p&gt;作成中
-&lt;section id=&#34;timeline&#34;&gt;
-  &lt;div class=&#34;timeline&#34;&gt;
+&lt;p&gt;作成中&lt;/p&gt;
+&lt;h2 id=&#34;-社会人での業務経験&#34;&gt;■ 社会人での業務経験&lt;/h2&gt;
 
-    &lt;div class=&#34;timeline-item&#34;&gt;
-      &lt;div class=&#34;timeline-date&#34;&gt;2022年〜現在&lt;/div&gt;
-      &lt;div class=&#34;timeline-content&#34;&gt;
-        &lt;h4&gt;日系IT企業&lt;/h4&gt;
-        &lt;p&gt;Python／Java／Linux／AWSなどフルスタックな技術を活用しアプリケーションエンジニアとして従事。&lt;/p&gt;
-        &lt;a class=&#34;timeline-link&#34; href=&#34;https://is0383kk.github.io/personal/career/#-%E7%A4%BE%E4%BC%9A%E4%BA%BA%E3%81%A7%E3%81%AE%E6%A5%AD%E5%8B%99%E7%B5%8C%E9%A8%93&#34;&gt;
-          詳細を見る
-          &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34;
-            stroke=&#34;currentColor&#34;&gt;
-            &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;
-              d=&#34;M9 5l7 7-7 7&#34; /&gt;
-          &lt;/svg&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+&lt;div class=&#34;portfolio-grid&#34;&gt;
+  
 
-    &lt;div class=&#34;timeline-item&#34;&gt;
-      &lt;div class=&#34;timeline-date&#34;&gt;2020年〜2022年&lt;/div&gt;
-      &lt;div class=&#34;timeline-content&#34;&gt;
-        &lt;h4&gt;某関西圏大学 大学院 修士課程（谷口忠大研究室）&lt;/h4&gt;
-        &lt;p&gt;谷口忠大研究室に所属。マルチエージェント生成モデルの研究を行う。&lt;/p&gt;
-        &lt;a class=&#34;timeline-link&#34; href=&#34;https://is0383kk.github.io/personal/career/#-%E5%AD%A6%E7%94%9F%E6%99%82%E4%BB%A3&#34;&gt;
-          詳細を見る
-          &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34;
-            stroke=&#34;currentColor&#34;&gt;
-            &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;
-              d=&#34;M9 5l7 7-7 7&#34; /&gt;
-          &lt;/svg&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
 
-    &lt;div class=&#34;timeline-item&#34;&gt;
-      &lt;div class=&#34;timeline-date&#34;&gt;2016年〜2020年&lt;/div&gt;
-      &lt;div class=&#34;timeline-content&#34;&gt;
-        &lt;h4&gt;某関西圏大学 情報系学部&lt;/h4&gt;
-        &lt;p&gt;ソフトウェア工学を学び、課外活動としてロボット競技に打ち込む。&lt;/p&gt;
-        &lt;a class=&#34;timeline-link&#34; href=&#34;https://is0383kk.github.io/personal/career/#-%E5%AD%A6%E7%94%9F%E6%99%82%E4%BB%A3&#34;&gt;
-          詳細を見る
-          &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34;
-            stroke=&#34;currentColor&#34;&gt;
-            &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;
-              d=&#34;M9 5l7 7-7 7&#34; /&gt;
-          &lt;/svg&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
 
+  &lt;div class=&#34;portfolio-card&#34;&gt;
+    &lt;img src=&#34;https://is0383kk.github.io/sigoto.png&#34; alt=&#34;金融向けファイルサーバ運用管理案件&#34;&gt;
+    &lt;h4&gt;金融向けファイルサーバ運用管理案件&lt;/h4&gt;
+    &lt;p&gt;入社1年目最初の案件経験で、金融機関に向けたファイルサーバの運用及び新規機能構築を経験。&lt;br&gt;ウォータフォールによる機能設計、実装、単体テスト、シナリオテストまでを実施。&lt;br&gt;ウォータフォールプロセスで上流から下流まで幅広い工程を経験しシステム開発の理解を深めた。&lt;/p&gt;
+    &lt;a href=&#34;https://is0383kk.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;詳細を見る&lt;/a&gt;
   &lt;/div&gt;
-&lt;/section&gt;
-&lt;/p&gt;</description>
+
+
+
+
+  &lt;div class=&#34;portfolio-card&#34;&gt;
+    &lt;img src=&#34;https://is0383kk.github.io/sigoto.png&#34; alt=&#34;ローコード開発ツール基盤保守&#34;&gt;
+    &lt;h4&gt;ローコード開発ツール基盤保守&lt;/h4&gt;
+    &lt;p&gt;自社で開発しているローコード開発ツールの保守業務を担当。&lt;br&gt;JavaのSpring Frameworkを使ったアプリケーション開発や、AWSを活用したアプリケーション基盤の構築を経験。&lt;br&gt;アプリケーション技術からインフラ技術までフルスタックな技術を活用&lt;/p&gt;
+    &lt;a href=&#34;https://is0383kk.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;詳細を見る&lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+  &lt;div class=&#34;portfolio-card&#34;&gt;
+    &lt;img src=&#34;https://is0383kk.github.io/sigoto.png&#34; alt=&#34;AI駆動開発基盤開発案件&#34;&gt;
+    &lt;h4&gt;AI駆動開発基盤開発案件&lt;/h4&gt;
+    &lt;p&gt;システム開発の全プロセスに生成AIによる支援導入を目的とし、生成AIを導入したシステム開発プラットフォームを構築。&lt;br&gt;アジャイルによる開発を行い&lt;br&gt;AWS Lambdaを中心としたAWS各種サービスを活用したサーバレスアプリケーションの開発を経験。&lt;/p&gt;
+    &lt;a href=&#34;https://is0383kk.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;詳細を見る&lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;-学生時代&#34;&gt;■ 学生時代&lt;/h2&gt;
+
+&lt;div class=&#34;portfolio-grid&#34;&gt;
+  
+
+
+
+  &lt;div class=&#34;portfolio-card&#34;&gt;
+    &lt;img src=&#34;https://is0383kk.github.io/kenkyu.png&#34; alt=&#34;研究&#34;&gt;
+    &lt;h4&gt;研究&lt;/h4&gt;
+    &lt;p&gt;谷口忠大研究室に所属し、深層学習を使った教師なし学習モデルについて研究を実施。&lt;br&gt;Python及び深層学習フレームワークを用いて深層学習モデルの構築～モデル検証を実施。&lt;br&gt;研究成果の学会発表や査読付き論文誌に採択。&lt;/p&gt;
+    &lt;a href=&#34;https://is0383kk.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;詳細を見る&lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+  &lt;div class=&#34;portfolio-card&#34;&gt;
+    &lt;img src=&#34;https://is0383kk.github.io/robocup1.jpg&#34; alt=&#34;ロボット競技&#34;&gt;
+    &lt;h4&gt;ロボット競技&lt;/h4&gt;
+    &lt;p&gt;家庭用ロボットを使ったロボット競技に参加。&lt;br&gt;Pythonやロボットを動かすためのROSというシステムを扱い家庭用ロボット用ソフトウェアを開発。&lt;br&gt;国際大会や経済産業省主催の大会に参加し受賞。&lt;/p&gt;
+    &lt;a href=&#34;https://is0383kk.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;詳細を見る&lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+&lt;/div&gt;</description>
     </item>
     
   </channel>
