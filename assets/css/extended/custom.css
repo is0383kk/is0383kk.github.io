@@ -181,9 +181,15 @@ pre {
   color: #007bff;
   width: 21px;
   height: 21px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  letter-spacing: 0.1em;
 }
 .dark .star {
   color: gold;
   width: 21px;
   height: 21px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  letter-spacing: 0.1em;
 }
