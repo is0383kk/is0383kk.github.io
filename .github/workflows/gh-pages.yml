@@ -5,10 +5,10 @@ on:
     branches:
       - main  # 非ワークフロー起因でのpushで起動
   pull_request:
-  workflow_run:
-    workflows: ["Fetch GitHub stars"]
-    types:
-      - completed
+  # workflow_run:
+  #   workflows: ["Fetch GitHub stars"]
+  #   types:
+  #     - completed
 
 jobs:
   deploy:
