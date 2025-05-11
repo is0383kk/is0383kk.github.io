@@ -88,7 +88,7 @@
 連絡先：is0383kk[at]gmail.com&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-スキル&#34;&gt;■ スキル&lt;/h2&gt;
-&lt;p&gt;※各種技術を使った案件経験などは&lt;a href=&#34;https://is0383kk.github.io/personal/career/&#34;&gt;&lt;strong&gt;業務経験&lt;/strong&gt;&lt;/a&gt;ページをご確認ください。&lt;/p&gt;
+&lt;p&gt;※各種技術を使った案件経験などは&lt;a href=&#34;https://is0383kk.github.io/personal/portfolio/&#34;&gt;&lt;strong&gt;ポートフォリオ&lt;/strong&gt;&lt;/a&gt;ページをご確認ください。&lt;/p&gt;
 
 &lt;div class=&#34;toc&#34;&gt;
 &lt;details &gt;
@@ -561,14 +561,13 @@
     </item>
     
     <item>
-      <title>業務経験</title>
-      <link>https://is0383kk.github.io/personal/career/</link>
+      <title>今までのこと</title>
+      <link>https://is0383kk.github.io/personal/portfolio/</link>
       <pubDate>Mon, 09 Oct 2023 14:05:48 +0900</pubDate>
       
-      <guid>https://is0383kk.github.io/personal/career/</guid>
+      <guid>https://is0383kk.github.io/personal/portfolio/</guid>
       <description>&lt;hr&gt;
-&lt;p&gt;作成中&lt;/p&gt;
-&lt;h2 id=&#34;-社会人での業務経験&#34;&gt;■ 社会人での業務経験&lt;/h2&gt;
+&lt;h2 id=&#34;-社会人&#34;&gt;■ 社会人&lt;/h2&gt;
 
 &lt;div class=&#34;portfolio-grid&#34;&gt;
   
@@ -632,7 +631,49 @@
 
 
 
-&lt;/div&gt;</description>
+&lt;/div&gt;
+
+&lt;h2 id=&#34;-趣味&#34;&gt;■ 趣味&lt;/h2&gt;
+&lt;h3 id=&#34;1-作ったものを-github-に公開&#34;&gt;1. 作ったものを GitHub に公開&lt;/h3&gt;
+
+
+&lt;p&gt;作ったものを &lt;a href=&#34;https://github.com/is0383kk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer me&#34; title=&#34;GitHub&#34;&gt;GitHub&lt;/a&gt;に公開する活動をしています。&lt;br&gt;下記はその中でも多く評価（スター数等）をもらったものです。&lt;/p&gt;
+&lt;p&gt;現在の総リポジトリ数：&lt;b&gt;&lt;span id=&#34;repo-count&#34; style=&#34;color:gold;&#34;&gt;&lt;/span&gt;&lt;/b&gt;　総スター数：&lt;b&gt;&lt;span id=&#34;total-stars&#34; style=&#34;color:gold;&#34;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;script&gt;
+// 総リポジトリ数を取得
+fetch(&#39;/stars.json&#39;)
+  .then(response =&gt; response.json())
+  .then(data =&gt; {
+    const repoCount = data.length; // nameの数 = 配列の長さ
+    document.getElementById(&#39;repo-count&#39;).textContent = repoCount;
+  })
+  .catch(error =&gt; {
+    console.error(&#39;リポジトリ数取得エラー:&#39;, error);
+    document.getElementById(&#39;repo-count&#39;).textContent = &#39;取得失敗&#39;;
+  });
+// 総スター数を取得
+fetch(&#39;/stars.json&#39;)
+  .then(response =&gt; response.json())
+  .then(data =&gt; {
+    const totalStars = data.reduce((sum, repo) =&gt; sum + (repo.stars || 0), 0);
+    document.getElementById(&#39;total-stars&#39;).textContent = totalStars;
+  })
+  .catch(error =&gt; {
+    console.error(&#39;スター数取得エラー:&#39;, error);
+    document.getElementById(&#39;total-stars&#39;).textContent = &#39;取得失敗&#39;;
+  });
+&lt;/script&gt;
+
+
+
+&lt;div class=&#34;portfolio-grid&#34;&gt;
+  
+
+
+  &lt;div class=&#34;portfolio-card&#34;&gt;
+    &lt;img src=&#34;https://img.shields.io/github/stars/is0383kk/Pytorch_VAE-GMM?style=flat-square&amp;amp;labelColor=black&#34; alt=&#34;Pytorch_VAE-GMM&#34;&gt;
+    &lt;h3&gt;Pytorch_VAE-GMM&lt;/h3&gt;
+    &lt;p&gt;教師なし深層学習のVAE（Variational Auto-Encoder）と混合ガウスモデル（GMM）を相互学習させたモデルを公開しています。&lt;/p&gt;</description>
     </item>
     
     <item>
