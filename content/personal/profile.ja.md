@@ -43,7 +43,7 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
 
 ## ■ スキル
 
-※各種技術を使った案件経験などは[**ポートフォリオ**](https://is0383kk.github.io/personal/portfolio/)ページをご確認ください。
+※各種技術を使った案件経験などは[**ポートフォリオ**](https://is0383kk.github.io/personal/portfolio/)をご確認ください。
 
 {{< custom_accordion title="プログラミング言語関連" >}}
 

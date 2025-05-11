@@ -52,7 +52,7 @@ link="https://is0383kk.github.io/" >}}
 
 ## ■ 趣味
 
-### 1. 作ったものを GitHub に公開
+### １．作ったものを GitHub に公開
 
 {{< rawhtml >}}
 
