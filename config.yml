@@ -39,9 +39,9 @@ languages:
           name: プロフィール
           url: personal/profile
           weight: 15
-        - identifier: career
-          name: 業務経験
-          url: personal/career
+        - identifier: portfolio
+          name: ポートフォリオ
+          url: personal/portfolio
           weight: 20
         - identifier: github
           name: GitHub
