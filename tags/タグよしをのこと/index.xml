@@ -20,37 +20,50 @@
       <guid>https://is0383kk.github.io/personal/profile/</guid>
       <description>&lt;hr&gt;
 
-&lt;font size=&#34;5&#34;&gt;&lt;b&gt;Yoshiwo🐈‍⬛&lt;/b&gt;&lt;/font&gt;
 
-&lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;https://is0383kk.github.io/oiiacat.gif&#34;
-         alt=&#34;プロフィール画像&#34; width=&#34;250&#34;/&gt; 
-&lt;/figure&gt;
+&lt;div class=&#34;profile-card&#34;&gt;
+  &lt;img class=&#34;profile-cat&#34; alt=&#34;profile icon&#34; src=&#34;https://is0383kk.github.io/profile.jpg&#34;/&gt;
+  &lt;img class=&#34;profile-cat-dark&#34; alt=&#34;profile icon&#34; src=&#34;https://is0383kk.github.io/oiiacat.gif&#34; /&gt;
+  &lt;div class=&#34;profile-card-content&#34;&gt;
+    &lt;h2 class=&#34;profile-name&#34;&gt;Yoshiwo🐈&lt;/h2&gt;
+    &lt;h2 class=&#34;profile-name-dark&#34;&gt;Yoshiwo🐈‍⬛&lt;/h2&gt;
+    &lt;p class=&#34;profile-title&#34;&gt;社会人エンジニア（&lt;span id=&#34;year&#34;&gt;&lt;/span&gt;年目）&lt;/p&gt;
+    &lt;p class=&#34;profile-desc&#34;&gt;
+      &lt;span id=&#34;age&#34;&gt;&lt;/span&gt;歳。学生時代はロボット競技・機械学習（生成モデル）の研究に取り組む。&lt;br&gt;
+      現在は日系IT企業でアプリケーション基盤の開発に従事。&lt;br&gt;
+      趣味で作ったものを
+      &lt;span class=&#34;profile-links&#34;&gt;
+        &lt;a href=&#34;https://github.com/is0383kk&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt; や
+        &lt;a href=&#34;https://zenn.dev/is0383kk&#34; target=&#34;_blank&#34;&gt;Zenn&lt;/a&gt;
+      &lt;/span&gt;
+      に公開中。
+    &lt;/p&gt;
+    &lt;p style=&#34;margin-top: 1rem;&#34;&gt;📬 連絡先：&lt;code&gt;is0383kk[at]gmail.com&lt;/code&gt;&lt;/p&gt;
+    &lt;div class=&#34;github-trophy&#34;&gt;
+      &lt;img alt=&#34;GitHub trophy&#34;
+        src=&#34;https://github-profile-trophy.vercel.app/?username=is0383kk&amp;title=-Followers,-Issues,-Reviews,-PullRequest&amp;theme=flat&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;github-trophy-dark&#34;&gt;
+      &lt;img alt=&#34;GitHub trophy&#34;
+        src=&#34;https://github-profile-trophy.vercel.app/?username=is0383kk&amp;title=-Followers,-Issues,-Reviews,-PullRequest&amp;theme=darkhub&#34; /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;
-
-&lt;p&gt;
-&lt;span id=&#34;age&#34;&gt;&lt;/span&gt;歳社会人エンジニア（社会人&lt;span id=&#34;year&#34;&gt;&lt;/span&gt;年目）&lt;br&gt;
-学生時代はロボット競技/機械学習（生成モデル）の研究に取り組む。&lt;br&gt;
-卒業後は日系IT企業でアプリケーション基盤の開発に携わる。&lt;br&gt;
-趣味で作ったものを&lt;a href=&#34;https://github.com/is0383kk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer me&#34; title=&#34;GitHub&#34;&gt;GitHub&lt;/a&gt;上に公開したり、&lt;a href=&#34;https://zenn.dev/is0383kk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer me&#34; title=&#34;Zenn&#34;&gt;技術ブログ&lt;/a&gt;を執筆したりしている。
- &lt;img alt=&#34;stat&#34; height=&#34;170px&#34; src=&#34;https://github-readme-stats.vercel.app/api?username=is0383kk&amp;count_private=true&amp;theme=dracula&amp;show_icons=true&#34; /&gt;
-&lt;/p&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    document.getElementById(&#39;year&#39;).textContent = new Date().getFullYear() - 2021;
-    document.getElementById(&#34;age&#34;).innerHTML = new Date().getFullYear() - 1998;
-    // 表の空白行を削除
-    document.addEventListener(&#34;DOMContentLoaded&#34;, function () {
+  document.getElementById(&#39;year&#39;).textContent = new Date().getFullYear() - 2021;
+  document.getElementById(&#34;age&#34;).innerHTML = new Date().getFullYear() - 1998;
+  document.addEventListener(&#34;DOMContentLoaded&#34;, function () {
     document.querySelectorAll(&#34;tr&#34;).forEach(function (row) {
-        const allEmpty = Array.from(row.cells).every(cell =&gt; cell.textContent.trim() === &#34;&#34;);
-        if (allEmpty) {
+      const allEmpty = Array.from(row.cells).every(cell =&gt; cell.textContent.trim() === &#34;&#34;);
+      if (allEmpty) {
         row.style.display = &#34;none&#34;;
-        }
+      }
     });
-    });
+  });
 &lt;/script&gt;
 
-連絡先：is0383kk[at]gmail.com&lt;/p&gt;
+
 &lt;hr&gt;
 &lt;h2 id=&#34;-スキル&#34;&gt;■ スキル&lt;/h2&gt;
 &lt;p&gt;※各種技術を使った案件経験などは&lt;a href=&#34;https://is0383kk.github.io/personal/portfolio/&#34;&gt;&lt;strong&gt;ポートフォリオ&lt;/strong&gt;&lt;/a&gt;をご確認ください。&lt;/p&gt;
