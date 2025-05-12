@@ -9,35 +9,50 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
 ---
 
 {{< rawhtml >}}
-<font size="5"><b>Yoshiwo🐈‍⬛</b></font>
-{{< /rawhtml >}}
 
-{{< figure src="/oiiacat.gif" alt="プロフィール画像" width="250" >}}
+<div class="profile-card">
+  <img class="profile-cat" alt="profile icon" src="/profile.jpg"/>
+  <img class="profile-cat-dark" alt="profile icon" src="/oiiacat.gif" />
+  <div class="profile-card-content">
+    <h2 class="profile-name">Yoshiwo🐈</h2>
+    <h2 class="profile-name-dark">Yoshiwo🐈‍⬛</h2>
+    <p class="profile-title">社会人エンジニア（<span id="year"></span>年目）</p>
+    <p class="profile-desc">
+      <span id="age"></span>歳。学生時代はロボット競技・機械学習（生成モデル）の研究に取り組む。<br>
+      現在は日系IT企業でアプリケーション基盤の開発に従事。<br>
+      趣味で作ったものを
+      <span class="profile-links">
+        <a href="https://github.com/is0383kk" target="_blank">GitHub</a> や
+        <a href="https://zenn.dev/is0383kk" target="_blank">Zenn</a>
+      </span>
+      に公開中。
+    </p>
+    <p style="margin-top: 1rem;">📬 連絡先：<code>is0383kk[at]gmail.com</code></p>
+    <div class="github-trophy">
+      <img alt="GitHub trophy"
+        src="https://github-profile-trophy.vercel.app/?username=is0383kk&title=-Followers,-Issues,-Reviews,-PullRequest&theme=flat" />
+    </div>
+    <div class="github-trophy-dark">
+      <img alt="GitHub trophy"
+        src="https://github-profile-trophy.vercel.app/?username=is0383kk&title=-Followers,-Issues,-Reviews,-PullRequest&theme=darkhub" />
+    </div>
+  </div>
+</div>
 
-{{< rawhtml >}}
-
-<p>
-<span id="age"></span>歳社会人エンジニア（社会人<span id="year"></span>年目）<br>
-学生時代はロボット競技/機械学習（生成モデル）の研究に取り組む。<br>
-卒業後は日系IT企業でアプリケーション基盤の開発に携わる。<br>
-趣味で作ったものを<a href="https://github.com/is0383kk" target="_blank" rel="noopener noreferrer me" title="GitHub">GitHub</a>上に公開したり、<a href="https://zenn.dev/is0383kk" target="_blank" rel="noopener noreferrer me" title="Zenn">技術ブログ</a>を執筆したりしている。
- <img alt="stat" height="170px" src="https://github-readme-stats.vercel.app/api?username=is0383kk&count_private=true&theme=dracula&show_icons=true" />
-</p>
 <script type="text/javascript">
-    document.getElementById('year').textContent = new Date().getFullYear() - 2021;
-    document.getElementById("age").innerHTML = new Date().getFullYear() - 1998;
-    // 表の空白行を削除
-    document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById('year').textContent = new Date().getFullYear() - 2021;
+  document.getElementById("age").innerHTML = new Date().getFullYear() - 1998;
+  document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll("tr").forEach(function (row) {
-        const allEmpty = Array.from(row.cells).every(cell => cell.textContent.trim() === "");
-        if (allEmpty) {
+      const allEmpty = Array.from(row.cells).every(cell => cell.textContent.trim() === "");
+      if (allEmpty) {
         row.style.display = "none";
-        }
+      }
     });
-    });
+  });
 </script>
+
 {{< /rawhtml >}}
-連絡先：is0383kk[at]gmail.com
 
 ---
 
