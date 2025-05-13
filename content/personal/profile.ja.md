@@ -30,11 +30,11 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
     <p style="margin-top: 1rem;">📬 連絡先：<code>is0383kk[at]gmail.com</code></p>
     <div class="github-trophy">
       <img alt="GitHub trophy"
-        src="https://github-profile-trophy.vercel.app/?username=is0383kk&title=-Followers,-Issues,-Reviews,-PullRequest&theme=flat" />
+        src="https://github-profile-trophy.vercel.app/?username=is0383kk&title=-Followers,-Issues,-Reviews,-PullRequest&theme=flat&column=4" />
     </div>
     <div class="github-trophy-dark">
       <img alt="GitHub trophy"
-        src="https://github-profile-trophy.vercel.app/?username=is0383kk&title=-Followers,-Issues,-Reviews,-PullRequest&theme=darkhub" />
+        src="https://github-profile-trophy.vercel.app/?username=is0383kk&title=-Followers,-Issues,-Reviews,-PullRequest&theme=darkhub&column=4" />
     </div>
   </div>
 </div>

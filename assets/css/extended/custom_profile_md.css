@@ -4,11 +4,13 @@
   border: 1px solid #ddd;
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
   padding: 2rem;
   max-width: 900px;
-  /* margin: 2rem auto; */
+  width: 100%;
   align-items: center;
   gap: 2rem;
+  overflow: hidden;
 }
 
 .dark .profile-card {
@@ -49,18 +51,25 @@ body.dark .profile-name-dark {
 .profile-cat,
 .profile-cat-dark {
   display: none;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
 }
 
 body:not(.dark) .profile-cat {
   display: block;
   margin: 0;
   width: 232px;
+  max-width: 100%;
+  height: auto;
   border-radius: 0.5rem;
 }
 
 body.dark .profile-cat-dark {
   display: block;
-  margin: 0;
+  width: 232px;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -113,6 +122,13 @@ body.dark .profile-cat-dark {
 .github-trophy,
 .github-trophy-dark {
   display: none;
+  margin-top: 1.5rem;
+  overflow-x: auto;
+  padding: 0 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
 }
 
 body:not(.dark) .github-trophy {
@@ -127,14 +143,9 @@ body.dark .github-trophy-dark {
   overflow-x: auto;
 }
 
-.github-trophy img {
-  max-width: none;
-  min-width: 400px;
-  height: auto;
-}
-
+.github-trophy img,
 .github-trophy-dark img {
-  max-width: none;
-  min-width: 400px;
+  display: block;
   height: auto;
+  max-width: 100%;
 }
