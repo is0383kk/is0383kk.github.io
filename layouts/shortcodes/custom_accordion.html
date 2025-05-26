@@ -6,7 +6,7 @@
   </summary>
   <div class="accordion-content" style="margin-left: 1em;">
     <hr>
-    {{ .Inner | markdownify }}
+    {{ .Inner | markdownify | safeHTML }}
   </div>
 </details>
 </div>
