@@ -140,3 +140,6 @@ markup:
     noClasses: true
     style: "vs2018"
     tabWidth: 4
+  goldmark:
+    renderer:
+      unsafe: true
