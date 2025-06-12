@@ -1,6 +1,6 @@
 <!-- カスタマイズ：習熟度を表現するための★ -->
 {{- $level := .Get 0 | default "0" | int -}}
-{{- $max := 4 -}}
+{{- $max := 5 -}}
 
 <div class="star">
     {{- range seq $level }}★{{ end -}}

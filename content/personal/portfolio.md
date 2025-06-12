@@ -14,8 +14,8 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
 
 {{< custom_portfolio_card
 img="/sigoto.png"
-title="金融向けファイルサーバ運用管理案件"
-desc="入社1年目最初の案件経験で、金融機関に向けたファイルサーバの運用及び新規機能構築を経験。<br>ウォータフォールによる機能設計、実装、単体テスト、シナリオテストまでを実施。<br>ウォータフォールプロセスで上流から下流まで幅広い工程を経験しシステム開発の理解を深めた。"
+title="AI駆動開発基盤開発案件"
+desc="システム開発の全プロセスに生成AIによる支援導入を目的とし、生成AIを導入したシステム開発プラットフォームを構築。<br>アジャイルによる開発を行い<br>AWS Lambdaを中心としたAWS各種サービスを活用したサーバレスアプリケーションの開発を経験。"
 link="https://is0383kk.github.io/" >}}
 
 {{< custom_portfolio_card
@@ -26,8 +26,8 @@ link="https://is0383kk.github.io/" >}}
 
 {{< custom_portfolio_card
 img="/sigoto.png"
-title="AI駆動開発基盤開発案件"
-desc="システム開発の全プロセスに生成AIによる支援導入を目的とし、生成AIを導入したシステム開発プラットフォームを構築。<br>アジャイルによる開発を行い<br>AWS Lambdaを中心としたAWS各種サービスを活用したサーバレスアプリケーションの開発を経験。"
+title="金融向けファイルサーバ運用管理案件"
+desc="入社1年目最初の案件経験で、金融機関に向けたファイルサーバの運用及び新規機能構築を経験。<br>ウォータフォールによる機能設計、実装、単体テスト、シナリオテストまでを実施。<br>ウォータフォールプロセスで上流から下流まで幅広い工程を経験しシステム開発の理解を深めた。"
 link="https://is0383kk.github.io/" >}}
 
 {{< /custom_portfolio_grid >}}
@@ -56,7 +56,7 @@ link="https://is0383kk.github.io/" >}}
 
 {{< rawhtml >}}
 
-<p>作ったものを <a href="https://github.com/is0383kk" target="_blank" rel="noopener noreferrer me" title="GitHub">GitHub</a>に公開する活動をしています。<br>下記はその中でも多く評価（スター数等）をもらったものです。</p>
+<p>作ったものを <a href="https://github.com/is0383kk" target="_blank" rel="noopener noreferrer me" title="GitHub">GitHub</a>に公開する活動をしています。<br>下記はその中でも多い評価をもらったものです。</p>
 <p>現在の総リポジトリ数：<b><span id="repo-count" style="color:gold;"></span></b>　総スター数：<b><span id="total-stars" style="color:gold;"></span></b></p>
 <script>
 // 総リポジトリ数を取得
@@ -110,17 +110,9 @@ title="Spring-Boot-Camp"
 desc="JavaのフレームワークであるSpring Framework（Boot）を勉強した際に作成したリポジトリです。<br>学習時のメモをより教科書的にまとめることで、他の人がこのリポジトリを見ながらSpring Bootを学べるように作成しました。"
 link="https://github.com/is0383kk/Spring-Boot-Camp" >}}
 
-{{< custom_portfolio_card
-img="/profile.jpg"
-title="よしをのホームページ"
-desc="このホームページのリポジトリです。<br>静的WEBページを簡単に生成できるHugoとGitHub Pagesを使って作成しています。"
-link="https://github.com/is0383kk/is0383kk.github.io" >}}
-
 {{< /custom_portfolio_grid >}}
 
-### ２．ブログ
-
-業務や趣味で学んだものを特定分野に限らず幅広く技術ブログとして公開しています。
+### ２．WEB サイト
 
 {{< custom_portfolio_grid >}}
 
@@ -129,5 +121,17 @@ img="/zenn.jpg"
 title="技術ブログ（Zenn）"
 desc="業務や趣味で学んだものを技術ブログにまとめています。"
 link="https://zenn.dev/is0383kk" >}}
+
+{{< custom_portfolio_card
+img="https://raw.githubusercontent.com/is0383kk/Web-dev-tools/refs/heads/main/ogp.png"
+title="みんなのWEBツールズ"
+desc="開発に役立つ便利ツールを集約したWEBアプリケーションです。<br>全ての処理をフロントエンド（React+TypeScript）で完結させており、バックエンド側の処理は一切使っていません。"
+link="https://is0383kk.github.io/Web-dev-tools/" >}}
+
+{{< custom_portfolio_card
+img="/profile.jpg"
+title="よしをのホームページ"
+desc="このホームページのリポジトリです。<br>静的WEBページを簡単に生成できるHugoとGitHub Pagesを使って作成しています。"
+link="https://github.com/is0383kk/is0383kk.github.io" >}}
 
 {{< /custom_portfolio_grid >}}
