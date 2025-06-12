@@ -149,6 +149,11 @@
           &lt;td style=&#34;text-align: center&#34;&gt;★★★☆☆&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;React&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025 -&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;★★★☆☆&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;AWS Lambda&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;2024 -&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;★★★★★&lt;/td&gt;
@@ -354,28 +359,23 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;&lt;div class=&#34;star&#34;&gt;★☆☆☆&lt;/div&gt;
-&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;★☆☆☆☆&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;入門レベル：業務で少し触れた程度。基礎的な部分から学習が必要。&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;&lt;div class=&#34;star&#34;&gt;★★☆☆&lt;/div&gt;
-&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;★★☆☆☆&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;初級レベル：サポートがあれば業務を進められる。&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;&lt;div class=&#34;star&#34;&gt;★★★☆&lt;/div&gt;
-&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;★★★☆☆&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;中級レベル：独力で業務を進められる。参考資料を元に標準的な機能やライブラリを活用できる。&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;&lt;div class=&#34;star&#34;&gt;★★★★&lt;/div&gt;
-&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;★★★★☆&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;上級レベル：独力で業務を進められ、他者に助言・指導ができ、設計やコードレビューも主体的に担当できる。&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;&lt;div class=&#34;star&#34;&gt;★★★★★☆&lt;/div&gt;
-&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;★★★★★&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;専門レベル：高度な知識と経験を有し、技術的な意思決定やチームの技術的リードも担える。&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -463,9 +463,9 @@
 
 
   &lt;div class=&#34;portfolio-card&#34;&gt;
-    &lt;img src=&#34;https://is0383kk.github.io/sigoto.png&#34; alt=&#34;金融向けファイルサーバ運用管理案件&#34;&gt;
-    &lt;h3&gt;金融向けファイルサーバ運用管理案件&lt;/h3&gt;
-    &lt;p&gt;入社1年目最初の案件経験で、金融機関に向けたファイルサーバの運用及び新規機能構築を経験。&lt;br&gt;ウォータフォールによる機能設計、実装、単体テスト、シナリオテストまでを実施。&lt;br&gt;ウォータフォールプロセスで上流から下流まで幅広い工程を経験しシステム開発の理解を深めた。&lt;/p&gt;
+    &lt;img src=&#34;https://is0383kk.github.io/sigoto.png&#34; alt=&#34;AI駆動開発基盤開発案件&#34;&gt;
+    &lt;h3&gt;AI駆動開発基盤開発案件&lt;/h3&gt;
+    &lt;p&gt;システム開発の全プロセスに生成AIによる支援導入を目的とし、生成AIを導入したシステム開発プラットフォームを構築。&lt;br&gt;アジャイルによる開発を行い&lt;br&gt;AWS Lambdaを中心としたAWS各種サービスを活用したサーバレスアプリケーションの開発を経験。&lt;/p&gt;
     &lt;a href=&#34;https://is0383kk.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;詳細を見る&lt;/a&gt;
   &lt;/div&gt;
 
@@ -483,9 +483,9 @@
 
 
   &lt;div class=&#34;portfolio-card&#34;&gt;
-    &lt;img src=&#34;https://is0383kk.github.io/sigoto.png&#34; alt=&#34;AI駆動開発基盤開発案件&#34;&gt;
-    &lt;h3&gt;AI駆動開発基盤開発案件&lt;/h3&gt;
-    &lt;p&gt;システム開発の全プロセスに生成AIによる支援導入を目的とし、生成AIを導入したシステム開発プラットフォームを構築。&lt;br&gt;アジャイルによる開発を行い&lt;br&gt;AWS Lambdaを中心としたAWS各種サービスを活用したサーバレスアプリケーションの開発を経験。&lt;/p&gt;
+    &lt;img src=&#34;https://is0383kk.github.io/sigoto.png&#34; alt=&#34;金融向けファイルサーバ運用管理案件&#34;&gt;
+    &lt;h3&gt;金融向けファイルサーバ運用管理案件&lt;/h3&gt;
+    &lt;p&gt;入社1年目最初の案件経験で、金融機関に向けたファイルサーバの運用及び新規機能構築を経験。&lt;br&gt;ウォータフォールによる機能設計、実装、単体テスト、シナリオテストまでを実施。&lt;br&gt;ウォータフォールプロセスで上流から下流まで幅広い工程を経験しシステム開発の理解を深めた。&lt;/p&gt;
     &lt;a href=&#34;https://is0383kk.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;詳細を見る&lt;/a&gt;
   &lt;/div&gt;
 
@@ -525,7 +525,7 @@
 &lt;h3 id=&#34;１作ったものを-github-に公開&#34;&gt;１．作ったものを GitHub に公開&lt;/h3&gt;
 
 
-&lt;p&gt;作ったものを &lt;a href=&#34;https://github.com/is0383kk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer me&#34; title=&#34;GitHub&#34;&gt;GitHub&lt;/a&gt;に公開する活動をしています。&lt;br&gt;下記はその中でも多く評価（スター数等）をもらったものです。&lt;/p&gt;
+&lt;p&gt;作ったものを &lt;a href=&#34;https://github.com/is0383kk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer me&#34; title=&#34;GitHub&#34;&gt;GitHub&lt;/a&gt;に公開する活動をしています。&lt;br&gt;下記はその中でも多い評価をもらったものです。&lt;/p&gt;
 &lt;p&gt;現在の総リポジトリ数：&lt;b&gt;&lt;span id=&#34;repo-count&#34; style=&#34;color:gold;&#34;&gt;&lt;/span&gt;&lt;/b&gt;　総スター数：&lt;b&gt;&lt;span id=&#34;total-stars&#34; style=&#34;color:gold;&#34;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;script&gt;
 // 総リポジトリ数を取得
