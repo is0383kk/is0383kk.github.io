@@ -426,6 +426,11 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;登壇&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AWS Summit Japan 2025 シアター登壇&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;2023&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;論文誌&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;Advanced Robotics - &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2260856&#34;&gt;Emergent Communication through Metropolis-Hastings Naming Game with Deep Generative Models&lt;/a&gt;&lt;/td&gt;
