@@ -148,6 +148,7 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
 
 | ＜年度＞ | ＜カテゴリ＞ | ＜内容＞                                                                                                                                                                             |
 | :------: | :----------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   2025   |     登壇     | AWS Summit Japan 2025 シアター登壇                                                                                                                                                   |
 |   2023   |    論文誌    | Advanced Robotics - [Emergent Communication through Metropolis-Hastings Naming Game with Deep Generative Models](https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2260856) |
 |   2022   |   国内会議   | 第 36 回人工知能学会 - [変分オートエンコーダを活用した実画像からの記号創発](https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_3L3GS802/_article/-char/ja/)              |
 |   2020   |   国内会議   | 第 34 回人工知能学会 - [マルチモーダル変分オートエンコーダを用いた実物体のカテゴリ形成](https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1Q3GS1101/_article/-char/ja/) |
