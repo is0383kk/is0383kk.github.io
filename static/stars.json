@@ -1,11 +1,31 @@
 [
   {
+    "name": "AI-DLC-Prompts",
+    "stars": 0
+  },
+  {
+    "name": "awesome-copilot-ja",
+    "stars": 0
+  },
+  {
+    "name": "Claude-Agent-API-Server",
+    "stars": 0
+  },
+  {
+    "name": "Confluence-md-exporter",
+    "stars": 0
+  },
+  {
+    "name": "Crawl-Claude-Code-Docs-Workflow",
+    "stars": 0
+  },
+  {
     "name": "Desktop-Setting-Memo",
     "stars": 1
   },
   {
     "name": "Dirichlet-VAE",
-    "stars": 22
+    "stars": 23
   },
   {
     "name": "GA-Elite",
@@ -22,6 +42,10 @@
   {
     "name": "GMM-MetropolisHastings",
     "stars": 1
+  },
+  {
+    "name": "GunClicker",
+    "stars": 0
   },
   {
     "name": "Inter-GMM",
@@ -61,7 +85,7 @@
   },
   {
     "name": "Pytorch_VAE-GMM",
-    "stars": 26
+    "stars": 28
   },
   {
     "name": "React-shadcn-pane-layouts",
@@ -70,6 +94,10 @@
   {
     "name": "RoboCup2018-Ri-one-Home",
     "stars": 1
+  },
+  {
+    "name": "Settings-Memo",
+    "stars": 0
   },
   {
     "name": "SourceFile2PDF",
@@ -81,7 +109,7 @@
   },
   {
     "name": "SymbolEmergence-VAE-GMM",
-    "stars": 5
+    "stars": 8
   },
   {
     "name": "Synthetic-data-for-LDA-and-MLDA",
@@ -90,17 +118,5 @@
   {
     "name": "UI-Example-JavaScript",
     "stars": 0
-  },
-  {
-    "name": "VSCode",
-    "stars": 0
-  },
-  {
-    "name": "Web-dev-tools",
-    "stars": 0
-  },
-  {
-    "name": "Yamada-Desu",
-    "stars": 2
   }
 ]
