@@ -1,11 +1,11 @@
 name: Fetch GitHub stars
 
 on:
-  push:
-    branches:
-      - main  # 非ワークフロー起因でのpushで起動
-  # schedule:
-  #   - cron: '0 0 * * 1'  # 毎週月曜日の0時に実行
+  # push:
+  #   branches:
+  #     - main  # 非ワークフロー起因でのpushで起動
+  schedule:
+    - cron: "0 0 * * 1" # 毎週月曜日の午前0時に実行
   workflow_dispatch:
 
 jobs:
