@@ -16,7 +16,7 @@ jobs:
 
       - name: Fetch star count
         run: |
-          curl -s https://api.github.com/users/is0383kk/repos \
+          curl -s "https://api.github.com/users/is0383kk/repos?per_page=100" \
             -H "Authorization: token ${{ secrets.GH_PAT }}" \
             | jq '[.[] | {name: .name, stars: .stargazers_count}]' \
             > static/stars.json
