@@ -28,14 +28,12 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
       に公開中。
     </p>
     <p style="margin-top: 1rem;">📬 連絡先：<code>is0383kk[at]gmail.com</code></p>
-    <div class="github-trophy">
-      <img alt="GitHub trophy"
-        src="https://github-profile-trophy.vercel.app/?username=is0383kk&title=-Followers,-Issues,-Reviews,-PullRequest&theme=flat&column=4" />
+    <!-- <div class="github-trophy">
+      <img src="https://raw.githubusercontent.com/is0383kk/is0383kk/main/profile-summary-card-output/zenburn/0-profile-details.svg" alt="" style="max-width: 100%;">
     </div>
     <div class="github-trophy-dark">
-      <img alt="GitHub trophy"
-        src="https://github-profile-trophy.vercel.app/?username=is0383kk&title=-Followers,-Issues,-Reviews,-PullRequest&theme=darkhub&column=4" />
-    </div>
+      <img src="https://raw.githubusercontent.com/is0383kk/is0383kk/main/profile-summary-card-output/zenburn/0-profile-details.svg" alt="" style="max-width: 100%;">
+    </div> -->
   </div>
 </div>
 
@@ -66,7 +64,8 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
 | :------------ | :----------: | :--------: | :----------------------------------------------------------------------------------------------------------------------- |
 | Python        |    2017 -    |   ★★★★☆    | 大学院での研究で機械学習モデル構築／データ分析に活用。<br>社会人では主に AWS Lambda を使ったアプリケーション開発に使用。 |
 | Java          | 2022 - 2024  |   ★★★★☆    | Spring Framework（Spring boot）を使ったアプリケーション開発に使用。                                                      |
-| HTML／CSS／JS |    2016 -    |   ★★★☆☆    | 案件でのフロントエンド開発に使用。また、趣味の開発や本ホームページのデザイン調整などに使用。                             |
+| TypeScript    |    2024 -    |   ★★★☆☆    | 案件／個人開発でのフロントエンド開発に使用。                                                                             |
+| HTML／CSS／JS |    2016 -    |   ★★★☆☆    | 案件／個人開発でのフロントエンド開発に使用。                                                                             |
 | Shell         |    2022 -    |   ★★★☆☆    | 案件でのバッチ処理に使用。Bash シェル、Windows シェルの経験あり。                                                        |
 
 {{< /custom_accordion >}}
@@ -94,6 +93,7 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
 | Azure          |    2022 -    |   ★★☆☆☆    |
 | Apache         | 2022 - 2024  |   ★★★☆☆    |
 | Tomcat         | 2022 - 2024  |   ★★★☆☆    |
+| GitHub Actions |    2022 -    |   ★★★★☆    |
 
 {{< /custom_accordion >}}
 
@@ -114,7 +114,7 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
 | ＜ツール＞                             |
 | :------------------------------------- |
 | Git                                    |
-| GitHub Action                          |
+| GitHub Copilot                         |
 | VSCode                                 |
 | Eclipse                                |
 | Docker                                 |
@@ -124,6 +124,9 @@ keywords: [is0383kk, yoshiwo, よしを, よしをのホームページ]
 | SQL Developer                          |
 | Microsoft SQL Server Management Studio |
 | Fiddler                                |
+| Claude Code                            |
+| Codex CLI                              |
+| opencode                               |
 
 ---
 

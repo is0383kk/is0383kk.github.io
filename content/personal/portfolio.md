@@ -110,6 +110,12 @@ title="Spring-Boot-Camp"
 desc="JavaのフレームワークであるSpring Framework（Boot）を勉強した際に作成したリポジトリです。<br>学習時のメモをより教科書的にまとめることで、他の人がこのリポジトリを見ながらSpring Bootを学べるように作成しました。"
 link="https://github.com/is0383kk/Spring-Boot-Camp" >}}
 
+{{< custom_portfolio_card
+img="https://img.shields.io/github/stars/is0383kk/claude-multi-agent-api-server?style=flat-square&labelColor=black"
+title="claude-multi-agent-api-server"
+desc="API実行可能なマルチAIエージェントをセッション管理できるようにしたリポジトリです。<br>Anthropicが提供している「claude-agent-sdk」と呼ばれるAIエージェント構築ライブラリとFastAPIを使って構築しました。"
+link="https://github.com/is0383kk/claude-multi-agent-api-server" >}}
+
 {{< /custom_portfolio_grid >}}
 
 ### ２．WEB サイト
