@@ -74,14 +74,12 @@
       に公開中。
     &lt;/p&gt;
     &lt;p style=&#34;margin-top: 1rem;&#34;&gt;📬 連絡先：&lt;code&gt;is0383kk[at]gmail.com&lt;/code&gt;&lt;/p&gt;
-    &lt;div class=&#34;github-trophy&#34;&gt;
-      &lt;img alt=&#34;GitHub trophy&#34;
-        src=&#34;https://github-profile-trophy.vercel.app/?username=is0383kk&amp;title=-Followers,-Issues,-Reviews,-PullRequest&amp;theme=flat&amp;column=4&#34; /&gt;
+    &lt;!-- &lt;div class=&#34;github-trophy&#34;&gt;
+      &lt;img src=&#34;https://raw.githubusercontent.com/is0383kk/is0383kk/main/profile-summary-card-output/zenburn/0-profile-details.svg&#34; alt=&#34;&#34; style=&#34;max-width: 100%;&#34;&gt;
     &lt;/div&gt;
     &lt;div class=&#34;github-trophy-dark&#34;&gt;
-      &lt;img alt=&#34;GitHub trophy&#34;
-        src=&#34;https://github-profile-trophy.vercel.app/?username=is0383kk&amp;title=-Followers,-Issues,-Reviews,-PullRequest&amp;theme=darkhub&amp;column=4&#34; /&gt;
-    &lt;/div&gt;
+      &lt;img src=&#34;https://raw.githubusercontent.com/is0383kk/is0383kk/main/profile-summary-card-output/zenburn/0-profile-details.svg&#34; alt=&#34;&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt; --&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -133,10 +131,16 @@
           &lt;td style=&#34;text-align: left&#34;&gt;Spring Framework（Spring boot）を使ったアプリケーション開発に使用。&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;TypeScript&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024 -&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;★★★☆☆&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;案件／個人開発でのフロントエンド開発に使用。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;HTML／CSS／JS&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;2016 -&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;★★★☆☆&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;案件でのフロントエンド開発に使用。また、趣味の開発や本ホームページのデザイン調整などに使用。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;案件／個人開発でのフロントエンド開発に使用。&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;Shell&lt;/td&gt;
@@ -252,6 +256,11 @@
           &lt;td style=&#34;text-align: center&#34;&gt;2022 - 2024&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;★★★☆☆&lt;/td&gt;
       &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;GitHub Actions&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2022 -&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;★★★★☆&lt;/td&gt;
+      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
@@ -327,7 +336,7 @@
           &lt;td style=&#34;text-align: left&#34;&gt;Git&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;GitHub Action&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;GitHub Copilot&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;VSCode&lt;/td&gt;
@@ -355,6 +364,15 @@
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;Fiddler&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Claude Code&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Codex CLI&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;opencode&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
