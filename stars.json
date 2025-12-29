@@ -9,7 +9,7 @@
   },
   {
     "name": "claude-multi-agent-api-server",
-    "stars": 5
+    "stars": 6
   },
   {
     "name": "Confluence-md-exporter",
@@ -117,6 +117,10 @@
   },
   {
     "name": "teams-notification-workflow",
+    "stars": 0
+  },
+  {
+    "name": "techfeed-workflow",
     "stars": 0
   },
   {
