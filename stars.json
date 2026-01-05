@@ -120,10 +120,6 @@
     "stars": 0
   },
   {
-    "name": "techfeed-workflow",
-    "stars": 0
-  },
-  {
     "name": "UI-Example-JavaScript",
     "stars": 0
   },
@@ -138,5 +134,9 @@
   {
     "name": "Yamada-Desu",
     "stars": 2
+  },
+  {
+    "name": "your-feed-hub",
+    "stars": 0
   }
 ]
