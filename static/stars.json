@@ -1,7 +1,7 @@
 [
   {
     "name": "aidlc-workflow-prompts",
-    "stars": 0
+    "stars": 1
   },
   {
     "name": "awesome-copilot",
@@ -9,7 +9,7 @@
   },
   {
     "name": "claude-multi-agent-api-server",
-    "stars": 6
+    "stars": 7
   },
   {
     "name": "Confluence-md-exporter",
@@ -37,7 +37,7 @@
   },
   {
     "name": "GMM-Gibbs",
-    "stars": 1
+    "stars": 0
   },
   {
     "name": "GMM-MetropolisHastings",
