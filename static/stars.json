@@ -76,6 +76,10 @@
     "stars": 0
   },
   {
+    "name": "openclaude",
+    "stars": 0
+  },
+  {
     "name": "Out-of-distribution-detection-VAE-Pytorch",
     "stars": 2
   },
@@ -85,7 +89,7 @@
   },
   {
     "name": "Pytorch_VAE-GMM",
-    "stars": 28
+    "stars": 29
   },
   {
     "name": "React-shadcn-pane-layouts",
