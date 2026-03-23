@@ -1,5 +1,9 @@
 [
   {
+    "name": "ai-docs-sync-workflow",
+    "stars": 0
+  },
+  {
     "name": "aidlc-workflow-prompts",
     "stars": 2
   },
@@ -13,10 +17,6 @@
   },
   {
     "name": "Confluence-md-exporter",
-    "stars": 0
-  },
-  {
-    "name": "Crawl-Claude-Code-Docs-Workflow",
     "stars": 0
   },
   {
@@ -72,12 +72,16 @@
     "stars": 1
   },
   {
+    "name": "m3u8-getter",
+    "stars": 0
+  },
+  {
     "name": "Multimodal-GMM",
     "stars": 0
   },
   {
     "name": "openclaude",
-    "stars": 0
+    "stars": 1
   },
   {
     "name": "Out-of-distribution-detection-VAE-Pytorch",
