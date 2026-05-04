@@ -12,6 +12,10 @@
     "stars": 0
   },
   {
+    "name": "claude-agent-sdk-resident-assistant",
+    "stars": 4
+  },
+  {
     "name": "claude-multi-agent-api-server",
     "stars": 13
   },
@@ -32,7 +36,7 @@
     "stars": 0
   },
   {
-    "name": "ec2-minecraft",
+    "name": "ec2-minecraft-terraform",
     "stars": 0
   },
   {
@@ -90,10 +94,6 @@
   {
     "name": "Multimodal-GMM",
     "stars": 0
-  },
-  {
-    "name": "openclaude",
-    "stars": 3
   },
   {
     "name": "Out-of-distribution-detection-VAE-Pytorch",
