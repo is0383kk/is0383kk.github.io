@@ -13,7 +13,7 @@
   },
   {
     "name": "claude-agent-sdk-resident-assistant",
-    "stars": 4
+    "stars": 5
   },
   {
     "name": "claude-multi-agent-api-server",
@@ -30,6 +30,10 @@
   {
     "name": "Dirichlet-VAE",
     "stars": 24
+  },
+  {
+    "name": "dotfiles",
+    "stars": 0
   },
   {
     "name": "ds4-desktop-controller",
